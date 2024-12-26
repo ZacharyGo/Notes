@@ -1,0 +1,1 @@
+# This is the practical training for JUNIT
