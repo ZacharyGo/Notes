@@ -1,0 +1,15 @@
+D:\Practice\VB\HelloWorldVB1\HelloWorldVB1\bin\Debug\net6.0\HelloWorldVB1.exe
+D:\Practice\VB\HelloWorldVB1\HelloWorldVB1\bin\Debug\net6.0\HelloWorldVB1.deps.json
+D:\Practice\VB\HelloWorldVB1\HelloWorldVB1\bin\Debug\net6.0\HelloWorldVB1.runtimeconfig.json
+D:\Practice\VB\HelloWorldVB1\HelloWorldVB1\bin\Debug\net6.0\HelloWorldVB1.dll
+D:\Practice\VB\HelloWorldVB1\HelloWorldVB1\bin\Debug\net6.0\HelloWorldVB1.pdb
+D:\Practice\VB\HelloWorldVB1\HelloWorldVB1\obj\Debug\net6.0\HelloWorldVB1.csproj.AssemblyReference.cache
+D:\Practice\VB\HelloWorldVB1\HelloWorldVB1\obj\Debug\net6.0\HelloWorldVB1.GeneratedMSBuildEditorConfig.editorconfig
+D:\Practice\VB\HelloWorldVB1\HelloWorldVB1\obj\Debug\net6.0\HelloWorldVB1.AssemblyInfoInputs.cache
+D:\Practice\VB\HelloWorldVB1\HelloWorldVB1\obj\Debug\net6.0\HelloWorldVB1.AssemblyInfo.cs
+D:\Practice\VB\HelloWorldVB1\HelloWorldVB1\obj\Debug\net6.0\HelloWorldVB1.csproj.CoreCompileInputs.cache
+D:\Practice\VB\HelloWorldVB1\HelloWorldVB1\obj\Debug\net6.0\HelloWorldVB1.dll
+D:\Practice\VB\HelloWorldVB1\HelloWorldVB1\obj\Debug\net6.0\refint\HelloWorldVB1.dll
+D:\Practice\VB\HelloWorldVB1\HelloWorldVB1\obj\Debug\net6.0\HelloWorldVB1.pdb
+D:\Practice\VB\HelloWorldVB1\HelloWorldVB1\obj\Debug\net6.0\HelloWorldVB1.genruntimeconfig.cache
+D:\Practice\VB\HelloWorldVB1\HelloWorldVB1\obj\Debug\net6.0\ref\HelloWorldVB1.dll

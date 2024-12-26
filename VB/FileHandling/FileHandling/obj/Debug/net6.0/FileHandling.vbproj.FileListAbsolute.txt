@@ -1,0 +1,15 @@
+D:\Practice\VB\FileHandling\FileHandling\bin\Debug\net6.0\FileHandling.exe
+D:\Practice\VB\FileHandling\FileHandling\bin\Debug\net6.0\FileHandling.deps.json
+D:\Practice\VB\FileHandling\FileHandling\bin\Debug\net6.0\FileHandling.runtimeconfig.json
+D:\Practice\VB\FileHandling\FileHandling\bin\Debug\net6.0\FileHandling.dll
+D:\Practice\VB\FileHandling\FileHandling\bin\Debug\net6.0\FileHandling.pdb
+D:\Practice\VB\FileHandling\FileHandling\obj\Debug\net6.0\FileHandling.vbproj.AssemblyReference.cache
+D:\Practice\VB\FileHandling\FileHandling\obj\Debug\net6.0\FileHandling.GeneratedMSBuildEditorConfig.editorconfig
+D:\Practice\VB\FileHandling\FileHandling\obj\Debug\net6.0\FileHandling.AssemblyInfoInputs.cache
+D:\Practice\VB\FileHandling\FileHandling\obj\Debug\net6.0\FileHandling.AssemblyInfo.vb
+D:\Practice\VB\FileHandling\FileHandling\obj\Debug\net6.0\FileHandling.vbproj.CoreCompileInputs.cache
+D:\Practice\VB\FileHandling\FileHandling\obj\Debug\net6.0\FileHandling.dll
+D:\Practice\VB\FileHandling\FileHandling\obj\Debug\net6.0\refint\FileHandling.dll
+D:\Practice\VB\FileHandling\FileHandling\obj\Debug\net6.0\FileHandling.pdb
+D:\Practice\VB\FileHandling\FileHandling\obj\Debug\net6.0\FileHandling.genruntimeconfig.cache
+D:\Practice\VB\FileHandling\FileHandling\obj\Debug\net6.0\ref\FileHandling.dll

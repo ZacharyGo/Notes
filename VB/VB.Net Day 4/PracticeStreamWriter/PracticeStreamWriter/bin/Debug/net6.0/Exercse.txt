@@ -1,0 +1,2 @@
+The following numbers are divisible of 25 : 1, 5 and 25
+The following numbers are divisible of 55 : 1, 5, 11 and 55

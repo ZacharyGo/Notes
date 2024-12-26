@@ -1,0 +1,15 @@
+D:\Practice\VB\VB.Net Day 4\PracticeStreamWriter\PracticeStreamWriter\bin\Debug\net6.0\PracticeStreamWriter.exe
+D:\Practice\VB\VB.Net Day 4\PracticeStreamWriter\PracticeStreamWriter\bin\Debug\net6.0\PracticeStreamWriter.deps.json
+D:\Practice\VB\VB.Net Day 4\PracticeStreamWriter\PracticeStreamWriter\bin\Debug\net6.0\PracticeStreamWriter.runtimeconfig.json
+D:\Practice\VB\VB.Net Day 4\PracticeStreamWriter\PracticeStreamWriter\bin\Debug\net6.0\PracticeStreamWriter.dll
+D:\Practice\VB\VB.Net Day 4\PracticeStreamWriter\PracticeStreamWriter\bin\Debug\net6.0\PracticeStreamWriter.pdb
+D:\Practice\VB\VB.Net Day 4\PracticeStreamWriter\PracticeStreamWriter\obj\Debug\net6.0\PracticeStreamWriter.vbproj.AssemblyReference.cache
+D:\Practice\VB\VB.Net Day 4\PracticeStreamWriter\PracticeStreamWriter\obj\Debug\net6.0\PracticeStreamWriter.GeneratedMSBuildEditorConfig.editorconfig
+D:\Practice\VB\VB.Net Day 4\PracticeStreamWriter\PracticeStreamWriter\obj\Debug\net6.0\PracticeStreamWriter.AssemblyInfoInputs.cache
+D:\Practice\VB\VB.Net Day 4\PracticeStreamWriter\PracticeStreamWriter\obj\Debug\net6.0\PracticeStreamWriter.AssemblyInfo.vb
+D:\Practice\VB\VB.Net Day 4\PracticeStreamWriter\PracticeStreamWriter\obj\Debug\net6.0\PracticeStreamWriter.vbproj.CoreCompileInputs.cache
+D:\Practice\VB\VB.Net Day 4\PracticeStreamWriter\PracticeStreamWriter\obj\Debug\net6.0\PracticeStreamWriter.dll
+D:\Practice\VB\VB.Net Day 4\PracticeStreamWriter\PracticeStreamWriter\obj\Debug\net6.0\refint\PracticeStreamWriter.dll
+D:\Practice\VB\VB.Net Day 4\PracticeStreamWriter\PracticeStreamWriter\obj\Debug\net6.0\PracticeStreamWriter.pdb
+D:\Practice\VB\VB.Net Day 4\PracticeStreamWriter\PracticeStreamWriter\obj\Debug\net6.0\PracticeStreamWriter.genruntimeconfig.cache
+D:\Practice\VB\VB.Net Day 4\PracticeStreamWriter\PracticeStreamWriter\obj\Debug\net6.0\ref\PracticeStreamWriter.dll
