@@ -1,0 +1,13 @@
+django-admin startproject passenger_details
+	settings.py
+	urls.py
+django-admin startapp passenger
+	models.py
+	views.py
+python  manage.py makemigrations      
+python manage.py createsuperuser    
+	template\passenger
+		home.html
+		detail.html
+	admin.py
+python manage.py runserver 

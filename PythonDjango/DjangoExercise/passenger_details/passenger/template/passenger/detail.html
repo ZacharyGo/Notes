@@ -1,0 +1,38 @@
+<html>
+    <style>
+        table {
+          border: 2px solid black;
+          border-collapse: collapse;
+        }
+        th, td, tr {
+            border: 1px dashed black;
+          }
+    </style>
+    <a href="{% url 'views' %}">Back</a>    
+    <br><br>
+    <table>
+        <tr valign="middle" style="text-align: center;">
+            <td colspan="2"><h3>Passenger Details</h3></td>
+        </tr>
+        <tr>
+            <td bgcolor="lightgray">First Name:</td>
+            <td>{{passenger.first_name}}</td>
+        </tr>
+        <tr>
+            <td bgcolor="lightgray">Last Name:</td>
+            <td>{{passenger.last_name}}</td>
+        </tr>
+        <tr>
+            <td bgcolor="lightgray">Email Address:</td>
+            <td>{{passenger.email}}</td>
+        </tr>
+        <tr>
+            <td bgcolor="lightgray">Reward Points:</td>
+            <td>{{passenger.reward_points}}</td>
+        </tr>
+    </table>
+   
+</div>
+
+</body>
+ 
