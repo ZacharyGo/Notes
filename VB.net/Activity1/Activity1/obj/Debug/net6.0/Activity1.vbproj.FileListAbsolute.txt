@@ -1,0 +1,15 @@
+D:\Practice\VB.net\Activity1\Activity1\bin\Debug\net6.0\Activity1.exe
+D:\Practice\VB.net\Activity1\Activity1\bin\Debug\net6.0\Activity1.deps.json
+D:\Practice\VB.net\Activity1\Activity1\bin\Debug\net6.0\Activity1.runtimeconfig.json
+D:\Practice\VB.net\Activity1\Activity1\bin\Debug\net6.0\Activity1.dll
+D:\Practice\VB.net\Activity1\Activity1\bin\Debug\net6.0\Activity1.pdb
+D:\Practice\VB.net\Activity1\Activity1\obj\Debug\net6.0\Activity1.vbproj.AssemblyReference.cache
+D:\Practice\VB.net\Activity1\Activity1\obj\Debug\net6.0\Activity1.GeneratedMSBuildEditorConfig.editorconfig
+D:\Practice\VB.net\Activity1\Activity1\obj\Debug\net6.0\Activity1.AssemblyInfoInputs.cache
+D:\Practice\VB.net\Activity1\Activity1\obj\Debug\net6.0\Activity1.AssemblyInfo.vb
+D:\Practice\VB.net\Activity1\Activity1\obj\Debug\net6.0\Activity1.vbproj.CoreCompileInputs.cache
+D:\Practice\VB.net\Activity1\Activity1\obj\Debug\net6.0\Activity1.dll
+D:\Practice\VB.net\Activity1\Activity1\obj\Debug\net6.0\refint\Activity1.dll
+D:\Practice\VB.net\Activity1\Activity1\obj\Debug\net6.0\Activity1.pdb
+D:\Practice\VB.net\Activity1\Activity1\obj\Debug\net6.0\Activity1.genruntimeconfig.cache
+D:\Practice\VB.net\Activity1\Activity1\obj\Debug\net6.0\ref\Activity1.dll

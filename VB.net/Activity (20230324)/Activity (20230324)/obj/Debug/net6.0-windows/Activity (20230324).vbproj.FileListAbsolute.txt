@@ -1,0 +1,17 @@
+D:\Practice\VB.net\Activity (20230324)\Activity (20230324)\bin\Debug\net6.0-windows\Activity (20230324).exe
+D:\Practice\VB.net\Activity (20230324)\Activity (20230324)\bin\Debug\net6.0-windows\Activity (20230324).deps.json
+D:\Practice\VB.net\Activity (20230324)\Activity (20230324)\bin\Debug\net6.0-windows\Activity (20230324).runtimeconfig.json
+D:\Practice\VB.net\Activity (20230324)\Activity (20230324)\bin\Debug\net6.0-windows\Activity (20230324).dll
+D:\Practice\VB.net\Activity (20230324)\Activity (20230324)\bin\Debug\net6.0-windows\Activity (20230324).pdb
+D:\Practice\VB.net\Activity (20230324)\Activity (20230324)\obj\Debug\net6.0-windows\Activity (20230324).vbproj.AssemblyReference.cache
+D:\Practice\VB.net\Activity (20230324)\Activity (20230324)\obj\Debug\net6.0-windows\Activity__20230324_.Form1.resources
+D:\Practice\VB.net\Activity (20230324)\Activity (20230324)\obj\Debug\net6.0-windows\Activity (20230324).vbproj.GenerateResource.cache
+D:\Practice\VB.net\Activity (20230324)\Activity (20230324)\obj\Debug\net6.0-windows\Activity (20230324).GeneratedMSBuildEditorConfig.editorconfig
+D:\Practice\VB.net\Activity (20230324)\Activity (20230324)\obj\Debug\net6.0-windows\Activity (20230324).AssemblyInfoInputs.cache
+D:\Practice\VB.net\Activity (20230324)\Activity (20230324)\obj\Debug\net6.0-windows\Activity (20230324).AssemblyInfo.vb
+D:\Practice\VB.net\Activity (20230324)\Activity (20230324)\obj\Debug\net6.0-windows\Activity (20230324).vbproj.CoreCompileInputs.cache
+D:\Practice\VB.net\Activity (20230324)\Activity (20230324)\obj\Debug\net6.0-windows\Activity (20230324).dll
+D:\Practice\VB.net\Activity (20230324)\Activity (20230324)\obj\Debug\net6.0-windows\refint\Activity (20230324).dll
+D:\Practice\VB.net\Activity (20230324)\Activity (20230324)\obj\Debug\net6.0-windows\Activity (20230324).pdb
+D:\Practice\VB.net\Activity (20230324)\Activity (20230324)\obj\Debug\net6.0-windows\Activity (20230324).genruntimeconfig.cache
+D:\Practice\VB.net\Activity (20230324)\Activity (20230324)\obj\Debug\net6.0-windows\ref\Activity (20230324).dll

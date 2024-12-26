@@ -1,0 +1,15 @@
+D:\Practice\VB.net\Demo\Demo\bin\Debug\net6.0\Demo.exe
+D:\Practice\VB.net\Demo\Demo\bin\Debug\net6.0\Demo.deps.json
+D:\Practice\VB.net\Demo\Demo\bin\Debug\net6.0\Demo.runtimeconfig.json
+D:\Practice\VB.net\Demo\Demo\bin\Debug\net6.0\Demo.dll
+D:\Practice\VB.net\Demo\Demo\bin\Debug\net6.0\Demo.pdb
+D:\Practice\VB.net\Demo\Demo\obj\Debug\net6.0\Demo.vbproj.AssemblyReference.cache
+D:\Practice\VB.net\Demo\Demo\obj\Debug\net6.0\Demo.GeneratedMSBuildEditorConfig.editorconfig
+D:\Practice\VB.net\Demo\Demo\obj\Debug\net6.0\Demo.AssemblyInfoInputs.cache
+D:\Practice\VB.net\Demo\Demo\obj\Debug\net6.0\Demo.AssemblyInfo.vb
+D:\Practice\VB.net\Demo\Demo\obj\Debug\net6.0\Demo.vbproj.CoreCompileInputs.cache
+D:\Practice\VB.net\Demo\Demo\obj\Debug\net6.0\Demo.dll
+D:\Practice\VB.net\Demo\Demo\obj\Debug\net6.0\refint\Demo.dll
+D:\Practice\VB.net\Demo\Demo\obj\Debug\net6.0\Demo.pdb
+D:\Practice\VB.net\Demo\Demo\obj\Debug\net6.0\Demo.genruntimeconfig.cache
+D:\Practice\VB.net\Demo\Demo\obj\Debug\net6.0\ref\Demo.dll
