@@ -1,0 +1,3 @@
+WebContent/WEB-INF/resources/inherits/codes/storesch.ja-JP.xml
+src/app/com/fujitsu/intarfrm/codes/storesch/inherits/StoreschCodeInfo.java
+src/app/com/fujitsu/intarfrm/codes/storesch/inherits/StoreschFormBean.java

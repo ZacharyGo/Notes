@@ -1,0 +1,35 @@
+﻿@charset "utf-8";
+
+.gradient (@startColor: #eee, @endColor: white) {
+    background-color: @startColor;
+    background: -webkit-gradient(linear, left top, left bottom, from(@startColor), to(@endColor));
+    background: -webkit-linear-gradient(top, @startColor, @endColor);
+    background: -moz-linear-gradient(top, @startColor, @endColor);
+    background: -ms-linear-gradient(top, @startColor, @endColor);
+}
+
+.box-sizing(@sizing: border-box)
+{
+    -moz-box-sizing: @sizing;
+    -webkit-box-sizing: @sizing;
+    box-sizing: @sizing;
+}
+
+.wordbreak(@isBreak: true) when (@isBreak = true) {
+    white-space: normal !important;
+    -ms-word-break: break-all;
+    word-break: break-all;
+    overflow: visible !important;
+    -ms-text-overflow: clip !important;
+    -o-text-overflow: clip !important;
+    text-overflow: clip !important;
+}
+.wordbreak(@isBreak: true) when (@isBreak = false) {
+    white-space: nowrap !important;
+    -ms-word-break: keep-all;
+    word-break: keep-all;
+    overflow: hidden !important;
+    -ms-text-overflow: ellipsis !important;
+    -o-text-overflow: ellipsis !important;
+    text-overflow: ellipsis !important;
+}

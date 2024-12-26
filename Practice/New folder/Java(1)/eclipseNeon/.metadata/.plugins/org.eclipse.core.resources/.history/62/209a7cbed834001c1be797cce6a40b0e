@@ -1,0 +1,55 @@
+
+package com.fujitsu.intarfrm.programs.practice2.practice2;
+
+import com.fujitsu.intarfrm.programs.practice2.practice2.inherits.Practice2ControllerBase;
+
+/**
+ * <p>フォームアクション処理を拡張するクラスです。</p>
+ *
+ * フォームID：[PRACTICE2]、フォーム名：[演習２]<br>
+ *
+ * @author INTARFRM
+ */
+public class Practice2Controller extends Practice2ControllerBase {
+
+    /**
+     * コンストラクタ
+     *
+     */
+    public Practice2Controller() {
+        //共通処理を継承する
+        super();
+    }
+
+    ///**
+    // * 画面のロード処理
+    // * @param context コンテキスト
+    // */
+    //@Override
+    //public ActionResult _Load(FormActionContext context) {
+        //if (context.createNewFormBean()) {
+            ////FormBeanを作成する
+            //Practice2FormBean bean = (Practice2FormBean)this.createFormDataInstance(context, Practice2FormBean.class);
+            //// FormBeanを保存する
+            //context.setFormBean(bean);
+            //// ロード処理を実行する
+            //this.invokeFacade(context);
+        //}
+        //return this.result(context);
+    //}
+
+    // フォームアクションの処理を拡張する
+
+    ///**
+    // * フォームアクション [PRACTICE2_FRM] を実行する
+    // * アクション: 他フォーム(FRM)
+    // * @param context
+    // * @return
+    // */
+    //@Override
+    //public ActionResult practice2_frm(FormActionContext context) {
+        //this.invokeFacade(context);
+        //return this.result(context);
+    //}
+
+}

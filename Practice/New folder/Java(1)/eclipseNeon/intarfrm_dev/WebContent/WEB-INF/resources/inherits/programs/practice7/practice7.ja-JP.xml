@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+
+
+<properties>
+  <entry key="F-title">Exercise７</entry>
+  <entry key="F-formcaption">Exercise７</entry>
+  <entry key="F-mode1">Mode1</entry>
+  <entry key="F-group1">Group1</entry>
+  <entry key="F-list1">List1</entry>
+
+  <entry key="searchprice">Search Value (Price)</entry>
+  <entry key="btnref">Search</entry>
+  <entry key="btnadd">Add</entry>
+  <entry key="productid">Product ID</entry>
+  <entry key="productname">Product Name</entry>
+  <entry key="price">Price</entry>
+  <entry key="btndetails"></entry>
+  <entry key="btnupdate"></entry>
+  <entry key="btndelete"></entry>
+
+
+  <entry key="F-placeHolder-searchprice">入力した値で検索結果を絞り込みます</entry>
+  <entry key="L-layoutTitle-section_header_1">Search Condition</entry>
+  <entry key="L-layoutTitle-section_header_2">Product List</entry>
+
+</properties>

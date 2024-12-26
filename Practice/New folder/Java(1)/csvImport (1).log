@@ -1,0 +1,5 @@
+[2021-11-28T07:38:40.087Z] Csv Import Start-------------------------------
+[Error] Import Csv File is failed. [terms.csv]
+> l.2: Value is not specified in a required column or not correct character code.  [name: null]
+Csv Import Batch Process Failed.  JobId: 21db94e9-d730-4e2e-9fa1-57a00ea8c824
+[2021-11-28T07:38:40.118Z] Csv Import End-------------------------------

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<modules>
+  <module moduleId="org.eclipse.jst.jee.server:Customer_Maintenance" serverId="Tomcat v9.0 Server at localhost"/>
+  <module moduleId="org.eclipse.jst.jee.server:base_training" serverId="GlassFish 4 [domain1]"/>
+  <module moduleId="org.eclipse.jst.jee.server:intarfrm_base_upd" serverId="Tomcat v9.0 Server at localhost"/>
+</modules>

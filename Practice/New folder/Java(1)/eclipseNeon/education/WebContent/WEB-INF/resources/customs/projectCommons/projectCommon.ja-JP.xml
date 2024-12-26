@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+
+<properties>
+  <entry key="codeCloseBtn">Close</entry>
+  <entry key="codeMaxDisplay">Too much retrieval results, part is displayed.</entry>
+  <entry key="codeNotFoundMessage">The input code data is not found.</entry>
+  <entry key="codeSearchBtn">Search</entry>
+  <entry key="codeSearchResultTitle">Search Result</entry>
+  <entry key="codeSearchTitle">Search condition</entry>
+  <entry key="defaultAjaxErrorMessage">Connection Error is occured.</entry>
+  <entry key="autoCodeGetDoing">Data access processing is running. Please wait.</entry>
+  <entry key="errorBrowserCheck">Your browser is not supported.</entry>
+  <entry key="errorBrowserCheckDesc"></entry>
+  <entry key="errorDirectAccess">You don't have permission to view this directory or page.</entry>
+  <entry key="errorDirectAccessDesc"></entry>
+  <entry key="errorPageNotFound">The requested URL was not found on this server.</entry>
+  <entry key="errorPageNotFoundDesc"></entry>
+  <entry key="errorSessionTimeout">Your session has timed out.</entry>
+  <entry key="errorSessionTimeoutDesc"></entry>
+  <entry key="errorUnknown">An unexpected error occured.</entry>
+  <entry key="errorUnknownDesc"></entry>
+  <entry key="javaScriptRequired">Please enable the JavaScript.</entry>
+  <entry key="listNoRecord">No Data</entry>
+  <entry key="fatalErrorTitle">System Error</entry>
+  <entry key="fatalErrorMessage">Fatal Error is occured. Please contact to Administrator.</entry>
+  <entry key="errorContentCaption">Error Content</entry>
+  <entry key="rangeSeparator">-</entry>
+  <entry key="zeroByteFileUploadError">Upload a file of 0 bytes is not allowed</entry>
+  <entry key="closeBtn">Close</entry>
+  <entry key="ErrTitle">Error</entry>
+  <entry key="InfoTitle">Information</entry>
+  <entry key="DirectAccessTitle">You don't have permission to view this directory or page.</entry>
+  <entry key="codeRequireSearch">Non-search.Type search condition.</entry>
+  <entry key="listInfo">%START_ROW% - %END_ROW% (All %RECORD_COUNT% Records)</entry>
+  <entry key="ListNoRecordCode">Search result is 0. Change the conditions, please do the search again.</entry>
+  <entry key="RequiredMark">is Required</entry>
+</properties>
