@@ -1,0 +1,9 @@
+package Inheritance;
+
+public class Dog extends Animal {
+
+	this.numberOFFeet = 4;
+	this.sound = "Bark";
+	
+	
+}

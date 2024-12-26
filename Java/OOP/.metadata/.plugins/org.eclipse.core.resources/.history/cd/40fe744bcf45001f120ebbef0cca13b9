@@ -1,0 +1,9 @@
+package Inheritance;
+
+public class Animal {
+	private int numberOFFeet;
+	private String sound;
+	
+	numberOFFeet = 0;
+
+}

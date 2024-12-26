@@ -1,0 +1,8 @@
+spring.application.name=booting-web
+spring:
+	profiles: dev
+server:
+	port: 8000
+---
+spring:
+	profiles:test

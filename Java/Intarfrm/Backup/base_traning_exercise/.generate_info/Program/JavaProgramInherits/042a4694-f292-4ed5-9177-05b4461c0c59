@@ -1,0 +1,11 @@
+WebContent/WEB-INF/resources/inherits/programs/tyu01001/tyu01001.ja-JP.xml
+WebContent/WEB-INF/resources/inherits/programs/tyu01002/tyu01002.ja-JP.xml
+src/app/com/fujitsu/intarfrm/programs/tyu010we/inherits/Tyu010weProgramInfo.java
+src/app/com/fujitsu/intarfrm/programs/tyu010we/tyu01001/inherits/Tyu01001CardBeanBase.java
+src/app/com/fujitsu/intarfrm/programs/tyu010we/tyu01001/inherits/Tyu01001ControllerBase.java
+src/app/com/fujitsu/intarfrm/programs/tyu010we/tyu01001/inherits/Tyu01001FormBean.java
+src/app/com/fujitsu/intarfrm/programs/tyu010we/tyu01002/inherits/Tyu01002CardBeanBase.java
+src/app/com/fujitsu/intarfrm/programs/tyu010we/tyu01002/inherits/Tyu01002ControllerBase.java
+src/app/com/fujitsu/intarfrm/programs/tyu010we/tyu01002/inherits/Tyu01002FormBean.java
+src/app/com/fujitsu/intarfrm/programs/tyu010we/tyu01002/inherits/Tyu01002M1RowDataBase.java
+src/app/com/fujitsu/intarfrm/programs/tyu010we/tyu01002/inherits/codes/BtnsearchCodeActionBase.java

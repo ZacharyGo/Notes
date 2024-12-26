@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+
+<properties>
+  <entry key="OFFEMP"></entry>
+  <entry key="PUBEMP"></entry>
+  <entry key="SLFEMP"></entry>
+  <entry key="PART"></entry>
+  <entry key="HOUSE"></entry>
+  <entry key="STUDENT"></entry>
+  <entry key="ETC"></entry>
+  <entry key="99"></entry>
+</properties>

@@ -1,0 +1,58 @@
+package FileIO;
+
+import java.io.BufferedReader;
+import java.io.BufferedWriter;
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.FileOutputStream;
+import java.io.IOException;
+import java.io.InputStream;
+import java.io.InputStreamReader;
+import java.io.OutputStreamWriter;
+import java.io.PrintWriter;
+import java.nio.charset.StandardCharsets;
+import java.util.stream.Stream;
+
+public class TestFileIO {
+
+	public static void main(String[] args) {
+		String textFile = "C:\\Temp\\ED3601T_TBL.csv";
+		if (!bufferReaderInputStreamReader(textFile)) {
+			System.out.println("Failed Buffer Reader Input Stream Reader");
+		}
+
+	}
+
+	public static boolean bufferReaderInputStreamReader(String textFile) {
+		int numLines = 0;
+		try (InputStream inputStream = new FileInputStream(textFile);
+			BufferedReader bufferedReader = new BufferedReader(
+					new InputStreamReader(inputStream, StandardCharsets.UTF_8));
+
+			//OutputStreamWriter outputStreamWriter = new OutputStreamWriter(new FileOutputStream("output_" + textFile),
+			//		StandardCharsets.UTF_8);
+			PrintWriter printWriter = new PrintWriter(new BufferedWriter(outputStreamWriter));
+			Stream<String> linesStream = bufferedReader.lines();)
+		{
+
+			Test test = new Test();
+			linesStream.forEach(row -> {
+				test.numOFLines++;
+			});
+			System.out.println("Buffer Reader Input Stream Reader lines : " + test.numOFLines);
+		} catch (FileNotFoundException e) {
+//			 TODO Auto-generated catch block
+			e.printStackTrace();
+		} catch (IOException e1) {
+			// TODO Auto-generated catch block
+			e1.printStackTrace();
+		}
+
+		return true;
+	}
+
+}
+
+class Test {
+	int numOFLines = 0;
+}

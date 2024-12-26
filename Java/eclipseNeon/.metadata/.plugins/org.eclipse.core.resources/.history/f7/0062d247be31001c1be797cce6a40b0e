@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<quiq-poolings>
+	<pooling id="datasource1" default="true" class="com.fujitsu.intarfrm.helpers.models.transactions.IfmConnectionPool"
+					ifm-provider-class="com.fujitsu.intarfrm.skeletons.models.entities.providers.StandardDbProvider">
+		<pool-param idleSize="10" extraSize="5"/>
+		<connection factory="com.fujitsu.intarfrm.helpers.models.transactions.IfmDriverConnectionFactory">
+			<driver class="org.postgresql.Driver"/>
+			<url value="jdbc:postgresql://localhost:5432/base_training_exercise"/>
+			<user value="postgres"/>
+			<password value="1234"/>
+		</connection>
+	</pooling>
+</quiq-poolings>

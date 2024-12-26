@@ -1,0 +1,137 @@
+<!-- 
+    getElementById
+        It is used to search the element by using id attribute as the variable.
+        Usage:  document.getElementById(“<id_from_HTML_element>”);
+                document.getElementById(<id>).onclick = function(){code}
+    getElementByTagName
+        It is used to search the element by using the HTML tag as variable.
+        Usage: document.getElementByTagName(“<tag_from_HTML_element>”);
+
+    getElementsByClassName
+        It is used to search the element by using class attribute as variable.
+        Usage: document. getElementsByClassName(“class_from_HTML_element”);
+
+    innerHTML
+        This syntax is used for changing the content of the HTML element.
+        Usage: element.innerHTML = “new content”;
+
+    setAttribute
+        This is used for changing/adding an attribute of an element.
+        element.setAttribute(<Attribute>, <Value>);
+
+    createElement and appendChild
+        This syntax lets you create an element using JS, after creating an element make sure you append it to a div 
+        or any block containers to know where it will create.
+        Usage:  const pg = document.createElement(<tagname>);
+                pg.innerHTML = “I am a created paragraph”
+                document.getElementById(<tag>).appendChild(pg);
+
+    removeChild
+    This removes an HTML element.
+        Usage: const lst = document.getElementById(<id>);
+                if(lst.hasChildNodes()){
+                    lst.removeChild(lst.children[<index>]);
+                }
+
+    replaceChild and createTextNode
+        This replaces an HTML element, and createTextNode creates nodes in elements
+        Usage:  const element = document.getElementById(<id>).children[<index>];
+                const newNode = document.createTextNode(<text>);
+                element.replaceChild(newNode, element.childNodes[0]);
+
+ -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document Object Model</title>
+</head>
+
+<body>
+    <input type="text" id="getMe" value="default">
+
+    <button onclick="getSomething()">click get something</button>
+    <button onclick="changeToRadio()">click Change to radio</button>
+    <button onclick="changeToText()">click Change to text</button>
+
+    <p id="demo" onclick="myFunction()">Click me to change my HTML content (innerHTML).</p>
+    <button id="button1" onclick="changeEvent()">Original</button>
+
+    <button onclick="myFunctionDiv()">add child</button>
+    <button onclick="myFunctionDivRemoveChild()">remove child</button>
+    <button onclick="myFunctionDivReplaceChild()">replace child</button>
+
+    <div id="divDemo">
+        Inside div
+    </div>
+    <div id="childSpan">
+        <span>foo bar</span>
+
+    </div>
+
+    <!-- <button onclick="getSomething()">click get something</button> -->
+
+    <script>
+        var count = -1;
+        function getSomething() {
+            var el = document.getElementById("getMe");
+            console.log(el.value);
+            document.getElementById("getMe");
+
+        }
+        function changeToRadio() {
+            var el = document.getElementById("getMe");
+            el.setAttribute("type", "radio")
+        }
+        function changeToText() {
+            var el = document.getElementById("getMe");
+            el.setAttribute("type", "text")
+        }
+        function myFunction() {
+            document.getElementById("demo").innerHTML = "I have changed!";
+            document.getElementById("demo").onclick  = function() {
+                console.log("new function");
+            }; 
+        }
+
+        function changeEvent() {
+            document.getElementById("button1").setAttribute("onclick","myFunctionRestore()");
+            document.getElementById("button1").innerHTML = "new";
+        }
+        function myFunctionRestore() {
+            document.getElementById("button1").setAttribute("onclick","changeEvent()");
+            document.getElementById("button1").innerHTML = "Click me again to change my HTML content (innerHTML).";                       
+        }
+        function myFunctionDiv() {
+
+            var el = document.getElementById("divDemo");
+            const pg = document.createElement("p");
+            count++;
+            pg.innerHTML = "I am a new paragraph" + count;
+            el.appendChild(pg);
+        }
+
+        function myFunctionDivRemoveChild() {
+
+            var el = document.getElementById("divDemo");
+
+            el.removeChild(el.children[count]);
+            count--;
+
+        }
+
+        function myFunctionDivReplaceChild() {
+
+            var el = document.getElementById("divDemo").children[count];
+            const newNode = document.createTextNode("p");
+            
+
+            el.replaceChild(newNode, el.childNodes[0])
+        }
+    </script>
+</body>
+
+</html>

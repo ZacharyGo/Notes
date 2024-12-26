@@ -1,0 +1,15 @@
+D:\Practice\C#\DemoExamples\DemoExamples\bin\Debug\net6.0\DemoExamples.exe
+D:\Practice\C#\DemoExamples\DemoExamples\bin\Debug\net6.0\DemoExamples.deps.json
+D:\Practice\C#\DemoExamples\DemoExamples\bin\Debug\net6.0\DemoExamples.runtimeconfig.json
+D:\Practice\C#\DemoExamples\DemoExamples\bin\Debug\net6.0\DemoExamples.dll
+D:\Practice\C#\DemoExamples\DemoExamples\bin\Debug\net6.0\DemoExamples.pdb
+D:\Practice\C#\DemoExamples\DemoExamples\obj\Debug\net6.0\DemoExamples.csproj.AssemblyReference.cache
+D:\Practice\C#\DemoExamples\DemoExamples\obj\Debug\net6.0\DemoExamples.GeneratedMSBuildEditorConfig.editorconfig
+D:\Practice\C#\DemoExamples\DemoExamples\obj\Debug\net6.0\DemoExamples.AssemblyInfoInputs.cache
+D:\Practice\C#\DemoExamples\DemoExamples\obj\Debug\net6.0\DemoExamples.AssemblyInfo.cs
+D:\Practice\C#\DemoExamples\DemoExamples\obj\Debug\net6.0\DemoExamples.csproj.CoreCompileInputs.cache
+D:\Practice\C#\DemoExamples\DemoExamples\obj\Debug\net6.0\DemoExamples.dll
+D:\Practice\C#\DemoExamples\DemoExamples\obj\Debug\net6.0\refint\DemoExamples.dll
+D:\Practice\C#\DemoExamples\DemoExamples\obj\Debug\net6.0\DemoExamples.pdb
+D:\Practice\C#\DemoExamples\DemoExamples\obj\Debug\net6.0\DemoExamples.genruntimeconfig.cache
+D:\Practice\C#\DemoExamples\DemoExamples\obj\Debug\net6.0\ref\DemoExamples.dll

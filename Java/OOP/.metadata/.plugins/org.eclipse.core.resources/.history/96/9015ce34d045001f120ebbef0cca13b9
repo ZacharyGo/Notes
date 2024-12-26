@@ -1,0 +1,14 @@
+import Inheritance;
+
+public class Main {
+
+	public static void main(String[] args) {
+		Animal dog = new Dog();
+		Animal cat = new Cat();
+		Animal chicken = new Chicken();
+		
+		System.out.println("hello");
+
+	}
+
+}

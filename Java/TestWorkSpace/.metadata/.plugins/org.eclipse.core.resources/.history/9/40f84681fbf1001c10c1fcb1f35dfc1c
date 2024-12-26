@@ -1,0 +1,189 @@
+
+public class ESNZZ19KeiyakuSikyDTO {
+	/** serialVersionUID */
+    private static final long serialVersionUID = 1L;
+
+    /** 会社コード */
+    private String kaishaCd;
+
+    /** 受注契約番号 */
+    private String juchuKeiyakuNo;
+
+    /** 受注契約変更番号 */
+    private String juchuKeiyakuHenkoNo;
+
+    /** 関連受注契約番号 */
+    private String kanrenJuchuKeiyakuNo;
+
+    /** 受注処理区分 */
+    private String juchuShoriKbn;
+
+    /** 業務開始年月日 */
+    private LocalDate gyomuKaishiYmd;
+
+    /** 積算管理項目大項目コード */
+    private String sksnKnrKomokuDikmkCd;
+
+    /** 積算管理項目中項目コード */
+    private String sksnKnrKomokuChkmkCd;
+
+    /** 第三者支払連番 */
+    private String daisanshaShiharaiSn;
+
+    /** 適用開始年月日 */
+    private LocalDate tekiyoKaishiYmd;
+
+    /** 適用終了年月日 */
+    private LocalDate tekiyoShuryoYmd;
+
+    /** 契約料金連番 */
+    private String keiyakuRyokinSn;
+
+    /** 支払方法連番 */
+    private String shiharaiHohoSn;
+
+    /** 契約長期臨時区分 */
+    private String keiyakuChokiRinjiKbn;
+
+    /** 料金区分 */
+    private String ryokinKbn;
+
+    /** 集計先料金区分 */
+    private String shukeisakiRyokinKbn;
+
+    /** 長期契約料金継続請求区分 */
+    private String chkKiykRyknKizkSikyKbn;
+
+    /** 契約料金請求先区分 */
+    private String keiyakuRyokinSeikyusakiKbn;
+
+    /** 契約料金金額 */
+    private long keiyakuRyokinAmt;
+
+    /** 請求先別契約料金金額 */
+    private Long xSikyskBtsKiykRyknAmt;
+
+    /** 契約区分 */
+    private String keiyakuKbn;
+
+    /** 日割調整前請求金額 */
+    private Long hiwariChoseimaeSeikyuAmt;
+
+    /** 端数調整月日割調整前請求金額 */
+    private Long hsChsizkHwrChsimeSikyAmt;
+
+    /** 日割調整後請求金額 */
+    private Long hiwariChoseigoSeikyuAmt;
+
+    /** 日割明細印字フラグ */
+    private String hiwariMeisaiInjiFlg;
+
+    /** 年額端数調整月 */
+    private String nengakuHasuChoseiM;
+
+    /** 年額端数調整金額 */
+    private Long xNengakuHasuChoseiAmt;
+
+    /** 月額換算金額 */
+    private Long getsugakuKansanAmt;
+
+    /** 消費税区分 */
+    private String shohizeiKbn;
+
+    /** ESNZZ19SikyShhZirtsDTO */
+    private List<ESNZZ19SikyShhZirtsDTO> esnzz19sikyshhzirtsdto = new ArrayList<>();
+
+    /** 消費税金額 */
+    private Long shohizeiAmt;
+
+    /** 請求形態区分 */
+    private String seikyuKeitaiKbn;
+
+    /** 請求形態起点月 */
+    private String seikyuKeitaiKitenM;
+
+    /** 請求方法区分 */
+    private String seikyuHohoKbn;
+
+    /** 支払条件区分 */
+    private String shiharaiJokenKbn;
+
+    /** 顧客支払方法区分 */
+    private String kokyakuShiharaiHohoKbn;
+
+    /** 支払日 */
+    private String shiharaiD;
+
+    /** 請求期間締日 */
+    private String seikyuKikanShimeD;
+
+    /** 分割回数数量 */
+    private int bunkatsuKaisuSuryo;
+
+    /** 分割手数料金額 */
+    private long bunkatsuTesuryoAmt;
+
+    /** 分割初回金額 */
+    private long bunkatsuShokaiAmt;
+
+    /** 分割２回目以降金額 */
+    private long bunkatsu2KaimeIkoAmt;
+
+    /** 請求代行管理番号 */
+    private String seikyuDaikoKanriNo;
+
+    /** 請求代行依頼書番号 */
+    private String seikyuDaikoIraishoNo;
+
+    /** 請求代行依頼元取引先コード */
+    private String sikyDikIrimtTrhkskCd;
+
+    /** 請求代行依頼先取引先コード */
+    private String sikyDikIriskTrhkskCd;
+
+    /** 請求代行依頼先取引先グループ会社フラグ */
+    private String skydkIrskTrhskGrpKisFlg;
+
+    /** 請求代行手数料計算方法区分 */
+    private String sikyDikTsryKisnHhKbn;
+
+    /** 請求代行手数料率 */
+    private BigDecimal seikyuDaikoTesuryoRitsu;
+
+    /** 請求代行手数料金額 */
+    private Long seikyuDaikoTesuryoAmt;
+
+    /** 請求代行手数料支払方法区分 */
+    private String sikyDikTsryShhriHhKbn;
+
+    /** 請求代行支払条件区分 */
+    private String sikyDikShhriJknKbn;
+
+    /** 請求先取引先コード */
+    private String seikyusakiTorihikisakiCd;
+
+    /** 請求先別テンプレート連番 */
+    private String seikyusakibetsuTemplateSn;
+
+    /** 請求書表示対象フラグ */
+    private String xSeikyushoHyojiTaishoFlg;
+
+    /** 請求支払コード */
+    private String seikyuShiharaiCd;
+
+    /** 請求支払コード名称 */
+    private String seikyuShiharaiCdNm;
+
+    /** 事業セグメントコード */
+    private String jigyoSegmentCd;
+
+    /** 分割払手数料用請求支払コード */
+    private String xBnktbriTsryySikyShhriCd;
+
+    /** 分割払手数料用請求書明細備考 */
+    private String xBnktbriTsryySikysyMisiBiko;
+
+    /** 分割払手数料用消費税区分 */
+    private String xBnktbriTsryySyhziKbn;
+
+}

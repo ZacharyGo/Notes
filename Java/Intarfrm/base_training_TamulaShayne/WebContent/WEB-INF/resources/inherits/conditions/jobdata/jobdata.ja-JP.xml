@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+
+<properties>
+	<entry key="OFFEMP">Employee</entry>
+	<entry key="PUBEMP">Public Servant</entry>
+	<entry key="SLFEMP">Self-employed</entry>
+	<entry key="PART">Part-time Job</entry>
+	<entry key="HOUSE">Housewife</entry>
+	<entry key="STUDENT">Student</entry>
+	<entry key="ETC">Others</entry>
+	<entry key="99">Please select</entry>
+</properties>

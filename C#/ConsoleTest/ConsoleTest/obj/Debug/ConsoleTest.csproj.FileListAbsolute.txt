@@ -1,0 +1,7 @@
+D:\Practice\C#\ConsoleTest\ConsoleTest\bin\Debug\ConsoleTest.exe.config
+D:\Practice\C#\ConsoleTest\ConsoleTest\bin\Debug\ConsoleTest.exe
+D:\Practice\C#\ConsoleTest\ConsoleTest\bin\Debug\ConsoleTest.pdb
+D:\Practice\C#\ConsoleTest\ConsoleTest\obj\Debug\ConsoleTest.csproj.AssemblyReference.cache
+D:\Practice\C#\ConsoleTest\ConsoleTest\obj\Debug\ConsoleTest.csproj.CoreCompileInputs.cache
+D:\Practice\C#\ConsoleTest\ConsoleTest\obj\Debug\ConsoleTest.exe
+D:\Practice\C#\ConsoleTest\ConsoleTest\obj\Debug\ConsoleTest.pdb

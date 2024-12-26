@@ -1,0 +1,39 @@
+Installing, this may take a few minutes...
+Please create a default UNIX user account. The username does not need to match your Windows username.
+For more information visit: https://aka.ms/wslusers
+Enter new UNIX username: ZacharyGo
+adduser: Please enter a username matching the regular expression configured
+via the NAME_REGEX[_SYSTEM] configuration variable.  Use the `--force-badname'
+option to relax this check or reconfigure NAME_REGEX.
+Enter new UNIX username: zach
+New password:
+Retype new password:
+passwd: password updated successfully
+Installation successful!
+To run a command as administrator (user "root"), use "sudo <command>".
+See "man sudo_root" for details.
+
+Welcome to Ubuntu 20.04.3 LTS (GNU/Linux 4.4.0-19041-Microsoft x86_64)
+
+ * Documentation:  https://help.ubuntu.com
+ * Management:     https://landscape.canonical.com
+ * Support:        https://ubuntu.com/advantage
+
+  System information as of Thu Jan  6 13:34:03 CST 2022
+
+  System load:    0.52      Users logged in:        0
+  Usage of /home: unknown   IPv4 address for eth2:  192.168.204.1
+  Memory usage:   47%       IPv4 address for eth3:  192.168.145.1
+  Swap usage:     0%        IPv4 address for eth4:  172.30.48.1
+  Processes:      7         IPv4 address for wifi0: 192.168.121.192
+
+1 update can be applied immediately.
+To see these additional updates run: apt list --upgradable
+
+
+The list of available updates is more than a week old.
+To check for new updates run: sudo apt update
+
+
+This message is shown once a day. To disable it please create the
+/home/zach/.hushlogin file.

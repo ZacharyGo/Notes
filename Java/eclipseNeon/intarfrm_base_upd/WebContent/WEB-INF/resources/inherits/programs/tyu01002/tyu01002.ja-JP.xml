@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+
+
+<properties>
+  <entry key="F-title">Customer Master List 1</entry>
+  <entry key="F-formcaption">Customer Master List (Intarfrm_base_upd)</entry>
+  <entry key="F-mode1">モード１</entry>
+  <entry key="F-group1">グループ１</entry>
+  <entry key="F-group2">Group 2</entry>
+  <entry key="F-list1">Customer List</entry>
+
+  <entry key="logondate">Logon Date</entry>
+  <entry key="logonuser">Logon User</entry>
+  <entry key="btnadd">New</entry>
+  <entry key="storeid">Store ID</entry>
+  <entry key="btnsearch">Search</entry>
+  <entry key="storename">Store Name</entry>
+  <entry key="btndef">Confirm</entry>
+  <entry key="btncancel">Cancel</entry>
+  <entry key="meino">List No.</entry>
+  <entry key="cusid">Customer ID</entry>
+  <entry key="cusname">Customer Name</entry>
+  <entry key="email">Email Address</entry>
+  <entry key="telno">Telephone No.</entry>
+  <entry key="btnupd">Edit</entry>
+  <entry key="btndel">Delete</entry>
+
+
+  <entry key="L-layoutTitle-section_header_1"> </entry>
+  <entry key="L-layoutTitle-section_header_2"> </entry>
+  <entry key="L-layoutTitle-case_1">Store ID</entry>
+  <entry key="L-layoutTitle-section_header_3"> </entry>
+
+</properties>

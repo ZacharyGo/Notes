@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body onload="pageLoad()">
+    <button onclick="sayHello()">Say Hello</button>
+
+
+    <form onsubmit="validator(event)">
+        <label for="num">Enter a number: </label>
+        <input type="text" id="num" name="num"><br>
+        <input type="submit" value="submit" />
+    </form>
+
+
+    <div onmouseover="over()" onmouseout="out()">
+        <h1 id="changeover">This is a Page Title Hover Me</h1>
+    </div>
+
+    <label for="abb">Select a country: </label>
+    <select onchange="getAbbrev()" id="abb">
+        <option value="" selected>--country--</option>
+        <option value="PH">PH</option>
+        <option value="US">US</option>
+        <option value="JP">JP</option>
+    </select>
+    <p id="choice" />
+
+
+    <script>
+        function sayHello() {
+            alert('Hello');
+        }
+        //------------------------------------------------------------------------------------
+        function validator(e) {
+            if (document.getElementById('num').value == '') {
+                e.preventDefault();
+                alert('Enter a Number');
+            }
+            return true;
+        }
+        //------------------------------------------------------------------------------------
+
+        function over() {
+            document.getElementById("changeover").innerHTML = 'I am hovered!';
+        }
+        function out() {
+            document.getElementById("changeover").innerHTML = 'This is a Page Title Hover Me';
+        }
+
+        //------------------------------------------------------------------------------------
+        function pageLoad() {
+            alert("Page is loaded.You may continue");
+        }
+        //------------------------------------------------------------------------------------
+        function getAbbrev() {
+            var x = document.getElementById("abb").value;
+            switch (x) {
+                case "PH":
+                    document.getElementById("choice").innerHTML = "You have chosen Philippines";
+                    break;
+                case "US":
+                    document.getElementById("choice").innerHTML = "You have chosen United States";
+                    break;
+                case "JP":
+                    document.getElementById("choice").innerHTML = "You have chosen Japan";
+                    break;
+                default:
+                    document.getElementById("choice").innerHTML = "";
+                    break;
+            }
+        }
+
+    </script>
+</body>
+
+</html>

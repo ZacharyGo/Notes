@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div onchange="previewimage()">
+        <input type="file" name="file" id="file" value hidden>
+        <button type="button" onclick="document.getElementById('file').click()"> <img src="Images\Picture2.png"
+                id="uploadedImage" height="160px" width="160px"/></button>
+    </div>
+    <div>
+        <button onclick="ShowImageData()">Show Image Data</button>
+        <img src="Images\Picture2.png"
+        id="uploadedImage2" height="160px" width="160px"/>
+    </div>
+    <script>
+        var imageData;
+        function ShowImageData() {
+            var imagetag = document.getElementById("uploadedImage2");
+            imagetag.src = imageData;
+        }
+        function previewimage() {
+            var preview = document.getElementById("uploadedImage"); //selects the query named img
+            var imageHeight = preview.height;
+            var imageWidth = preview.width;
+
+            var file = document.getElementById("file").files[0]; //sames as here
+
+            var reader = new FileReader();
+
+            reader.onloadend = function () {
+                preview.src = reader.result;
+                uploadedImage = reader.result;
+                imageData=reader.result;
+                preview.style.height = imageHeight + "px";
+                preview.style.width = imageWidth + "px";
+                // console.log(preview.src); // use this to save image 
+
+            }
+
+            if (file) {
+                console.log(2);
+
+                reader.readAsDataURL(file); //reads the data as a URL
+            } else {
+                console.log(3);
+
+                preview.src = "";
+            }
+        }
+
+    </script>
+</body>
+
+</html>

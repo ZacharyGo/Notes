@@ -1,0 +1,40 @@
+﻿/* ---------------------------------------------------------------------- */
+-- インデックス作成DDL(ORACLE用)
+-- ファイル名：ED3606T_IDX.sql
+-- 対象テーブル（物理名）：ED3606T_TBL
+-- 対象テーブル（論理名）：返金管理テーブル
+/* ---------------------------------------------------------------------- */
+
+CREATE INDEX ED3606T_IDX01 ON ED3606T_TBL(
+	SHINSEI_SHONIN_NO 
+)
+/
+
+CREATE INDEX ED3606T_IDX02 ON ED3606T_TBL(
+	NYUSHUKKIN_NO,
+	NYUSHUKKIN_NO_BN 
+)
+/
+
+CREATE INDEX ED3606T_IDX03 ON ED3606T_TBL(
+	KAISHA_CD,
+	SEIKYUSAKI_TORIHIKISAKI_CD,
+	SEIKYUSAKIBETSU_TEMPLATE_SN,
+	SEIKYU_YM,
+	SEIKYUSHO_GROUP_NO 
+)
+/
+
+CREATE INDEX ED3606T_IDX04 ON ED3606T_TBL(
+	KAISHA_CD,
+	HENKIN_IRAI_YMD,
+	HENKIN_KBN 
+)
+/
+
+CREATE INDEX ED3606T_IDX05 ON ED3606T_TBL(
+	KAISHA_CD,
+	HENKIN_YOTEI_YMD,
+	HENKIN_KBN 
+)
+/

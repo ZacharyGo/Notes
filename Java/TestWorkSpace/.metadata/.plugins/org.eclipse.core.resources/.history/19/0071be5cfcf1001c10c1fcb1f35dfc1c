@@ -1,0 +1,13 @@
+import java.util.ArrayList;
+import java.util.List;
+
+public class Starter {
+
+	public static void main(String[] args) {
+		List<ESNZZ19KeiyakuSikyDTO> seikyuMeisaiKeiyakuList = new ArrayList<ESNZZ19KeiyakuSikyDTO>();
+		ESNZZ19KeiyakuSikyDTO seikyuMeisaiKeiyaku = seikyuMeisaiKeiyakuList.get(0);
+		String seikyuKbn = seikyuMeisaiKeiyaku.getChkKiykRyknKizkSikyKbn();
+		
+	}
+
+}

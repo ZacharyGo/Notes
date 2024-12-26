@@ -1,0 +1,5 @@
+package com.frankmoley.lil.sbet.landon.roomwebapp.config;
+
+public class SecurityConfig {
+
+}

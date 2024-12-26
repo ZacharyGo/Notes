@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1640611489 source:d:\practice\cpp\array\main.cpp
+	<iostream>
+	"myLib.h"
+
+1640612586 source:d:\practice\cpp\array\mylib.cpp
+	<iostream>
+	"myLib.h"
+
+1640611251 d:\practice\cpp\array\mylib.h
+

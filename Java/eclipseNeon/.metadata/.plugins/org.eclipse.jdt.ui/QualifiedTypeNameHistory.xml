@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="java.util.Objects"/>
+<fullyQualifiedTypeName name="com.fujitsu.intarfrm.helpers.commons.items.FormModeType"/>
+<fullyQualifiedTypeName name="java.sql.Timestamp"/>
+<fullyQualifiedTypeName name="java.util.Date"/>
+<fullyQualifiedTypeName name="java.sql.ResultSet"/>
+<fullyQualifiedTypeName name="com.fujitsu.intarfrm.helpers.commons.utils.StringHelper"/>
+<fullyQualifiedTypeName name="com.fujitsu.intarfrm.skeletons.inherits.ProgramIds"/>
+<fullyQualifiedTypeName name="com.fujitsu.intarfrm.programs.tyu010we.Tyu010weConstants"/>
+<fullyQualifiedTypeName name="com.fujitsu.intarfrm.programs.tyu010we.tyu01001.inherits.Tyu01001FormBean.Tyu01001FormModes"/>
+<fullyQualifiedTypeName name="com.fujitsu.intarfrm.programs.tyu010we.Tyu010weConstants.ContextMapKey"/>
+<fullyQualifiedTypeName name="java.lang.Integer"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+</qualifiedTypeNameHistroy>

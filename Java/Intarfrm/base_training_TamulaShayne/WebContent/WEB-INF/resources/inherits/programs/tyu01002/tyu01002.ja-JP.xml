@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+
+
+<properties>
+	<entry key="F-title"></entry>
+	<entry key="F-formcaption"></entry>
+	<entry key="F-mode1">モード１</entry>
+	<entry key="F-group1">グループ１</entry>
+	<entry key="F-group2">Group 2</entry>
+	<entry key="F-list1">Customer List</entry>
+
+	<entry key="logondate">LogonDate</entry>
+	<entry key="logonuser">LogonUser</entry>
+	<entry key="btnadd">New</entry>
+	<entry key="storeid">StoreID</entry>
+	<entry key="searchbtn">Search</entry>
+	<entry key="storename">StoreName</entry>
+	<entry key="btndef">Confirm</entry>
+	<entry key="cancelbtn">Cancel</entry>
+	<entry key="meino">ListNo.</entry>
+	<entry key="cusid">CustomerID</entry>
+	<entry key="cusname">CustomerName</entry>
+	<entry key="email">Email Address</entry>
+	<entry key="telno">TelephoneNo.</entry>
+	<entry key="btnupd">Edit</entry>
+	<entry key="btndel">Delete</entry>
+
+
+	<entry key="L-layoutTitle-section_header_4"> Customer Master List</entry>
+	<entry key="L-layoutTitle-section_header_5">
+	</entry>
+	<entry key="L-layoutTitle-case_2">Store ID</entry>
+	<entry key="L-layoutTitle-section_header_6">Section Header</entry>
+
+</properties>

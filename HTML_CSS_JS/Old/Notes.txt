@@ -1,0 +1,36 @@
+Pointers for Item Number 2:
+1.      Insert Fujitsu Logo
+2.      Date not allowed either:
+         a.      Pass dates
+          b.      Future dates
+3.      Not accepting blank fields
+4.      Make simple table
+    Fruit	Animal	Day
+    Apple	Carabao	Monday
+    Mango	Cow	Tuesday
+5.      Add Simple Fields
+6.      Accepting only email format
+7.      Add simple image
+8.      Add link
+9.      Add Link on Image/s
+10.   Marque
+11.   Add Navigation Bar
+12.   Not accepting special characters
+13.   Upload Photo
+14.   Change the font size
+15.   Change the font color
+16.   Change font type:
+    1.     Helvetica (sans-serif)
+    2.     Arial (sans-serif)
+    3.     Arial Black (sans-serif)
+    4.     Verdana (sans-serif)
+    5.     Tahoma (sans-serif)
+    6.     Trebuchet MS (sans-serif)
+    7.     Impact (sans-serif)
+    8.     Gill Sans (sans-serif)
+    9.     Times New Roman (serif)
+10.  Georgia (serif)
+17.   Change to Bold the text
+18.   Change to Italic the text
+19.   Change text with underline
+20.   Field Only accepting number

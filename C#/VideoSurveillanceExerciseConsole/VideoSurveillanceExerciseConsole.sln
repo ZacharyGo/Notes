@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33110.190
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VideoSurveillanceExerciseConsole", "VideoSurveillanceExerciseConsole\VideoSurveillanceExerciseConsole.csproj", "{5ED89270-FFDE-47E3-9C1A-3307EF1A1542}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5ED89270-FFDE-47E3-9C1A-3307EF1A1542}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5ED89270-FFDE-47E3-9C1A-3307EF1A1542}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5ED89270-FFDE-47E3-9C1A-3307EF1A1542}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5ED89270-FFDE-47E3-9C1A-3307EF1A1542}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B9F24A1C-8187-474A-BE17-2A620234C927}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "PracticeIndexer/1.0.0": {
+        "runtime": {
+          "PracticeIndexer.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "PracticeIndexer/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

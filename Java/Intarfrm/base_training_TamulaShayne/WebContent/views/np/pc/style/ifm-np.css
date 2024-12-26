@@ -1,0 +1,45 @@
+﻿@charset "utf-8";
+
+/*読み込み表示ダイアログのタイトルバー*/
+.ifm-load--dialog>.ui-dialog-titlebar {
+	display: none;
+}
+/*読み込み表示ダイアログ*/
+#load--dialog {
+	display: none;
+	overflow: hidden;
+	text-align: center;
+}
+
+.ui-dialog.ifm-load--dialog {
+	border-width: 0;
+	background: transparent url("np/images/loading_128.gif") no-repeat
+		center;
+	opacity: 0.18;
+	box-shadow: none;
+}
+/* ローディングダイアログの背景を透明にする */
+.ui-widget-overlay.ifm-loading-overlay {
+	background: transparent
+		url(data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==)
+		repeat;
+}
+/* setProtectedでプロテクト状態になっている項目 */
+.ifm-protected {
+	background-color: #FC0;
+}
+
+.numeric-align-right {
+	text-align: right;
+}
+
+.np-control-group.np-horizontal {
+	float: left;
+}
+
+.np-control-group.np-horizontal>li {
+	float: none;
+	overflow: hidden;
+	padding-left: 0;
+	padding-top: 0.625rem;
+}

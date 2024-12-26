@@ -1,0 +1,15 @@
+package com.frankmoley.lil.sbet.landon.roomwebapp.controllers;
+
+@RestController
+@REquestMapping("\api\rooms")
+public class RoomRestControllre {
+	private final RoomServce roomServce;
+
+	public RoomRestControllre(RoomServce roomServce) {
+		this.roomServce = roomServce;
+	}
+	
+	@GetMappiong
+	public List<Room> getAllRooms();
+	
+}

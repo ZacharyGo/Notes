@@ -1,0 +1,12 @@
+D:\Practice\C#\DatabaseFirstSample2\DatabaseFirstSample2\bin\Debug\DatabaseFirstSample2.exe.config
+D:\Practice\C#\DatabaseFirstSample2\DatabaseFirstSample2\bin\Debug\DatabaseFirstSample2.exe
+D:\Practice\C#\DatabaseFirstSample2\DatabaseFirstSample2\bin\Debug\DatabaseFirstSample2.pdb
+D:\Practice\C#\DatabaseFirstSample2\DatabaseFirstSample2\bin\Debug\EntityFramework.dll
+D:\Practice\C#\DatabaseFirstSample2\DatabaseFirstSample2\bin\Debug\EntityFramework.SqlServer.dll
+D:\Practice\C#\DatabaseFirstSample2\DatabaseFirstSample2\bin\Debug\EntityFramework.xml
+D:\Practice\C#\DatabaseFirstSample2\DatabaseFirstSample2\bin\Debug\EntityFramework.SqlServer.xml
+D:\Practice\C#\DatabaseFirstSample2\DatabaseFirstSample2\obj\Debug\DatabaseFirstSample2.csproj.AssemblyReference.cache
+D:\Practice\C#\DatabaseFirstSample2\DatabaseFirstSample2\obj\Debug\DatabaseFirstSample2.csproj.CoreCompileInputs.cache
+D:\Practice\C#\DatabaseFirstSample2\DatabaseFirstSample2\obj\Debug\DatabaseFirstSample2.csproj.CopyComplete
+D:\Practice\C#\DatabaseFirstSample2\DatabaseFirstSample2\obj\Debug\DatabaseFirstSample2.exe
+D:\Practice\C#\DatabaseFirstSample2\DatabaseFirstSample2\obj\Debug\DatabaseFirstSample2.pdb

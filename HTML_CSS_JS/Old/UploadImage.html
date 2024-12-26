@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+
+    <h1>The input accept attribute</h1>
+
+    <form action="/action_page.php">
+        <label for="img">Select image:</label>
+        <input type="file" id="img" name="img" accept="image/*">
+        <hr>1
+        <input type="file" accept="image/*" name="image" id="file" style="display: none;">
+        <hr>2
+        <input type="file" accept="image/gif, image/jpeg, image/png" name="image" id="file" style="display: none;">
+        <hr>3
+        <p><label for="file" style="cursor: pointer;">Upload Image</label></p>
+        <hr>4
+        <input type="file" accept="image/*" name="image" id="file" onchange="loadFile(event)">
+        <hr>
+
+        <input type="submit">
+    </form>
+
+    <p><input type="file"  accept="image/*" name="image" id="file"  onchange="loadFile(event)" ></p>
+    <p><label for="file" style="cursor: pointer;">Upload Image</label></p>
+    <p><img id="output" width="200" /></p>
+    
+    <script>
+    var loadFile = function(event) {
+        console.log('event');
+        var image = document.getElementById('output');
+        image.src = URL.createObjectURL(event.target.files[0]);
+    };
+    </script>
+</body>
+
+</html>

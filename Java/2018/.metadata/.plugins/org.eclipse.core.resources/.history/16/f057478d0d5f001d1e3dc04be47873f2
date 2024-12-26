@@ -1,0 +1,100 @@
+package Testing;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class TestStrings {
+	TestStrings() {
+
+		//testCSVToArray();
+		System.out.println(Substrings("\"10000\",20211029003878,\"1\",2021/10/29 0:00:00,\"20\",40920,2021/11/05 0:00:00,0"));
+	}
+
+	public String Substrings(String testString) {
+		return testString.substring(51, 56);
+	}
+	public void testCSVToArray() {
+		//CSVToList("");
+		String [] columns = csvToArray("\"10000\",\"20190313001050\",\"00000000000001\",\"00000000013000\",\"3\",\"2\",\"001\",\"1\",,2019/02/01 0:00:00,2019/02/28 0:00:00,\"2?¼?1?¼?/?¼?2?¼Šåº¦?¼ŠA?¼ŠS?¼ŠK?¼Šï¾ï¼Šï¾?¼Šï½¼?¼Šï¾?¼Šæ–™?¼?\",\"ã€ï¼ŠP?¼?0?¼?5?¼Šã?‘ï¼Šï½µ?¼Šï¾Ÿï¼Šï½½?¼?'?¼ŠW?¼Šl?¼?2?¼ŠçŠ¯?¼Šï¾’ï¼?\",0,\" ?¼? ?¼?\",0,4000,\"0\",\"1\",\"03\",0.08,320,4320,\"20190310042103\",\"515377912000000\",\"515377912000000\",\"000001\",,2019/04/26 0:00:00,4320,2019/05/08 0:00:00,0,0,,,,,2019/03/10,\"10000\",,\"ikouser\",,\"ISN013350551P01\",2019/05/08 13:44:39.595,\"10000\",,\"t0010101\",,\"ISN013350551P01\"");
+		for (String column : columns)
+			System.out.println(column);
+		//System.out.println(0 % 2);
+	}
+
+	public String[] csvToArray(String CSVLine) {
+		List<String> columns = new ArrayList<String>();
+		int qouteCounterSingle = 0;
+		int qouteCounterDouble = 0;
+		String currentChar;
+		String currentColValue = "";
+		for (int index = 0; index < CSVLine.length(); index++) {
+			currentChar = CSVLine.substring(index, index+1);
+			if (currentChar.equals("\"")) {
+				qouteCounterDouble++;
+			}
+			/*if (currentChar.equals("\'")) {
+				qouteCounterSingle++;
+			}*/
+			if (currentChar.equals(",") || currentChar.equals("\t")) {
+				if (qouteCounterDouble % 2 == 0 && qouteCounterSingle % 2 == 0) {
+					columns.add(currentColValue);
+					currentColValue = "";
+					qouteCounterDouble = 0;
+					qouteCounterSingle = 0;
+					currentChar = "";
+				}
+			}
+			if (columns.size() == 12) {
+				System.out.println("aaa");
+			}
+			currentColValue = currentColValue + currentChar;
+
+		}
+		columns.add(currentColValue); // Add the last column
+		return columns.toArray(new String[columns.size()]);
+
+	}
+
+	public void IndexTest() {
+
+		String str = "aa bb cc";
+		System.out.println(":" + str.substring(str.indexOf(" ") + 1) + ":");
+
+		System.out.println(":" + str.substring(str.indexOf(" ") + 1, str.indexOf(" ", str.indexOf(" ") + 1)) + ":");
+
+	}
+
+	public void getColumnTest() {
+		String colType = "Char10)";
+		colType = colType.contains("(") ? colType.substring(0, colType.indexOf("(")) : colType;
+		System.out.println(colType);
+		getColumnInformation("	 KAISHA_CD  CHAR(5) NOT NULL --u‰ïĞƒR[ƒhv");
+		getColumnInformation("	,SEIKYUSHO_NO  CHAR(14) NOT NULL --u¿‹‘”Ô†v");
+	}
+
+	public void getColumnInformation(String columnInfomation) {
+		columnInfomation = columnInfomation.replace(",", "").trim();
+		System.out.println("Column Name : " + getColumnName(columnInfomation));
+		System.out.println("Column Type : " + getColumnType(columnInfomation));
+		System.out.println("Column Allow Not Null : " + getColumnNotNull(columnInfomation));
+		System.out.println("Column Japnese Name : " + getColumnJapaneseName(columnInfomation));
+	}
+
+	public String getColumnName(String columnInfomation) {
+		return columnInfomation.substring(0, columnInfomation.indexOf(" "));
+	}
+
+	public String getColumnType(String columnInfomation) {
+		columnInfomation = columnInfomation.substring(columnInfomation.indexOf(" ")).trim();
+		columnInfomation = columnInfomation.substring(0, columnInfomation.indexOf(" "));
+		return columnInfomation;
+	}
+
+	public boolean getColumnNotNull(String columnInfomation) {
+		return columnInfomation.contains("NOT NULL");
+	}
+
+	public String getColumnJapaneseName(String columnInfomation) {
+		return columnInfomation.substring(columnInfomation.indexOf("--") + 1);
+	}
+}

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<modules>
+  <module moduleId="org.eclipse.jst.jee.server:AutogenTest"/>
+  <module moduleId="org.eclipse.jst.jee.server:intarfrm1"/>
+  <module moduleId="org.eclipse.jst.jee.server:EducationNew"/>
+  <module moduleId="org.eclipse.jst.jee.server:education" serverId="Tomcat v9.0 Server at localhost"/>
+  <module moduleId="org.eclipse.jst.jee.server:Education" serverId="Tomcat v9.0 Server at localhost"/>
+  <module moduleId="org.eclipse.jst.jee.server:base_training_TamulaShayne" serverId="Tomcat v9.0 Server at localhost"/>
+  <module moduleId="org.eclipse.jst.jee.server:base_traning_exercise" serverId="Tomcat v9.0 Server at localhost"/>
+  <module moduleId="org.eclipse.jst.jee.server:INTARFRM_BASE" serverId="Tomcat v9.0 Server at localhost"/>
+  <module moduleId="org.eclipse.jst.jee.server:autogentest"/>
+  <module moduleId="org.eclipse.jst.jee.server:intarfrm_base_upd" serverId="Tomcat v9.0 Server at localhost"/>
+</modules>

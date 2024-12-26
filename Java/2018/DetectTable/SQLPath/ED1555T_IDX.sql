@@ -1,0 +1,34 @@
+﻿/* ---------------------------------------------------------------------- */
+-- インデックス作成DDL(ORACLE用)
+-- ファイル名：ED1555T_IDX.sql
+-- 対象テーブル（物理名）：ED1555T_TBL
+-- 対象テーブル（論理名）：納品伝票テーブル
+/* ---------------------------------------------------------------------- */
+
+CREATE INDEX ED1555T_IDX01 ON ED1555T_TBL(
+	CHUMON_NO,
+	CHUMON_DEMPYO_MEISAI_SN 
+)
+/
+
+CREATE INDEX ED1555T_IDX02 ON ED1555T_TBL(
+	JUCHU_KEIYAKU_NO,
+	JUCHU_KEIYAKU_MEISAI_SN 
+)
+/
+
+CREATE INDEX ED1555T_IDX03 ON ED1555T_TBL(
+	SHUKKA_DEMPYO_NO,
+	SHUKKA_DEMPYO_MEISAI_SN 
+)
+/
+
+CREATE INDEX ED1555T_IDX04 ON ED1555T_TBL(
+	JIGYOSHO_CD 
+)
+/
+
+CREATE INDEX ED1555T_IDX05 ON ED1555T_TBL(
+	CHOTATSU_SHIHARAI_SHINSEI_NO 
+)
+/

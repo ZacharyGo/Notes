@@ -1,0 +1,12 @@
+D:\Practice\C#\VideoSurveillanceExerciseForms\VideoSurveillanceExerciseForms\obj\Debug\VideoSurveillanceExerciseForms.csproj.AssemblyReference.cache
+D:\Practice\C#\VideoSurveillanceExerciseForms\VideoSurveillanceExerciseForms\obj\Debug\VideoSurveillanceExerciseForms.csproj.SuggestedBindingRedirects.cache
+D:\Practice\C#\VideoSurveillanceExerciseForms\VideoSurveillanceExerciseForms\obj\Debug\VideoSurveillanceExerciseForms.Form1.resources
+D:\Practice\C#\VideoSurveillanceExerciseForms\VideoSurveillanceExerciseForms\obj\Debug\VideoSurveillanceExerciseForms.Properties.Resources.resources
+D:\Practice\C#\VideoSurveillanceExerciseForms\VideoSurveillanceExerciseForms\obj\Debug\VideoSurveillanceExerciseForms.csproj.GenerateResource.cache
+D:\Practice\C#\VideoSurveillanceExerciseForms\VideoSurveillanceExerciseForms\obj\Debug\VideoSurveillanceExerciseForms.csproj.CoreCompileInputs.cache
+D:\Practice\C#\VideoSurveillanceExerciseForms\VideoSurveillanceExerciseForms\bin\Debug\VideoSurveillanceExerciseForms.exe.config
+D:\Practice\C#\VideoSurveillanceExerciseForms\VideoSurveillanceExerciseForms\bin\Debug\VideoSurveillanceExerciseForms.exe
+D:\Practice\C#\VideoSurveillanceExerciseForms\VideoSurveillanceExerciseForms\bin\Debug\VideoSurveillanceExerciseForms.pdb
+D:\Practice\C#\VideoSurveillanceExerciseForms\VideoSurveillanceExerciseForms\obj\Debug\VideoSurveillanceExerciseForms.exe
+D:\Practice\C#\VideoSurveillanceExerciseForms\VideoSurveillanceExerciseForms\obj\Debug\VideoSurveillanceExerciseForms.pdb
+D:\Practice\C#\VideoSurveillanceExerciseForms\VideoSurveillanceExerciseForms\obj\Debug\VideoSurveillanceExerciseForms.Exercise1.resources

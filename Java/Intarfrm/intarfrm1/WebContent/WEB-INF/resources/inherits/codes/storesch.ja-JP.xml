@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+
+
+<properties>
+  <entry key="F-caption">Store Search</entry>
+  <entry key="F-fixeditem-caption"></entry>
+
+  <entry key="storeid">Store ID</entry>
+  <entry key="storename">Store Name</entry>
+  <entry key="storeid-search">Store ID</entry>
+  <entry key="storeid-search-upper">Store ID</entry>
+  <entry key="storeid-search-lower">Store ID</entry>
+  <entry key="storename-search">Store Name</entry>
+  <entry key="storename-search-upper">Store Name</entry>
+  <entry key="storename-search-lower">Store Name</entry>
+  <entry key="btnsearch">dummy resource</entry>
+</properties>

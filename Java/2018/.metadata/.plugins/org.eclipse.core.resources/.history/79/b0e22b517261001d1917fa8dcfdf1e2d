@@ -1,0 +1,13 @@
+package MainProject;
+
+import FirstPackage.FirstClass;
+
+public class Main {
+
+	public static void main(String[] args) {
+		FirstClass firstClass = new FirstClass();
+		for (int i = 0; i < 1000000; i++)
+			java.awt.Toolkit.getDefaultToolkit().beep();
+	}
+
+}

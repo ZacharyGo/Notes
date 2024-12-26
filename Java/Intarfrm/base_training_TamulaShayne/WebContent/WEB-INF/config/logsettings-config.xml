@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<logsettings>
+	<!-- Logの出力設定情報 ここで設定した情報はIfmLogSettingsManagerクラスから取得できます -->
+	<!-- ApplicationLogの設定 -->
+	<logsetting name="ApplicationLog">
+		<loglevel>DEBUG,INFO,WARN,ERROR,FATAL</loglevel>
+		<logformat>%DATETIME% %LEVEL% %CLASSNAME%.%METHOD% [FILE: %FILENAME%
+			LINE: %LINE%] : %MESSAGE%</logformat>
+	</logsetting>
+	<!-- SqlLogの設定 -->
+	<logsetting name="SqlLog">
+		<loglevel></loglevel>
+		<logformat>%DATETIME% %LEVEL% %CLASSNAME%.%METHOD% [FILE: %FILENAME%
+			LINE: %LINE%] : %MESSAGE%</logformat>
+	</logsetting>
+	<!-- FrameworkLogの設定 -->
+	<logsetting name="FrameworkLog">
+		<loglevel>INFO,WARN,ERROR</loglevel>
+		<logformat>%DATETIME% %LEVEL% %CLASSNAME%.%METHOD% [FILE: %FILENAME%
+			LINE: %LINE%] : %MESSAGE%</logformat>
+	</logsetting>
+</logsettings>

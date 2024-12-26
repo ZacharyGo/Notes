@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="org.springframework.data.annotation.Id"/>
+    <fullyQualifiedTypeName name="dev.zach.contentcalendar.repository.ContentCollectionRepository"/>
+    <fullyQualifiedTypeName name="dev.zach.contentcalendar.model.Status"/>
+    <fullyQualifiedTypeName name="dev.zach.contentcalendar.model.Type"/>
+    <fullyQualifiedTypeName name="jakarta.annotation.PostConstruct"/>
+    <fullyQualifiedTypeName name="java.time.LocalDateTime"/>
+    <fullyQualifiedTypeName name="dev.zach.contentcalendar.model.Content"/>
+    <fullyQualifiedTypeName name="java.util.Optional"/>
+    <fullyQualifiedTypeName name="com.fujitsu.dao.CountryDao"/>
+    <fullyQualifiedTypeName name="jakarta.persistence.Table"/>
+    <fullyQualifiedTypeName name="jakarta.persistence.Id"/>
+    <fullyQualifiedTypeName name="com.fujitsu.model.Country"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="java.util.Arrays"/>
+    <fullyQualifiedTypeName name="java.util.Collections"/>
+    <fullyQualifiedTypeName name="jakarta.validation.constraints.NotEmpty"/>
+    <fullyQualifiedTypeName name="javax.validation.constraints.NotBlank"/>
+    <fullyQualifiedTypeName name="org.hibernate.validator.constraints.NotBlank"/>
+    <fullyQualifiedTypeName name="jakarta.validation.constraints.NotBlank"/>
+    <fullyQualifiedTypeName name="jakarta.validation.Valid"/>
+</qualifiedTypeNameHistroy>

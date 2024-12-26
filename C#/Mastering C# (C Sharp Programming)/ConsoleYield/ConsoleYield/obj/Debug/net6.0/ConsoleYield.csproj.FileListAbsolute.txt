@@ -1,0 +1,15 @@
+D:\Practice\C#\Mastering C# (C Sharp Programming)\ConsoleYield\ConsoleYield\bin\Debug\net6.0\ConsoleYield.exe
+D:\Practice\C#\Mastering C# (C Sharp Programming)\ConsoleYield\ConsoleYield\bin\Debug\net6.0\ConsoleYield.deps.json
+D:\Practice\C#\Mastering C# (C Sharp Programming)\ConsoleYield\ConsoleYield\bin\Debug\net6.0\ConsoleYield.runtimeconfig.json
+D:\Practice\C#\Mastering C# (C Sharp Programming)\ConsoleYield\ConsoleYield\bin\Debug\net6.0\ConsoleYield.dll
+D:\Practice\C#\Mastering C# (C Sharp Programming)\ConsoleYield\ConsoleYield\bin\Debug\net6.0\ConsoleYield.pdb
+D:\Practice\C#\Mastering C# (C Sharp Programming)\ConsoleYield\ConsoleYield\obj\Debug\net6.0\ConsoleYield.csproj.AssemblyReference.cache
+D:\Practice\C#\Mastering C# (C Sharp Programming)\ConsoleYield\ConsoleYield\obj\Debug\net6.0\ConsoleYield.GeneratedMSBuildEditorConfig.editorconfig
+D:\Practice\C#\Mastering C# (C Sharp Programming)\ConsoleYield\ConsoleYield\obj\Debug\net6.0\ConsoleYield.AssemblyInfoInputs.cache
+D:\Practice\C#\Mastering C# (C Sharp Programming)\ConsoleYield\ConsoleYield\obj\Debug\net6.0\ConsoleYield.AssemblyInfo.cs
+D:\Practice\C#\Mastering C# (C Sharp Programming)\ConsoleYield\ConsoleYield\obj\Debug\net6.0\ConsoleYield.csproj.CoreCompileInputs.cache
+D:\Practice\C#\Mastering C# (C Sharp Programming)\ConsoleYield\ConsoleYield\obj\Debug\net6.0\ConsoleYield.dll
+D:\Practice\C#\Mastering C# (C Sharp Programming)\ConsoleYield\ConsoleYield\obj\Debug\net6.0\refint\ConsoleYield.dll
+D:\Practice\C#\Mastering C# (C Sharp Programming)\ConsoleYield\ConsoleYield\obj\Debug\net6.0\ConsoleYield.pdb
+D:\Practice\C#\Mastering C# (C Sharp Programming)\ConsoleYield\ConsoleYield\obj\Debug\net6.0\ConsoleYield.genruntimeconfig.cache
+D:\Practice\C#\Mastering C# (C Sharp Programming)\ConsoleYield\ConsoleYield\obj\Debug\net6.0\ref\ConsoleYield.dll

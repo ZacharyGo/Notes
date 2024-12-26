@@ -1,0 +1,1129 @@
+2024-05-05 00:15:46,792 [Worker-0: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2024-05-05 01:19:04,992 [Worker-14: Import Getting Started Content] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.example:tmp:0.0.1-SNAPSHOT @ D:\Practice\JavaSpringBootQuickStartSTS\tmp\pom.xml.
+2024-05-05 01:19:08,034 [Worker-14: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /tmp/src/main/java
+2024-05-05 01:19:08,035 [Worker-14: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /tmp/src/main/resources
+2024-05-05 01:19:08,044 [Worker-14: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /tmp/src/main/resources
+2024-05-05 01:19:08,053 [Worker-14: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /tmp/src/test/java
+2024-05-05 01:19:08,054 [Worker-14: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /tmp/src/test/resources
+2024-05-05 01:19:10,583 [Worker-14: Import Getting Started Content] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 10 sec
+2024-05-05 01:19:10,586 [Worker-14: Import Getting Started Content] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2024-05-05 01:19:10,923 [Worker-14: Import Getting Started Content] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.example:tmp:0.0.1-SNAPSHOT @ D:\Practice\JavaSpringBootQuickStartSTS\tmp\pom.xml.
+2024-05-05 01:19:11,443 [Worker-14: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /tmp/src/main/java
+2024-05-05 01:19:11,443 [Worker-14: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /tmp/src/main/resources
+2024-05-05 01:19:11,444 [Worker-14: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /tmp/src/main/resources
+2024-05-05 01:19:11,445 [Worker-14: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /tmp/src/test/java
+2024-05-05 01:19:11,446 [Worker-14: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /tmp/src/test/resources
+2024-05-05 01:19:12,457 [Worker-14: Import Getting Started Content] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed for 1 poms: local refresh takes 0.00 sec, refresh facades takes 0.00 sec, update config takes 0.00 sec 
+2024-05-05 01:19:13,161 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-05-05 01:19:13,180 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-05-05 01:19:13,186 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Practice\JavaSpringBootQuickStartSTS\tmp\src\test\resources
+2024-05-05 01:20:04,514 [Worker-16: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.example:tmp:0.0.1-SNAPSHOT @ D:\Practice\JavaSpringBootQuickStartSTS\tmp\pom.xml.
+2024-05-05 01:20:05,155 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-05-05 01:20:05,156 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-05-05 01:20:05,162 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Practice\JavaSpringBootQuickStartSTS\tmp\src\test\resources
+2024-05-05 01:20:22,933 [Worker-14: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2024-05-05 01:20:23,239 [Worker-14: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.example:tmp:0.0.1-SNAPSHOT @ D:\Practice\JavaSpringBootQuickStartSTS\tmp\pom.xml.
+2024-05-05 01:20:23,648 [Worker-14: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /tmp/src/main/java
+2024-05-05 01:20:23,648 [Worker-14: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /tmp/src/main/resources
+2024-05-05 01:20:23,649 [Worker-14: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /tmp/src/main/resources
+2024-05-05 01:20:23,650 [Worker-14: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /tmp/src/test/java
+2024-05-05 01:20:23,650 [Worker-14: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /tmp/src/test/resources
+2024-05-05 01:20:24,458 [Worker-14: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed for 1 poms: local refresh takes 0.00 sec, refresh facades takes 0.00 sec, update config takes 0.00 sec 
+2024-05-05 01:20:24,777 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-05-05 01:20:24,786 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-05-05 01:20:24,789 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Practice\JavaSpringBootQuickStartSTS\tmp\src\test\resources
+2024-05-07 22:56:05,099 [Worker-3: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2024-05-07 22:56:06,204 [Worker-3: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Updating Gradle version information cache failed. Using outdated cache.
+2024-05-07 23:27:26,766 [Worker-14: Import Getting Started Content] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: io.javabrains:course-api-data:0.0.1-SNAPSHOT @ D:\Practice\JavaSpringBootQuickStartSTS\course-api-data\pom.xml.
+2024-05-07 23:27:28,067 [Worker-14: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-data-jpa/3.2.5/spring-boot-starter-data-jpa-3.2.5.pom
+2024-05-07 23:27:28,101 [Worker-14: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-data-jpa/3.2.5/spring-boot-starter-data-jpa-3.2.5.pom
+2024-05-07 23:27:28,209 [Worker-14: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-aop/3.2.5/spring-boot-starter-aop-3.2.5.pom
+2024-05-07 23:27:28,232 [Worker-14: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-aop/3.2.5/spring-boot-starter-aop-3.2.5.pom
+2024-05-07 23:27:28,816 [Worker-14: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/aspectj/aspectjweaver/1.9.22/aspectjweaver-1.9.22.pom
+2024-05-07 23:27:28,841 [Worker-14: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/aspectj/aspectjweaver/1.9.22/aspectjweaver-1.9.22.pom
+2024-05-07 23:27:28,926 [Worker-14: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-jdbc/3.2.5/spring-boot-starter-jdbc-3.2.5.pom
+2024-05-07 23:27:28,955 [Worker-14: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-jdbc/3.2.5/spring-boot-starter-jdbc-3.2.5.pom
+2024-05-07 23:27:29,004 [Worker-14: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-jdbc/6.1.6/spring-jdbc-6.1.6.pom
+2024-05-07 23:27:29,025 [Worker-14: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-jdbc/6.1.6/spring-jdbc-6.1.6.pom
+2024-05-07 23:27:29,054 [Worker-14: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-tx/6.1.6/spring-tx-6.1.6.pom
+2024-05-07 23:27:29,076 [Worker-14: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-tx/6.1.6/spring-tx-6.1.6.pom
+2024-05-07 23:27:29,206 [Worker-14: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/hibernate/orm/hibernate-core/6.4.4.Final/hibernate-core-6.4.4.Final.pom
+2024-05-07 23:27:29,229 [Worker-14: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/hibernate/orm/hibernate-core/6.4.4.Final/hibernate-core-6.4.4.Final.pom
+2024-05-07 23:27:29,347 [Worker-14: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/jboss/logging/jboss-logging/3.5.3.Final/jboss-logging-3.5.3.Final.pom
+2024-05-07 23:27:29,376 [Worker-14: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/jboss/logging/jboss-logging/3.5.3.Final/jboss-logging-3.5.3.Final.pom
+2024-05-07 23:27:29,503 [Worker-14: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/smallrye/jandex/3.1.2/jandex-3.1.2.pom
+2024-05-07 23:27:29,534 [Worker-14: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/smallrye/jandex/3.1.2/jandex-3.1.2.pom
+2024-05-07 23:27:29,568 [Worker-14: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/smallrye/jandex-parent/3.1.2/jandex-parent-3.1.2.pom
+2024-05-07 23:27:29,592 [Worker-14: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/smallrye/jandex-parent/3.1.2/jandex-parent-3.1.2.pom
+2024-05-07 23:27:29,712 [Worker-14: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/smallrye/smallrye-build-parent/39/smallrye-build-parent-39.pom
+2024-05-07 23:27:29,740 [Worker-14: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/smallrye/smallrye-build-parent/39/smallrye-build-parent-39.pom
+2024-05-07 23:27:29,856 [Worker-14: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/fasterxml/classmate/1.6.0/classmate-1.6.0.pom
+2024-05-07 23:27:29,878 [Worker-14: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/fasterxml/classmate/1.6.0/classmate-1.6.0.pom
+2024-05-07 23:27:29,905 [Worker-14: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/fasterxml/oss-parent/55/oss-parent-55.pom
+2024-05-07 23:27:29,931 [Worker-14: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/fasterxml/oss-parent/55/oss-parent-55.pom
+2024-05-07 23:27:30,054 [Worker-14: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/glassfish/jaxb/jaxb-runtime/4.0.5/jaxb-runtime-4.0.5.pom
+2024-05-07 23:27:30,081 [Worker-14: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/glassfish/jaxb/jaxb-runtime/4.0.5/jaxb-runtime-4.0.5.pom
+2024-05-07 23:27:30,115 [Worker-14: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/sun/xml/bind/mvn/jaxb-runtime-parent/4.0.5/jaxb-runtime-parent-4.0.5.pom
+2024-05-07 23:27:30,142 [Worker-14: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/sun/xml/bind/mvn/jaxb-runtime-parent/4.0.5/jaxb-runtime-parent-4.0.5.pom
+2024-05-07 23:27:30,257 [Worker-14: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/sun/xml/bind/mvn/jaxb-parent/4.0.5/jaxb-parent-4.0.5.pom
+2024-05-07 23:27:30,285 [Worker-14: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/sun/xml/bind/mvn/jaxb-parent/4.0.5/jaxb-parent-4.0.5.pom
+2024-05-07 23:27:30,316 [Worker-14: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/sun/xml/bind/jaxb-bom-ext/4.0.5/jaxb-bom-ext-4.0.5.pom
+2024-05-07 23:27:30,340 [Worker-14: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/sun/xml/bind/jaxb-bom-ext/4.0.5/jaxb-bom-ext-4.0.5.pom
+2024-05-07 23:27:30,463 [Worker-14: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/glassfish/jaxb/jaxb-core/4.0.5/jaxb-core-4.0.5.pom
+2024-05-07 23:27:30,486 [Worker-14: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/glassfish/jaxb/jaxb-core/4.0.5/jaxb-core-4.0.5.pom
+2024-05-07 23:27:30,516 [Worker-14: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/eclipse/angus/angus-activation/2.0.2/angus-activation-2.0.2.pom
+2024-05-07 23:27:30,538 [Worker-14: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/eclipse/angus/angus-activation/2.0.2/angus-activation-2.0.2.pom
+2024-05-07 23:27:30,681 [Worker-14: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/eclipse/angus/angus-activation-project/2.0.2/angus-activation-project-2.0.2.pom
+2024-05-07 23:27:30,705 [Worker-14: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/eclipse/angus/angus-activation-project/2.0.2/angus-activation-project-2.0.2.pom
+2024-05-07 23:27:30,741 [Worker-14: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/glassfish/jaxb/txw2/4.0.5/txw2-4.0.5.pom
+2024-05-07 23:27:30,764 [Worker-14: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/glassfish/jaxb/txw2/4.0.5/txw2-4.0.5.pom
+2024-05-07 23:27:30,872 [Worker-14: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/sun/xml/bind/mvn/jaxb-txw-parent/4.0.5/jaxb-txw-parent-4.0.5.pom
+2024-05-07 23:27:30,897 [Worker-14: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/sun/xml/bind/mvn/jaxb-txw-parent/4.0.5/jaxb-txw-parent-4.0.5.pom
+2024-05-07 23:27:31,078 [Worker-14: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/antlr/antlr4-runtime/4.13.0/antlr4-runtime-4.13.0.pom
+2024-05-07 23:27:31,102 [Worker-14: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/antlr/antlr4-runtime/4.13.0/antlr4-runtime-4.13.0.pom
+2024-05-07 23:27:31,130 [Worker-14: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/antlr/antlr4-master/4.13.0/antlr4-master-4.13.0.pom
+2024-05-07 23:27:31,152 [Worker-14: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/antlr/antlr4-master/4.13.0/antlr4-master-4.13.0.pom
+2024-05-07 23:27:31,284 [Worker-14: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/data/spring-data-jpa/3.2.5/spring-data-jpa-3.2.5.pom
+2024-05-07 23:27:31,307 [Worker-14: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/data/spring-data-jpa/3.2.5/spring-data-jpa-3.2.5.pom
+2024-05-07 23:27:31,340 [Worker-14: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/data/spring-data-jpa-parent/3.2.5/spring-data-jpa-parent-3.2.5.pom
+2024-05-07 23:27:31,363 [Worker-14: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/data/spring-data-jpa-parent/3.2.5/spring-data-jpa-parent-3.2.5.pom
+2024-05-07 23:27:31,486 [Worker-14: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/data/build/spring-data-parent/3.2.5/spring-data-parent-3.2.5.pom
+2024-05-07 23:27:31,520 [Worker-14: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/data/build/spring-data-parent/3.2.5/spring-data-parent-3.2.5.pom
+2024-05-07 23:27:31,555 [Worker-14: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/data/build/spring-data-build/3.2.5/spring-data-build-3.2.5.pom
+2024-05-07 23:27:31,578 [Worker-14: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/data/build/spring-data-build/3.2.5/spring-data-build-3.2.5.pom
+2024-05-07 23:27:31,692 [Worker-14: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/data/spring-data-commons/3.2.5/spring-data-commons-3.2.5.pom
+2024-05-07 23:27:31,716 [Worker-14: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/data/spring-data-commons/3.2.5/spring-data-commons-3.2.5.pom
+2024-05-07 23:27:31,760 [Worker-14: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-orm/6.1.6/spring-orm-6.1.6.pom
+2024-05-07 23:27:31,781 [Worker-14: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-orm/6.1.6/spring-orm-6.1.6.pom
+2024-05-07 23:27:31,863 [Worker-14: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-aspects/6.1.6/spring-aspects-6.1.6.pom
+2024-05-07 23:27:31,889 [Worker-14: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-aspects/6.1.6/spring-aspects-6.1.6.pom
+2024-05-07 23:27:32,210 [Worker-14: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/derby/derby/10.16.1.1/derby-10.16.1.1.pom
+2024-05-07 23:27:32,233 [Worker-14: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/derby/derby/10.16.1.1/derby-10.16.1.1.pom
+2024-05-07 23:27:32,259 [Worker-14: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/derby/derby-project/10.16.1.1/derby-project-10.16.1.1.pom
+2024-05-07 23:27:32,281 [Worker-14: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/derby/derby-project/10.16.1.1/derby-project-10.16.1.1.pom
+2024-05-07 23:27:32,548 [Worker-14: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/derby/derbyshared/10.16.1.1/derbyshared-10.16.1.1.pom
+2024-05-07 23:27:32,572 [Worker-14: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/derby/derbyshared/10.16.1.1/derbyshared-10.16.1.1.pom
+2024-05-07 23:27:32,836 [Worker-14: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/derby/derbytools/10.16.1.1/derbytools-10.16.1.1.pom
+2024-05-07 23:27:32,860 [Worker-14: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/derby/derbytools/10.16.1.1/derbytools-10.16.1.1.pom
+2024-05-07 23:27:33,518 [Worker-14: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-data-jpa/3.2.5/spring-boot-starter-data-jpa-3.2.5.jar
+2024-05-07 23:27:33,553 [Worker-14: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-data-jpa/3.2.5/spring-boot-starter-data-jpa-3.2.5.jar
+2024-05-07 23:27:33,576 [BasicRepositoryConnector-repo.maven.apache.org-0-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-aop/3.2.5/spring-boot-starter-aop-3.2.5.jar
+2024-05-07 23:27:33,618 [BasicRepositoryConnector-repo.maven.apache.org-0-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-jdbc/6.1.6/spring-jdbc-6.1.6.jar
+2024-05-07 23:27:33,626 [BasicRepositoryConnector-repo.maven.apache.org-0-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-jdbc/3.2.5/spring-boot-starter-jdbc-3.2.5.jar
+2024-05-07 23:27:33,627 [BasicRepositoryConnector-repo.maven.apache.org-0-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-aop/3.2.5/spring-boot-starter-aop-3.2.5.jar
+2024-05-07 23:27:33,629 [BasicRepositoryConnector-repo.maven.apache.org-0-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/hibernate/orm/hibernate-core/6.4.4.Final/hibernate-core-6.4.4.Final.jar
+2024-05-07 23:27:33,629 [BasicRepositoryConnector-repo.maven.apache.org-0-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/aspectj/aspectjweaver/1.9.22/aspectjweaver-1.9.22.jar
+2024-05-07 23:27:33,660 [BasicRepositoryConnector-repo.maven.apache.org-0-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/jboss/logging/jboss-logging/3.5.3.Final/jboss-logging-3.5.3.Final.jar
+2024-05-07 23:27:33,675 [BasicRepositoryConnector-repo.maven.apache.org-0-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-jdbc/3.2.5/spring-boot-starter-jdbc-3.2.5.jar
+2024-05-07 23:27:33,703 [BasicRepositoryConnector-repo.maven.apache.org-0-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/jboss/logging/jboss-logging/3.5.3.Final/jboss-logging-3.5.3.Final.jar
+2024-05-07 23:27:33,708 [BasicRepositoryConnector-repo.maven.apache.org-0-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/smallrye/jandex/3.1.2/jandex-3.1.2.jar
+2024-05-07 23:27:33,728 [BasicRepositoryConnector-repo.maven.apache.org-0-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/fasterxml/classmate/1.6.0/classmate-1.6.0.jar
+2024-05-07 23:27:33,754 [BasicRepositoryConnector-repo.maven.apache.org-0-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-jdbc/6.1.6/spring-jdbc-6.1.6.jar
+2024-05-07 23:27:33,774 [BasicRepositoryConnector-repo.maven.apache.org-0-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/glassfish/jaxb/jaxb-runtime/4.0.5/jaxb-runtime-4.0.5.jar
+2024-05-07 23:27:33,798 [BasicRepositoryConnector-repo.maven.apache.org-0-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/fasterxml/classmate/1.6.0/classmate-1.6.0.jar
+2024-05-07 23:27:33,801 [BasicRepositoryConnector-repo.maven.apache.org-0-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/smallrye/jandex/3.1.2/jandex-3.1.2.jar
+2024-05-07 23:27:33,832 [BasicRepositoryConnector-repo.maven.apache.org-0-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/glassfish/jaxb/jaxb-core/4.0.5/jaxb-core-4.0.5.jar
+2024-05-07 23:27:33,832 [BasicRepositoryConnector-repo.maven.apache.org-0-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/eclipse/angus/angus-activation/2.0.2/angus-activation-2.0.2.jar
+2024-05-07 23:27:33,869 [BasicRepositoryConnector-repo.maven.apache.org-0-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/glassfish/jaxb/jaxb-runtime/4.0.5/jaxb-runtime-4.0.5.jar
+2024-05-07 23:27:33,876 [BasicRepositoryConnector-repo.maven.apache.org-0-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/aspectj/aspectjweaver/1.9.22/aspectjweaver-1.9.22.jar
+2024-05-07 23:27:33,895 [BasicRepositoryConnector-repo.maven.apache.org-0-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/antlr/antlr4-runtime/4.13.0/antlr4-runtime-4.13.0.jar
+2024-05-07 23:27:33,895 [BasicRepositoryConnector-repo.maven.apache.org-0-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/glassfish/jaxb/txw2/4.0.5/txw2-4.0.5.jar
+2024-05-07 23:27:33,967 [BasicRepositoryConnector-repo.maven.apache.org-0-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/antlr/antlr4-runtime/4.13.0/antlr4-runtime-4.13.0.jar
+2024-05-07 23:27:33,970 [BasicRepositoryConnector-repo.maven.apache.org-0-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/glassfish/jaxb/jaxb-core/4.0.5/jaxb-core-4.0.5.jar
+2024-05-07 23:27:33,989 [BasicRepositoryConnector-repo.maven.apache.org-0-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/data/spring-data-jpa/3.2.5/spring-data-jpa-3.2.5.jar
+2024-05-07 23:27:33,995 [BasicRepositoryConnector-repo.maven.apache.org-0-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/glassfish/jaxb/txw2/4.0.5/txw2-4.0.5.jar
+2024-05-07 23:27:33,996 [BasicRepositoryConnector-repo.maven.apache.org-0-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/data/spring-data-commons/3.2.5/spring-data-commons-3.2.5.jar
+2024-05-07 23:27:34,046 [BasicRepositoryConnector-repo.maven.apache.org-0-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-orm/6.1.6/spring-orm-6.1.6.jar
+2024-05-07 23:27:34,135 [BasicRepositoryConnector-repo.maven.apache.org-0-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/data/spring-data-jpa/3.2.5/spring-data-jpa-3.2.5.jar
+2024-05-07 23:27:34,170 [BasicRepositoryConnector-repo.maven.apache.org-0-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-tx/6.1.6/spring-tx-6.1.6.jar
+2024-05-07 23:27:34,210 [BasicRepositoryConnector-repo.maven.apache.org-0-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/data/spring-data-commons/3.2.5/spring-data-commons-3.2.5.jar
+2024-05-07 23:27:34,220 [BasicRepositoryConnector-repo.maven.apache.org-0-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-orm/6.1.6/spring-orm-6.1.6.jar
+2024-05-07 23:27:34,223 [BasicRepositoryConnector-repo.maven.apache.org-0-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/hibernate/orm/hibernate-core/6.4.4.Final/hibernate-core-6.4.4.Final.jar
+2024-05-07 23:27:34,234 [BasicRepositoryConnector-repo.maven.apache.org-0-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-aspects/6.1.6/spring-aspects-6.1.6.jar
+2024-05-07 23:27:34,245 [BasicRepositoryConnector-repo.maven.apache.org-0-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/derby/derby/10.16.1.1/derby-10.16.1.1.jar
+2024-05-07 23:27:34,247 [BasicRepositoryConnector-repo.maven.apache.org-0-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/derby/derbyshared/10.16.1.1/derbyshared-10.16.1.1.jar
+2024-05-07 23:27:34,312 [BasicRepositoryConnector-repo.maven.apache.org-0-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-tx/6.1.6/spring-tx-6.1.6.jar
+2024-05-07 23:27:34,314 [BasicRepositoryConnector-repo.maven.apache.org-0-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/derby/derbyshared/10.16.1.1/derbyshared-10.16.1.1.jar
+2024-05-07 23:27:34,371 [BasicRepositoryConnector-repo.maven.apache.org-0-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/eclipse/angus/angus-activation/2.0.2/angus-activation-2.0.2.jar
+2024-05-07 23:27:34,861 [BasicRepositoryConnector-repo.maven.apache.org-0-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-aspects/6.1.6/spring-aspects-6.1.6.jar
+2024-05-07 23:27:34,883 [BasicRepositoryConnector-repo.maven.apache.org-0-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/derby/derby/10.16.1.1/derby-10.16.1.1.jar
+2024-05-07 23:27:42,520 [BasicRepositoryConnector-repo.maven.apache.org-0-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/derby/derbytools/10.16.1.1/derbytools-10.16.1.1.jar
+2024-05-07 23:27:42,554 [BasicRepositoryConnector-repo.maven.apache.org-0-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/derby/derbytools/10.16.1.1/derbytools-10.16.1.1.jar
+2024-05-07 23:27:44,563 [Worker-14: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /course-api-data/src/main/java
+2024-05-07 23:27:44,564 [Worker-14: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /course-api-data/src/main/resources
+2024-05-07 23:27:44,572 [Worker-14: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /course-api-data/src/main/resources
+2024-05-07 23:27:44,583 [Worker-14: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /course-api-data/src/test/java
+2024-05-07 23:27:44,584 [Worker-14: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /course-api-data/src/test/resources
+2024-05-07 23:27:45,222 [Worker-15: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-data-jpa/3.2.5/spring-boot-starter-data-jpa-3.2.5-sources.jar
+2024-05-07 23:27:45,953 [Worker-15: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-data-jpa/3.2.5/spring-boot-starter-data-jpa-3.2.5-sources.jar
+2024-05-07 23:27:45,960 [Worker-15: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework.boot:spring-boot-starter-data-jpa:3.2.5
+2024-05-07 23:27:46,035 [Worker-15: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-aop/3.2.5/spring-boot-starter-aop-3.2.5-sources.jar
+2024-05-07 23:27:46,125 [Worker-15: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-aop/3.2.5/spring-boot-starter-aop-3.2.5-sources.jar
+2024-05-07 23:27:46,131 [Worker-15: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework.boot:spring-boot-starter-aop:3.2.5
+2024-05-07 23:27:46,217 [Worker-15: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/aspectj/aspectjweaver/1.9.22/aspectjweaver-1.9.22-sources.jar
+2024-05-07 23:27:46,463 [Worker-15: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/aspectj/aspectjweaver/1.9.22/aspectjweaver-1.9.22-sources.jar
+2024-05-07 23:27:46,469 [Worker-15: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.aspectj:aspectjweaver:1.9.22
+2024-05-07 23:27:46,537 [Worker-15: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-jdbc/3.2.5/spring-boot-starter-jdbc-3.2.5-sources.jar
+2024-05-07 23:27:46,587 [Worker-15: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-jdbc/3.2.5/spring-boot-starter-jdbc-3.2.5-sources.jar
+2024-05-07 23:27:46,593 [Worker-15: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework.boot:spring-boot-starter-jdbc:3.2.5
+2024-05-07 23:27:46,654 [Worker-15: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-jdbc/6.1.6/spring-jdbc-6.1.6-sources.jar
+2024-05-07 23:27:46,746 [Worker-15: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-jdbc/6.1.6/spring-jdbc-6.1.6-sources.jar
+2024-05-07 23:27:46,750 [Worker-15: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework:spring-jdbc:6.1.6
+2024-05-07 23:27:46,811 [Worker-15: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/hibernate/orm/hibernate-core/6.4.4.Final/hibernate-core-6.4.4.Final-sources.jar
+2024-05-07 23:27:47,180 [Worker-15: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/hibernate/orm/hibernate-core/6.4.4.Final/hibernate-core-6.4.4.Final-sources.jar
+2024-05-07 23:27:47,186 [Worker-15: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.hibernate.orm:hibernate-core:6.4.4.Final
+2024-05-07 23:27:47,290 [Worker-15: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/jboss/logging/jboss-logging/3.5.3.Final/jboss-logging-3.5.3.Final-sources.jar
+2024-05-07 23:27:47,864 [Worker-15: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/jboss/logging/jboss-logging/3.5.3.Final/jboss-logging-3.5.3.Final-sources.jar
+2024-05-07 23:27:47,868 [Worker-15: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.jboss.logging:jboss-logging:3.5.3.Final
+2024-05-07 23:27:47,950 [Worker-15: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/smallrye/jandex/3.1.2/jandex-3.1.2-sources.jar
+2024-05-07 23:27:48,030 [Worker-15: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/smallrye/jandex/3.1.2/jandex-3.1.2-sources.jar
+2024-05-07 23:27:48,042 [Worker-15: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for io.smallrye:jandex:3.1.2
+2024-05-07 23:27:48,127 [Worker-15: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/fasterxml/classmate/1.6.0/classmate-1.6.0-sources.jar
+2024-05-07 23:27:48,178 [Worker-15: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/fasterxml/classmate/1.6.0/classmate-1.6.0-sources.jar
+2024-05-07 23:27:48,182 [Worker-15: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for com.fasterxml:classmate:1.6.0
+2024-05-07 23:27:48,262 [Worker-15: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/glassfish/jaxb/jaxb-runtime/4.0.5/jaxb-runtime-4.0.5-sources.jar
+2024-05-07 23:27:48,417 [Worker-15: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/glassfish/jaxb/jaxb-runtime/4.0.5/jaxb-runtime-4.0.5-sources.jar
+2024-05-07 23:27:48,422 [Worker-15: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.glassfish.jaxb:jaxb-runtime:4.0.5
+2024-05-07 23:27:48,526 [Worker-15: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/glassfish/jaxb/jaxb-core/4.0.5/jaxb-core-4.0.5-sources.jar
+2024-05-07 23:27:48,607 [Worker-15: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/glassfish/jaxb/jaxb-core/4.0.5/jaxb-core-4.0.5-sources.jar
+2024-05-07 23:27:48,619 [Worker-15: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.glassfish.jaxb:jaxb-core:4.0.5
+2024-05-07 23:27:48,676 [Worker-14: Import Getting Started Content] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 25 sec
+2024-05-07 23:27:48,679 [Worker-14: Import Getting Started Content] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2024-05-07 23:27:48,705 [Worker-15: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/eclipse/angus/angus-activation/2.0.2/angus-activation-2.0.2-sources.jar
+2024-05-07 23:27:49,123 [Worker-14: Import Getting Started Content] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: io.javabrains:course-api-data:0.0.1-SNAPSHOT @ D:\Practice\JavaSpringBootQuickStartSTS\course-api-data\pom.xml.
+2024-05-07 23:27:49,141 [Worker-15: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/eclipse/angus/angus-activation/2.0.2/angus-activation-2.0.2-sources.jar
+2024-05-07 23:27:49,148 [Worker-15: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.eclipse.angus:angus-activation:2.0.2
+2024-05-07 23:27:49,243 [Worker-15: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/glassfish/jaxb/txw2/4.0.5/txw2-4.0.5-sources.jar
+2024-05-07 23:27:49,306 [Worker-15: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/glassfish/jaxb/txw2/4.0.5/txw2-4.0.5-sources.jar
+2024-05-07 23:27:49,324 [Worker-15: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.glassfish.jaxb:txw2:4.0.5
+2024-05-07 23:27:49,421 [Worker-15: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/antlr/antlr4-runtime/4.13.0/antlr4-runtime-4.13.0-sources.jar
+2024-05-07 23:27:49,567 [Worker-15: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/antlr/antlr4-runtime/4.13.0/antlr4-runtime-4.13.0-sources.jar
+2024-05-07 23:27:49,573 [Worker-15: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.antlr:antlr4-runtime:4.13.0
+2024-05-07 23:27:49,662 [Worker-15: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/data/spring-data-jpa/3.2.5/spring-data-jpa-3.2.5-sources.jar
+2024-05-07 23:27:49,857 [Worker-15: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/data/spring-data-jpa/3.2.5/spring-data-jpa-3.2.5-sources.jar
+2024-05-07 23:27:49,863 [Worker-15: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework.data:spring-data-jpa:3.2.5
+2024-05-07 23:27:49,969 [Worker-15: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/data/spring-data-commons/3.2.5/spring-data-commons-3.2.5-sources.jar
+2024-05-07 23:27:50,001 [Worker-14: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /course-api-data/src/main/java
+2024-05-07 23:27:50,002 [Worker-14: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /course-api-data/src/main/resources
+2024-05-07 23:27:50,003 [Worker-14: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /course-api-data/src/main/resources
+2024-05-07 23:27:50,004 [Worker-14: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /course-api-data/src/test/java
+2024-05-07 23:27:50,006 [Worker-14: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /course-api-data/src/test/resources
+2024-05-07 23:27:50,149 [Worker-15: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/data/spring-data-commons/3.2.5/spring-data-commons-3.2.5-sources.jar
+2024-05-07 23:27:50,155 [Worker-15: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework.data:spring-data-commons:3.2.5
+2024-05-07 23:27:50,254 [Worker-15: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-orm/6.1.6/spring-orm-6.1.6-sources.jar
+2024-05-07 23:27:50,370 [Worker-15: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-orm/6.1.6/spring-orm-6.1.6-sources.jar
+2024-05-07 23:27:50,376 [Worker-15: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework:spring-orm:6.1.6
+2024-05-07 23:27:50,479 [Worker-15: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-tx/6.1.6/spring-tx-6.1.6-sources.jar
+2024-05-07 23:27:50,648 [Worker-15: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-tx/6.1.6/spring-tx-6.1.6-sources.jar
+2024-05-07 23:27:50,654 [Worker-15: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework:spring-tx:6.1.6
+2024-05-07 23:27:50,754 [Worker-15: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-aspects/6.1.6/spring-aspects-6.1.6-sources.jar
+2024-05-07 23:27:51,127 [Worker-14: Import Getting Started Content] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed for 1 poms: local refresh takes 0.00 sec, refresh facades takes 1.00 sec, update config takes 0.00 sec 
+2024-05-07 23:27:51,762 [Worker-15: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-aspects/6.1.6/spring-aspects-6.1.6-sources.jar
+2024-05-07 23:27:51,767 [Worker-15: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework:spring-aspects:6.1.6
+2024-05-07 23:27:52,120 [Worker-15: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/derby/derby/10.16.1.1/derby-10.16.1.1-sources.jar
+2024-05-07 23:27:52,125 [Worker-15: Download sources and javadoc] ERROR o.e.m.j.internal.DownloadSourcesJob - Could not download sources for org.apache.derby:derby:10.16.1.1
+org.eclipse.core.runtime.CoreException: Could not resolve artifact org.apache.derby:derby:jar:sources:10.16.1.1
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lambda$7(MavenImpl.java:540)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:458)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:292)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:278)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:509)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:494)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:308)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:282)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:252)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadFilesAndPopulateToUpdate(DownloadSourcesJob.java:220)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.lambda$0(DownloadSourcesJob.java:149)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:458)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:339)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:278)
+	at org.eclipse.m2e.core.embedder.IMaven.execute(IMaven.java:300)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:149)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2024-05-07 23:27:52,301 [Worker-19: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-05-07 23:27:52,321 [Worker-19: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-05-07 23:27:52,327 [Worker-19: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Practice\JavaSpringBootQuickStartSTS\course-api-data\src\test\resources
+2024-05-07 23:27:52,448 [Worker-15: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/derby/derbyshared/10.16.1.1/derbyshared-10.16.1.1-sources.jar
+2024-05-07 23:27:52,452 [Worker-15: Download sources and javadoc] ERROR o.e.m.j.internal.DownloadSourcesJob - Could not download sources for org.apache.derby:derbyshared:10.16.1.1
+org.eclipse.core.runtime.CoreException: Could not resolve artifact org.apache.derby:derbyshared:jar:sources:10.16.1.1
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lambda$7(MavenImpl.java:540)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:458)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:292)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:278)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:509)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:494)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:308)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:282)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:252)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadFilesAndPopulateToUpdate(DownloadSourcesJob.java:220)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.lambda$0(DownloadSourcesJob.java:149)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:458)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:339)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:278)
+	at org.eclipse.m2e.core.embedder.IMaven.execute(IMaven.java:300)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:149)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2024-05-07 23:27:52,823 [Worker-15: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/derby/derbytools/10.16.1.1/derbytools-10.16.1.1-sources.jar
+2024-05-07 23:27:52,827 [Worker-15: Download sources and javadoc] ERROR o.e.m.j.internal.DownloadSourcesJob - Could not download sources for org.apache.derby:derbytools:10.16.1.1
+org.eclipse.core.runtime.CoreException: Could not resolve artifact org.apache.derby:derbytools:jar:sources:10.16.1.1
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lambda$7(MavenImpl.java:540)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:458)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:292)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:278)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:509)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:494)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:308)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:282)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:252)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadFilesAndPopulateToUpdate(DownloadSourcesJob.java:220)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.lambda$0(DownloadSourcesJob.java:149)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:458)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:339)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:278)
+	at org.eclipse.m2e.core.embedder.IMaven.execute(IMaven.java:300)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:149)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2024-05-07 23:28:15,573 [Worker-22: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: io.javabrains:course-api-data:0.0.1-SNAPSHOT @ D:\Practice\JavaSpringBootQuickStartSTS\course-api-data\pom.xml.
+2024-05-07 23:28:16,285 [Worker-22: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-05-07 23:28:16,286 [Worker-22: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-05-07 23:28:16,290 [Worker-22: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Practice\JavaSpringBootQuickStartSTS\course-api-data\src\test\resources
+2024-05-07 23:28:17,404 [Worker-0: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/derby/derby/10.16.1.1/derby-10.16.1.1-javadoc.jar
+2024-05-07 23:28:17,407 [Worker-0: Download sources and javadoc] ERROR o.e.m.j.internal.DownloadSourcesJob - Could not download javadoc for org.apache.derby:derby:10.16.1.1
+org.eclipse.core.runtime.CoreException: Could not resolve artifact org.apache.derby:derby:jar:javadoc:10.16.1.1
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lambda$7(MavenImpl.java:540)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:458)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:292)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:278)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:509)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:494)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:308)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:294)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:252)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadFilesAndPopulateToUpdate(DownloadSourcesJob.java:220)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.lambda$0(DownloadSourcesJob.java:149)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:458)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:339)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:278)
+	at org.eclipse.m2e.core.embedder.IMaven.execute(IMaven.java:300)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:149)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2024-05-07 23:28:17,673 [Worker-0: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/derby/derbyshared/10.16.1.1/derbyshared-10.16.1.1-javadoc.jar
+2024-05-07 23:28:17,676 [Worker-0: Download sources and javadoc] ERROR o.e.m.j.internal.DownloadSourcesJob - Could not download javadoc for org.apache.derby:derbyshared:10.16.1.1
+org.eclipse.core.runtime.CoreException: Could not resolve artifact org.apache.derby:derbyshared:jar:javadoc:10.16.1.1
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lambda$7(MavenImpl.java:540)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:458)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:292)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:278)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:509)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:494)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:308)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:294)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:252)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadFilesAndPopulateToUpdate(DownloadSourcesJob.java:220)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.lambda$0(DownloadSourcesJob.java:149)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:458)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:339)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:278)
+	at org.eclipse.m2e.core.embedder.IMaven.execute(IMaven.java:300)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:149)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2024-05-07 23:28:17,973 [Worker-0: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/derby/derbytools/10.16.1.1/derbytools-10.16.1.1-javadoc.jar
+2024-05-07 23:28:17,977 [Worker-0: Download sources and javadoc] ERROR o.e.m.j.internal.DownloadSourcesJob - Could not download javadoc for org.apache.derby:derbytools:10.16.1.1
+org.eclipse.core.runtime.CoreException: Could not resolve artifact org.apache.derby:derbytools:jar:javadoc:10.16.1.1
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lambda$7(MavenImpl.java:540)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:458)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:292)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:278)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:509)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:494)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:308)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:294)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:252)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadFilesAndPopulateToUpdate(DownloadSourcesJob.java:220)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.lambda$0(DownloadSourcesJob.java:149)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:458)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:339)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:278)
+	at org.eclipse.m2e.core.embedder.IMaven.execute(IMaven.java:300)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:149)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2024-05-16 00:38:46,673 [Worker-2: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2024-05-16 00:38:47,837 [Worker-2: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Updating Gradle version information cache failed. Using outdated cache.
+2024-05-16 00:44:52,539 [Worker-11: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2024-05-16 00:44:57,222 [Worker-11: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: io.javabrains:course-api-data:0.0.1-SNAPSHOT @ D:\Practice\JavaSpringBootQuickStartSTS\course-api-data\pom.xml.
+2024-05-16 00:45:00,336 [Worker-11: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /course-api-data/src/main/java
+2024-05-16 00:45:00,337 [Worker-11: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /course-api-data/src/main/resources
+2024-05-16 00:45:00,338 [Worker-11: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /course-api-data/src/main/resources
+2024-05-16 00:45:00,338 [Worker-11: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /course-api-data/src/test/java
+2024-05-16 00:45:00,339 [Worker-11: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /course-api-data/src/test/resources
+2024-05-16 00:45:02,657 [Worker-11: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed for 1 poms: local refresh takes 0.00 sec, refresh facades takes 7.00 sec, update config takes 2.00 sec 
+2024-05-16 00:45:04,027 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-05-16 00:45:04,047 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-05-16 00:45:04,051 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Practice\JavaSpringBootQuickStartSTS\course-api-data\src\test\resources
+2024-05-16 00:45:47,120 [Worker-12: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2024-05-16 00:45:47,431 [Worker-12: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: io.javabrains:course-api-data:0.0.1-SNAPSHOT @ D:\Practice\JavaSpringBootQuickStartSTS\course-api-data\pom.xml.
+2024-05-16 00:45:47,963 [Worker-12: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /course-api-data/src/main/java
+2024-05-16 00:45:47,964 [Worker-12: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /course-api-data/src/main/resources
+2024-05-16 00:45:47,965 [Worker-12: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /course-api-data/src/main/resources
+2024-05-16 00:45:47,966 [Worker-12: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /course-api-data/src/test/java
+2024-05-16 00:45:47,966 [Worker-12: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /course-api-data/src/test/resources
+2024-05-16 00:45:48,358 [Worker-12: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed for 1 poms: local refresh takes 0.00 sec, refresh facades takes 0.00 sec, update config takes 0.00 sec 
+2024-05-16 00:45:48,768 [Worker-14: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-05-16 00:45:48,782 [Worker-14: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-05-16 00:45:48,787 [Worker-14: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Practice\JavaSpringBootQuickStartSTS\course-api-data\src\test\resources
+2024-05-16 11:52:17,952 [Worker-0: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2024-05-16 12:26:25,656 [Worker-20: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-05-16 12:26:25,684 [Worker-20: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-05-16 12:26:25,689 [Worker-20: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Practice\JavaSpringBootQuickStartSTS\course-api-data\src\test\resources
+2024-05-16 12:27:28,594 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-05-16 12:27:28,598 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-05-16 12:27:28,603 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Practice\JavaSpringBootQuickStartSTS\course-api-data\src\test\resources
+2024-05-16 12:35:37,627 [Worker-21: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-05-16 12:35:37,646 [Worker-21: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-05-16 12:35:37,651 [Worker-21: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Practice\JavaSpringBootQuickStartSTS\course-api-data\src\test\resources
+2024-05-16 12:35:57,369 [Worker-24: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-05-16 12:35:57,430 [Worker-24: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-05-16 12:35:57,436 [Worker-24: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Practice\JavaSpringBootQuickStartSTS\course-api-data\src\test\resources
+2024-05-16 12:36:49,474 [Worker-21: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-05-16 12:36:49,489 [Worker-21: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-05-16 12:36:49,492 [Worker-21: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Practice\JavaSpringBootQuickStartSTS\course-api-data\src\test\resources
+2024-05-16 12:39:44,868 [Worker-26: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2024-05-16 12:39:48,474 [Worker-26: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: io.javabrains:course-api-data:0.0.1-SNAPSHOT @ D:\Practice\JavaSpringBootQuickStartSTS\course-api-data\pom.xml.
+2024-05-16 12:39:51,655 [Worker-26: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /course-api-data/src/main/java
+2024-05-16 12:39:51,656 [Worker-26: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /course-api-data/src/main/resources
+2024-05-16 12:39:51,657 [Worker-26: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /course-api-data/src/main/resources
+2024-05-16 12:39:51,658 [Worker-26: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /course-api-data/src/test/java
+2024-05-16 12:39:51,658 [Worker-26: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /course-api-data/src/test/resources
+2024-05-16 12:39:52,205 [Worker-26: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed for 1 poms: local refresh takes 0.00 sec, refresh facades takes 6.00 sec, update config takes 0.00 sec 
+2024-05-16 12:39:52,701 [Worker-28: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-05-16 12:39:52,720 [Worker-28: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-05-16 12:39:52,725 [Worker-28: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Practice\JavaSpringBootQuickStartSTS\course-api-data\src\test\resources
+2024-05-16 12:42:01,820 [Worker-31: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-05-16 12:42:01,825 [Worker-31: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-05-16 12:42:01,830 [Worker-31: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Practice\JavaSpringBootQuickStartSTS\course-api-data\src\test\resources
+2024-05-16 12:42:30,217 [Worker-32: Updating Maven Dependencies] ERROR o.e.m.j.i.l.MavenLaunchConfigurationListener - Launch configuration CourseApiDataApplication references non-existing project course-api-data.
+org.eclipse.core.runtime.CoreException: Launch configuration CourseApiDataApplication references non-existing project course-api-data.
+	at org.eclipse.jdt.launching.JavaRuntime.abort(JavaRuntime.java:1862)
+	at org.eclipse.jdt.launching.JavaRuntime.getJavaProject(JavaRuntime.java:1739)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.updateLaunchConfiguration(MavenLaunchConfigurationListener.java:64)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.launchConfigurationChanged(MavenLaunchConfigurationListener.java:50)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.run(LaunchManager.java:220)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.notify(LaunchManager.java:204)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setDirty(LaunchConfigurationWorkingCopy.java:527)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setAttribute(LaunchConfigurationWorkingCopy.java:415)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:409)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:435)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.mavenProjectChanged(MavenLaunchConfigurationListener.java:135)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:888)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:1038)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.lambda$0(ProjectRegistryRefreshJob.java:162)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:458)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:339)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:278)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.run(ProjectRegistryRefreshJob.java:106)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2024-05-16 12:42:30,224 [Worker-32: Updating Maven Dependencies] ERROR o.e.m.j.i.l.MavenLaunchConfigurationListener - Launch configuration CourseApiDataApplication references non-existing project course-api-data.
+org.eclipse.core.runtime.CoreException: Launch configuration CourseApiDataApplication references non-existing project course-api-data.
+	at org.eclipse.jdt.launching.JavaRuntime.abort(JavaRuntime.java:1862)
+	at org.eclipse.jdt.launching.JavaRuntime.getJavaProject(JavaRuntime.java:1739)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.updateLaunchConfiguration(MavenLaunchConfigurationListener.java:64)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.launchConfigurationChanged(MavenLaunchConfigurationListener.java:50)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.run(LaunchManager.java:220)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.notify(LaunchManager.java:204)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setDirty(LaunchConfigurationWorkingCopy.java:527)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setAttribute(LaunchConfigurationWorkingCopy.java:415)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:410)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:435)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.mavenProjectChanged(MavenLaunchConfigurationListener.java:135)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:888)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:1038)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.lambda$0(ProjectRegistryRefreshJob.java:162)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:458)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:339)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:278)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.run(ProjectRegistryRefreshJob.java:106)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2024-05-16 12:42:30,245 [Worker-32: Updating Maven Dependencies] ERROR o.e.m.j.i.l.MavenLaunchConfigurationListener - Launch configuration CourseApiDataApplication references non-existing project course-api-data.
+org.eclipse.core.runtime.CoreException: Launch configuration CourseApiDataApplication references non-existing project course-api-data.
+	at org.eclipse.jdt.launching.JavaRuntime.abort(JavaRuntime.java:1862)
+	at org.eclipse.jdt.launching.JavaRuntime.getJavaProject(JavaRuntime.java:1739)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.updateLaunchConfiguration(MavenLaunchConfigurationListener.java:64)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.launchConfigurationChanged(MavenLaunchConfigurationListener.java:50)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.run(LaunchManager.java:220)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.notify(LaunchManager.java:204)
+	at org.eclipse.debug.internal.core.LaunchManager.launchConfigurationChanged(LaunchManager.java:2010)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.writeNewFile(LaunchConfigurationWorkingCopy.java:380)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.doSave0(LaunchConfigurationWorkingCopy.java:259)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.doSave(LaunchConfigurationWorkingCopy.java:229)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.doSave(LaunchConfigurationWorkingCopy.java:187)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:411)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:435)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.mavenProjectChanged(MavenLaunchConfigurationListener.java:135)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:888)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:1038)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.lambda$0(ProjectRegistryRefreshJob.java:162)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:458)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:339)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:278)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.run(ProjectRegistryRefreshJob.java:106)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2024-05-16 12:42:30,247 [Worker-32: Updating Maven Dependencies] ERROR o.e.m.j.i.l.MavenLaunchConfigurationListener - Launch configuration PredictionMode.AltAndContextMap references non-existing project course-api-data.
+org.eclipse.core.runtime.CoreException: Launch configuration PredictionMode.AltAndContextMap references non-existing project course-api-data.
+	at org.eclipse.jdt.launching.JavaRuntime.abort(JavaRuntime.java:1862)
+	at org.eclipse.jdt.launching.JavaRuntime.getJavaProject(JavaRuntime.java:1739)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.updateLaunchConfiguration(MavenLaunchConfigurationListener.java:64)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.launchConfigurationChanged(MavenLaunchConfigurationListener.java:50)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.run(LaunchManager.java:220)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.notify(LaunchManager.java:204)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setDirty(LaunchConfigurationWorkingCopy.java:527)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setAttribute(LaunchConfigurationWorkingCopy.java:415)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:409)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:435)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.mavenProjectChanged(MavenLaunchConfigurationListener.java:135)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:888)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:1038)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.lambda$0(ProjectRegistryRefreshJob.java:162)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:458)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:339)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:278)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.run(ProjectRegistryRefreshJob.java:106)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2024-05-16 12:42:30,249 [Worker-32: Updating Maven Dependencies] ERROR o.e.m.j.i.l.MavenLaunchConfigurationListener - Launch configuration PredictionMode.AltAndContextMap references non-existing project course-api-data.
+org.eclipse.core.runtime.CoreException: Launch configuration PredictionMode.AltAndContextMap references non-existing project course-api-data.
+	at org.eclipse.jdt.launching.JavaRuntime.abort(JavaRuntime.java:1862)
+	at org.eclipse.jdt.launching.JavaRuntime.getJavaProject(JavaRuntime.java:1739)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.updateLaunchConfiguration(MavenLaunchConfigurationListener.java:64)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.launchConfigurationChanged(MavenLaunchConfigurationListener.java:50)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.run(LaunchManager.java:220)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.notify(LaunchManager.java:204)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setDirty(LaunchConfigurationWorkingCopy.java:527)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setAttribute(LaunchConfigurationWorkingCopy.java:415)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:410)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:435)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.mavenProjectChanged(MavenLaunchConfigurationListener.java:135)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:888)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:1038)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.lambda$0(ProjectRegistryRefreshJob.java:162)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:458)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:339)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:278)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.run(ProjectRegistryRefreshJob.java:106)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2024-05-16 12:42:30,269 [Worker-32: Updating Maven Dependencies] ERROR o.e.m.j.i.l.MavenLaunchConfigurationListener - Launch configuration PredictionMode.AltAndContextMap references non-existing project course-api-data.
+org.eclipse.core.runtime.CoreException: Launch configuration PredictionMode.AltAndContextMap references non-existing project course-api-data.
+	at org.eclipse.jdt.launching.JavaRuntime.abort(JavaRuntime.java:1862)
+	at org.eclipse.jdt.launching.JavaRuntime.getJavaProject(JavaRuntime.java:1739)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.updateLaunchConfiguration(MavenLaunchConfigurationListener.java:64)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.launchConfigurationChanged(MavenLaunchConfigurationListener.java:50)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.run(LaunchManager.java:220)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.notify(LaunchManager.java:204)
+	at org.eclipse.debug.internal.core.LaunchManager.launchConfigurationChanged(LaunchManager.java:2010)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.writeNewFile(LaunchConfigurationWorkingCopy.java:380)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.doSave0(LaunchConfigurationWorkingCopy.java:259)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.doSave(LaunchConfigurationWorkingCopy.java:229)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.doSave(LaunchConfigurationWorkingCopy.java:187)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:411)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:435)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.mavenProjectChanged(MavenLaunchConfigurationListener.java:135)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:888)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:1038)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.lambda$0(ProjectRegistryRefreshJob.java:162)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:458)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:339)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:278)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.run(ProjectRegistryRefreshJob.java:106)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2024-05-16 12:48:44,814 [Worker-33: Rebuilding] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-05-16 12:48:44,841 [Worker-33: Rebuilding] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-05-16 12:48:44,846 [Worker-33: Rebuilding] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Practice\JavaSpringBootQuickStartSTS\tmp\src\test\resources
+2024-05-16 12:52:19,003 [Worker-42: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2024-05-16 12:52:21,988 [Worker-42: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.example:tmp:0.0.1-SNAPSHOT @ D:\Practice\JavaSpringBootQuickStartSTS\tmp\pom.xml.
+2024-05-16 12:52:24,418 [Worker-42: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /tmp/src/main/java
+2024-05-16 12:52:24,419 [Worker-42: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /tmp/src/main/resources
+2024-05-16 12:52:24,419 [Worker-42: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /tmp/src/main/resources
+2024-05-16 12:52:24,420 [Worker-42: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /tmp/src/test/java
+2024-05-16 12:52:24,420 [Worker-42: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /tmp/src/test/resources
+2024-05-16 12:52:24,722 [Worker-42: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed for 1 poms: local refresh takes 0.00 sec, refresh facades takes 4.00 sec, update config takes 0.00 sec 
+2024-05-16 12:52:25,146 [Worker-37: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-05-16 12:52:25,172 [Worker-37: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-05-16 12:52:25,177 [Worker-37: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Practice\JavaSpringBootQuickStartSTS\tmp\src\test\resources
+2024-05-16 12:52:59,983 [Worker-45: Import Getting Started Content] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: io.javabrains:course-api-data:0.0.1-SNAPSHOT @ D:\Practice\JavaSpringBootQuickStartSTS\course-api-data\pom.xml.
+2024-05-16 12:53:01,871 [Worker-45: Import Getting Started Content] ERROR o.e.m.j.i.l.MavenLaunchConfigurationListener - Launch configuration CourseApiDataApplication references non-existing project course-api-data.
+org.eclipse.core.runtime.CoreException: Launch configuration CourseApiDataApplication references non-existing project course-api-data.
+	at org.eclipse.jdt.launching.JavaRuntime.abort(JavaRuntime.java:1862)
+	at org.eclipse.jdt.launching.JavaRuntime.getJavaProject(JavaRuntime.java:1739)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.updateLaunchConfiguration(MavenLaunchConfigurationListener.java:64)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.launchConfigurationChanged(MavenLaunchConfigurationListener.java:50)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.run(LaunchManager.java:220)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.notify(LaunchManager.java:204)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setDirty(LaunchConfigurationWorkingCopy.java:527)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setAttribute(LaunchConfigurationWorkingCopy.java:415)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.enable(MavenRuntimeClasspathProvider.java:403)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.enable(MavenRuntimeClasspathProvider.java:397)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.enable(MavenRuntimeClasspathProvider.java:427)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.mavenProjectChanged(MavenLaunchConfigurationListener.java:132)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:888)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:1038)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refresh(ProjectRegistryManager.java:320)
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager.configureNewMavenProjects(ProjectConfigurationManager.java:255)
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager.lambda$1(ProjectConfigurationManager.java:165)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:458)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:339)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:278)
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager.importProjects(ProjectConfigurationManager.java:138)
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager.importProjects(ProjectConfigurationManager.java:129)
+	at org.springframework.ide.eclipse.boot.wizard.importing.MavenStrategy.createEclipseProjectFromExistingMavenProject(MavenStrategy.java:134)
+	at org.springframework.ide.eclipse.boot.wizard.importing.MavenStrategy$MavenCodeSetImport.run(MavenStrategy.java:85)
+	at org.springframework.ide.eclipse.boot.wizard.importing.MavenStrategy$MavenCodeSetImport.run(MavenStrategy.java:1)
+	at org.springframework.ide.eclipse.boot.wizard.NewSpringBootWizardModel.importProject(NewSpringBootWizardModel.java:343)
+	at org.springframework.ide.eclipse.boot.wizard.NewSpringBootWizardModel.performFinish(NewSpringBootWizardModel.java:322)
+	at org.springframework.ide.eclipse.boot.wizard.NewSpringBootWizard$1.runInWorkspace(NewSpringBootWizard.java:239)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:43)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2024-05-16 12:53:01,872 [Worker-45: Import Getting Started Content] ERROR o.e.m.j.i.l.MavenLaunchConfigurationListener - Launch configuration CourseApiDataApplication references non-existing project course-api-data.
+org.eclipse.core.runtime.CoreException: Launch configuration CourseApiDataApplication references non-existing project course-api-data.
+	at org.eclipse.jdt.launching.JavaRuntime.abort(JavaRuntime.java:1862)
+	at org.eclipse.jdt.launching.JavaRuntime.getJavaProject(JavaRuntime.java:1739)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.updateLaunchConfiguration(MavenLaunchConfigurationListener.java:64)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.launchConfigurationChanged(MavenLaunchConfigurationListener.java:50)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.run(LaunchManager.java:220)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.notify(LaunchManager.java:204)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setDirty(LaunchConfigurationWorkingCopy.java:527)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setAttribute(LaunchConfigurationWorkingCopy.java:415)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.enable(MavenRuntimeClasspathProvider.java:404)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.enable(MavenRuntimeClasspathProvider.java:397)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.enable(MavenRuntimeClasspathProvider.java:427)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.mavenProjectChanged(MavenLaunchConfigurationListener.java:132)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:888)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:1038)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refresh(ProjectRegistryManager.java:320)
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager.configureNewMavenProjects(ProjectConfigurationManager.java:255)
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager.lambda$1(ProjectConfigurationManager.java:165)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:458)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:339)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:278)
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager.importProjects(ProjectConfigurationManager.java:138)
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager.importProjects(ProjectConfigurationManager.java:129)
+	at org.springframework.ide.eclipse.boot.wizard.importing.MavenStrategy.createEclipseProjectFromExistingMavenProject(MavenStrategy.java:134)
+	at org.springframework.ide.eclipse.boot.wizard.importing.MavenStrategy$MavenCodeSetImport.run(MavenStrategy.java:85)
+	at org.springframework.ide.eclipse.boot.wizard.importing.MavenStrategy$MavenCodeSetImport.run(MavenStrategy.java:1)
+	at org.springframework.ide.eclipse.boot.wizard.NewSpringBootWizardModel.importProject(NewSpringBootWizardModel.java:343)
+	at org.springframework.ide.eclipse.boot.wizard.NewSpringBootWizardModel.performFinish(NewSpringBootWizardModel.java:322)
+	at org.springframework.ide.eclipse.boot.wizard.NewSpringBootWizard$1.runInWorkspace(NewSpringBootWizard.java:239)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:43)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2024-05-16 12:53:01,884 [Worker-45: Import Getting Started Content] ERROR o.e.m.j.i.l.MavenLaunchConfigurationListener - Launch configuration CourseApiDataApplication references non-existing project course-api-data.
+org.eclipse.core.runtime.CoreException: Launch configuration CourseApiDataApplication references non-existing project course-api-data.
+	at org.eclipse.jdt.launching.JavaRuntime.abort(JavaRuntime.java:1862)
+	at org.eclipse.jdt.launching.JavaRuntime.getJavaProject(JavaRuntime.java:1739)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.updateLaunchConfiguration(MavenLaunchConfigurationListener.java:64)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.launchConfigurationChanged(MavenLaunchConfigurationListener.java:50)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.run(LaunchManager.java:220)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.notify(LaunchManager.java:204)
+	at org.eclipse.debug.internal.core.LaunchManager.launchConfigurationChanged(LaunchManager.java:2010)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.writeNewFile(LaunchConfigurationWorkingCopy.java:380)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.doSave0(LaunchConfigurationWorkingCopy.java:259)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.doSave(LaunchConfigurationWorkingCopy.java:229)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.doSave(LaunchConfigurationWorkingCopy.java:187)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.enable(MavenRuntimeClasspathProvider.java:398)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.enable(MavenRuntimeClasspathProvider.java:427)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.mavenProjectChanged(MavenLaunchConfigurationListener.java:132)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:888)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:1038)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refresh(ProjectRegistryManager.java:320)
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager.configureNewMavenProjects(ProjectConfigurationManager.java:255)
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager.lambda$1(ProjectConfigurationManager.java:165)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:458)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:339)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:278)
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager.importProjects(ProjectConfigurationManager.java:138)
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager.importProjects(ProjectConfigurationManager.java:129)
+	at org.springframework.ide.eclipse.boot.wizard.importing.MavenStrategy.createEclipseProjectFromExistingMavenProject(MavenStrategy.java:134)
+	at org.springframework.ide.eclipse.boot.wizard.importing.MavenStrategy$MavenCodeSetImport.run(MavenStrategy.java:85)
+	at org.springframework.ide.eclipse.boot.wizard.importing.MavenStrategy$MavenCodeSetImport.run(MavenStrategy.java:1)
+	at org.springframework.ide.eclipse.boot.wizard.NewSpringBootWizardModel.importProject(NewSpringBootWizardModel.java:343)
+	at org.springframework.ide.eclipse.boot.wizard.NewSpringBootWizardModel.performFinish(NewSpringBootWizardModel.java:322)
+	at org.springframework.ide.eclipse.boot.wizard.NewSpringBootWizard$1.runInWorkspace(NewSpringBootWizard.java:239)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:43)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2024-05-16 12:53:01,886 [Worker-45: Import Getting Started Content] ERROR o.e.m.j.i.l.MavenLaunchConfigurationListener - Launch configuration PredictionMode.AltAndContextMap references non-existing project course-api-data.
+org.eclipse.core.runtime.CoreException: Launch configuration PredictionMode.AltAndContextMap references non-existing project course-api-data.
+	at org.eclipse.jdt.launching.JavaRuntime.abort(JavaRuntime.java:1862)
+	at org.eclipse.jdt.launching.JavaRuntime.getJavaProject(JavaRuntime.java:1739)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.updateLaunchConfiguration(MavenLaunchConfigurationListener.java:64)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.launchConfigurationChanged(MavenLaunchConfigurationListener.java:50)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.run(LaunchManager.java:220)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.notify(LaunchManager.java:204)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setDirty(LaunchConfigurationWorkingCopy.java:527)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setAttribute(LaunchConfigurationWorkingCopy.java:415)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.enable(MavenRuntimeClasspathProvider.java:403)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.enable(MavenRuntimeClasspathProvider.java:397)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.enable(MavenRuntimeClasspathProvider.java:427)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.mavenProjectChanged(MavenLaunchConfigurationListener.java:132)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:888)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:1038)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refresh(ProjectRegistryManager.java:320)
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager.configureNewMavenProjects(ProjectConfigurationManager.java:255)
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager.lambda$1(ProjectConfigurationManager.java:165)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:458)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:339)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:278)
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager.importProjects(ProjectConfigurationManager.java:138)
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager.importProjects(ProjectConfigurationManager.java:129)
+	at org.springframework.ide.eclipse.boot.wizard.importing.MavenStrategy.createEclipseProjectFromExistingMavenProject(MavenStrategy.java:134)
+	at org.springframework.ide.eclipse.boot.wizard.importing.MavenStrategy$MavenCodeSetImport.run(MavenStrategy.java:85)
+	at org.springframework.ide.eclipse.boot.wizard.importing.MavenStrategy$MavenCodeSetImport.run(MavenStrategy.java:1)
+	at org.springframework.ide.eclipse.boot.wizard.NewSpringBootWizardModel.importProject(NewSpringBootWizardModel.java:343)
+	at org.springframework.ide.eclipse.boot.wizard.NewSpringBootWizardModel.performFinish(NewSpringBootWizardModel.java:322)
+	at org.springframework.ide.eclipse.boot.wizard.NewSpringBootWizard$1.runInWorkspace(NewSpringBootWizard.java:239)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:43)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2024-05-16 12:53:01,887 [Worker-45: Import Getting Started Content] ERROR o.e.m.j.i.l.MavenLaunchConfigurationListener - Launch configuration PredictionMode.AltAndContextMap references non-existing project course-api-data.
+org.eclipse.core.runtime.CoreException: Launch configuration PredictionMode.AltAndContextMap references non-existing project course-api-data.
+	at org.eclipse.jdt.launching.JavaRuntime.abort(JavaRuntime.java:1862)
+	at org.eclipse.jdt.launching.JavaRuntime.getJavaProject(JavaRuntime.java:1739)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.updateLaunchConfiguration(MavenLaunchConfigurationListener.java:64)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.launchConfigurationChanged(MavenLaunchConfigurationListener.java:50)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.run(LaunchManager.java:220)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.notify(LaunchManager.java:204)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setDirty(LaunchConfigurationWorkingCopy.java:527)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setAttribute(LaunchConfigurationWorkingCopy.java:415)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.enable(MavenRuntimeClasspathProvider.java:404)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.enable(MavenRuntimeClasspathProvider.java:397)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.enable(MavenRuntimeClasspathProvider.java:427)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.mavenProjectChanged(MavenLaunchConfigurationListener.java:132)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:888)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:1038)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refresh(ProjectRegistryManager.java:320)
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager.configureNewMavenProjects(ProjectConfigurationManager.java:255)
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager.lambda$1(ProjectConfigurationManager.java:165)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:458)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:339)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:278)
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager.importProjects(ProjectConfigurationManager.java:138)
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager.importProjects(ProjectConfigurationManager.java:129)
+	at org.springframework.ide.eclipse.boot.wizard.importing.MavenStrategy.createEclipseProjectFromExistingMavenProject(MavenStrategy.java:134)
+	at org.springframework.ide.eclipse.boot.wizard.importing.MavenStrategy$MavenCodeSetImport.run(MavenStrategy.java:85)
+	at org.springframework.ide.eclipse.boot.wizard.importing.MavenStrategy$MavenCodeSetImport.run(MavenStrategy.java:1)
+	at org.springframework.ide.eclipse.boot.wizard.NewSpringBootWizardModel.importProject(NewSpringBootWizardModel.java:343)
+	at org.springframework.ide.eclipse.boot.wizard.NewSpringBootWizardModel.performFinish(NewSpringBootWizardModel.java:322)
+	at org.springframework.ide.eclipse.boot.wizard.NewSpringBootWizard$1.runInWorkspace(NewSpringBootWizard.java:239)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:43)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2024-05-16 12:53:01,897 [Worker-45: Import Getting Started Content] ERROR o.e.m.j.i.l.MavenLaunchConfigurationListener - Launch configuration PredictionMode.AltAndContextMap references non-existing project course-api-data.
+org.eclipse.core.runtime.CoreException: Launch configuration PredictionMode.AltAndContextMap references non-existing project course-api-data.
+	at org.eclipse.jdt.launching.JavaRuntime.abort(JavaRuntime.java:1862)
+	at org.eclipse.jdt.launching.JavaRuntime.getJavaProject(JavaRuntime.java:1739)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.updateLaunchConfiguration(MavenLaunchConfigurationListener.java:64)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.launchConfigurationChanged(MavenLaunchConfigurationListener.java:50)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.run(LaunchManager.java:220)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.notify(LaunchManager.java:204)
+	at org.eclipse.debug.internal.core.LaunchManager.launchConfigurationChanged(LaunchManager.java:2010)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.writeNewFile(LaunchConfigurationWorkingCopy.java:380)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.doSave0(LaunchConfigurationWorkingCopy.java:259)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.doSave(LaunchConfigurationWorkingCopy.java:229)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.doSave(LaunchConfigurationWorkingCopy.java:187)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.enable(MavenRuntimeClasspathProvider.java:398)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.enable(MavenRuntimeClasspathProvider.java:427)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.mavenProjectChanged(MavenLaunchConfigurationListener.java:132)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:888)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:1038)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refresh(ProjectRegistryManager.java:320)
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager.configureNewMavenProjects(ProjectConfigurationManager.java:255)
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager.lambda$1(ProjectConfigurationManager.java:165)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:458)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:339)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:278)
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager.importProjects(ProjectConfigurationManager.java:138)
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager.importProjects(ProjectConfigurationManager.java:129)
+	at org.springframework.ide.eclipse.boot.wizard.importing.MavenStrategy.createEclipseProjectFromExistingMavenProject(MavenStrategy.java:134)
+	at org.springframework.ide.eclipse.boot.wizard.importing.MavenStrategy$MavenCodeSetImport.run(MavenStrategy.java:85)
+	at org.springframework.ide.eclipse.boot.wizard.importing.MavenStrategy$MavenCodeSetImport.run(MavenStrategy.java:1)
+	at org.springframework.ide.eclipse.boot.wizard.NewSpringBootWizardModel.importProject(NewSpringBootWizardModel.java:343)
+	at org.springframework.ide.eclipse.boot.wizard.NewSpringBootWizardModel.performFinish(NewSpringBootWizardModel.java:322)
+	at org.springframework.ide.eclipse.boot.wizard.NewSpringBootWizard$1.runInWorkspace(NewSpringBootWizard.java:239)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:43)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2024-05-16 12:53:01,997 [Worker-45: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /course-api-data/src/main/java
+2024-05-16 12:53:01,998 [Worker-45: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /course-api-data/src/main/resources
+2024-05-16 12:53:02,011 [Worker-45: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /course-api-data/src/main/resources
+2024-05-16 12:53:02,025 [Worker-45: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /course-api-data/src/test/java
+2024-05-16 12:53:02,026 [Worker-45: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /course-api-data/src/test/resources
+2024-05-16 12:53:03,653 [Worker-45: Import Getting Started Content] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 4 sec
+2024-05-16 12:53:03,656 [Worker-45: Import Getting Started Content] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2024-05-16 12:53:04,037 [Worker-45: Import Getting Started Content] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: io.javabrains:course-api-data:0.0.1-SNAPSHOT @ D:\Practice\JavaSpringBootQuickStartSTS\course-api-data\pom.xml.
+2024-05-16 12:53:05,440 [Worker-45: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /course-api-data/src/main/java
+2024-05-16 12:53:05,441 [Worker-45: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /course-api-data/src/main/resources
+2024-05-16 12:53:05,442 [Worker-45: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /course-api-data/src/main/resources
+2024-05-16 12:53:05,443 [Worker-45: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /course-api-data/src/test/java
+2024-05-16 12:53:05,443 [Worker-45: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /course-api-data/src/test/resources
+2024-05-16 12:53:06,198 [Worker-45: Import Getting Started Content] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed for 1 poms: local refresh takes 0.00 sec, refresh facades takes 1.00 sec, update config takes 0.00 sec 
+2024-05-16 12:53:06,692 [Worker-46: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-05-16 12:53:06,707 [Worker-46: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-05-16 12:53:06,711 [Worker-46: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Practice\JavaSpringBootQuickStartSTS\course-api-data\src\test\resources
+2024-05-16 12:54:34,375 [Worker-42: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-05-16 12:54:34,377 [Worker-42: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-05-16 12:54:34,380 [Worker-42: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2024-05-16 12:54:46,329 [Worker-44: Launching CourseApiDataApplication] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: io.javabrains:course-api-data:0.0.1-SNAPSHOT @ D:\Practice\JavaSpringBootQuickStartSTS\course-api-data\pom.xml.
+2024-05-16 12:54:46,832 [Worker-44: Launching CourseApiDataApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-05-16 12:54:46,833 [Worker-44: Launching CourseApiDataApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-05-16 12:54:46,836 [Worker-44: Launching CourseApiDataApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2024-05-16 12:56:58,208 [Worker-43: Rebuilding] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-05-16 12:56:58,218 [Worker-43: Rebuilding] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-05-16 12:56:58,221 [Worker-43: Rebuilding] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2024-05-16 12:56:58,396 [Worker-43: Rebuilding] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-05-16 12:56:58,397 [Worker-43: Rebuilding] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-05-16 12:56:58,400 [Worker-43: Rebuilding] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Practice\JavaSpringBootQuickStartSTS\tmp\src\test\resources
+2024-05-16 12:57:17,504 [Worker-51: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: io.javabrains:course-api-data:0.0.1-SNAPSHOT @ D:\Practice\JavaSpringBootQuickStartSTS\course-api-data\pom.xml.
+2024-05-16 12:57:18,024 [Worker-51: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-05-16 12:57:18,026 [Worker-51: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-05-16 12:57:18,030 [Worker-51: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2024-05-16 12:57:24,809 [Worker-48: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2024-05-16 12:57:25,079 [Worker-48: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: io.javabrains:course-api-data:0.0.1-SNAPSHOT @ D:\Practice\JavaSpringBootQuickStartSTS\course-api-data\pom.xml.
+2024-05-16 12:57:25,510 [Worker-48: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /course-api-data/src/main/java
+2024-05-16 12:57:25,511 [Worker-48: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /course-api-data/src/main/resources
+2024-05-16 12:57:25,511 [Worker-48: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /course-api-data/src/main/resources
+2024-05-16 12:57:25,511 [Worker-48: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /course-api-data/src/test/java
+2024-05-16 12:57:25,513 [Worker-48: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /course-api-data/src/test/resources
+2024-05-16 12:57:26,005 [Worker-48: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed for 1 poms: local refresh takes 0.00 sec, refresh facades takes 0.00 sec, update config takes 0.00 sec 
+2024-05-16 12:57:26,370 [Worker-51: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-05-16 12:57:26,385 [Worker-51: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-05-16 12:57:26,390 [Worker-51: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2024-05-16 12:59:33,354 [Worker-49: Importing Maven projects] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: io.javabrains.springbootquickstart:course-api:0.0.1-SNAPSHOT @ D:\Practice\JavaSpringBootQuickStartSTS\course-api\pom.xml.
+2024-05-16 12:59:36,038 [Worker-49: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /course-api/src/main/java
+2024-05-16 12:59:36,039 [Worker-49: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /course-api/src/main/resources
+2024-05-16 12:59:36,040 [Worker-49: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /course-api/src/main/resources
+2024-05-16 12:59:36,041 [Worker-49: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /course-api/src/test/java
+2024-05-16 12:59:36,041 [Worker-49: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /course-api/src/test/resources
+2024-05-16 12:59:36,226 [Worker-49: Importing Maven projects] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 6 sec
+2024-05-16 12:59:36,256 [Worker-53: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2024-05-16 12:59:36,809 [Worker-53: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: io.javabrains.springbootquickstart:course-api:0.0.1-SNAPSHOT @ D:\Practice\JavaSpringBootQuickStartSTS\course-api\pom.xml.
+2024-05-16 12:59:37,278 [Worker-53: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /course-api/src/main/java
+2024-05-16 12:59:37,279 [Worker-53: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /course-api/src/main/resources
+2024-05-16 12:59:37,280 [Worker-53: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /course-api/src/main/resources
+2024-05-16 12:59:37,281 [Worker-53: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /course-api/src/test/java
+2024-05-16 12:59:37,281 [Worker-53: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /course-api/src/test/resources
+2024-05-16 12:59:37,557 [Worker-53: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed for 1 poms: local refresh takes 0.00 sec, refresh facades takes 0.00 sec, update config takes 0.00 sec 
+2024-05-16 12:59:37,779 [Worker-51: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-05-16 12:59:37,780 [Worker-51: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2024-05-16 12:59:37,805 [Worker-51: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2024-05-16 12:59:37,816 [Worker-51: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-05-16 12:59:37,816 [Worker-51: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2024-05-16 12:59:39,857 [Worker-51: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-05-16 12:59:39,859 [Worker-51: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-05-16 12:59:39,863 [Worker-51: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2024-05-16 12:59:42,306 [Worker-58: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-05-16 12:59:42,308 [Worker-58: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-05-16 12:59:42,310 [Worker-58: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2024-05-16 12:59:54,663 [Worker-48: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-05-16 12:59:54,665 [Worker-48: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-05-16 12:59:54,669 [Worker-48: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2024-05-16 13:00:00,870 [Worker-55: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-05-16 13:00:00,873 [Worker-55: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-05-16 13:00:00,877 [Worker-55: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2024-05-16 13:27:01,330 [Worker-50: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-05-16 13:27:01,331 [Worker-50: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2024-05-16 13:27:01,342 [Worker-50: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2024-05-16 13:27:01,345 [Worker-50: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-05-16 13:27:01,346 [Worker-50: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2024-05-16 13:27:05,845 [Worker-50: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-05-16 13:27:05,858 [Worker-50: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-05-16 13:27:05,862 [Worker-50: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2024-05-16 13:27:06,125 [Worker-50: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-05-16 13:27:06,148 [Worker-50: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-05-16 13:27:06,152 [Worker-50: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Practice\JavaSpringBootQuickStartSTS\tmp\src\test\resources
+2024-05-16 20:05:40,168 [Worker-5: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2024-05-16 20:06:01,496 [Worker-15: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-05-16 20:06:01,507 [Worker-15: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2024-05-16 20:06:01,556 [Worker-15: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2024-05-16 20:06:01,564 [Worker-15: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-05-16 20:06:01,565 [Worker-15: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2024-05-16 20:06:20,776 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-05-16 20:06:20,821 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-05-16 20:06:20,829 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Practice\JavaSpringBootQuickStartSTS\tmp\src\test\resources
+2024-05-16 20:09:27,183 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-05-16 20:09:27,241 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-05-16 20:09:27,250 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2024-05-16 23:44:28,287 [Worker-27: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-05-16 23:44:28,290 [Worker-27: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2024-05-16 23:44:28,296 [Worker-27: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2024-05-16 23:44:28,298 [Worker-27: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-05-16 23:44:28,299 [Worker-27: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2024-05-16 23:46:26,323 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-05-16 23:46:26,325 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2024-05-16 23:46:26,327 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2024-05-16 23:46:26,330 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-05-16 23:46:26,331 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2024-05-16 23:46:37,947 [Worker-29: Building Workspace] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-05-16 23:46:37,957 [Worker-29: Building Workspace] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-05-16 23:46:37,960 [Worker-29: Building Workspace] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2024-05-16 23:46:44,032 [Worker-35: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-05-16 23:46:44,033 [Worker-35: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2024-05-16 23:46:44,035 [Worker-35: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2024-05-16 23:46:44,038 [Worker-35: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-05-16 23:46:44,038 [Worker-35: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2024-05-16 23:48:10,636 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-05-16 23:48:10,639 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-05-16 23:48:10,641 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2024-05-16 23:49:30,263 [Worker-31: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-05-16 23:49:30,269 [Worker-31: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-05-16 23:49:30,273 [Worker-31: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2024-05-16 23:50:51,171 [Worker-29: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-05-16 23:50:51,176 [Worker-29: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-05-16 23:50:51,179 [Worker-29: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2024-05-17 00:45:09,684 [Worker-40: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-05-17 00:45:09,706 [Worker-40: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-05-17 00:45:09,711 [Worker-40: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2024-05-17 00:49:06,521 [Worker-43: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-05-17 00:49:06,526 [Worker-43: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-05-17 00:49:06,529 [Worker-43: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2024-05-17 00:53:02,505 [Worker-47: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-05-17 00:53:02,510 [Worker-47: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-05-17 00:53:02,513 [Worker-47: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2024-05-17 00:54:28,170 [Worker-48: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-05-17 00:54:28,174 [Worker-48: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-05-17 00:54:28,178 [Worker-48: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2024-05-17 00:55:06,229 [Worker-46: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-05-17 00:55:06,234 [Worker-46: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-05-17 00:55:06,237 [Worker-46: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2024-05-17 00:55:33,714 [Worker-47: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-05-17 00:55:33,717 [Worker-47: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-05-17 00:55:33,719 [Worker-47: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2024-05-17 00:57:49,046 [Worker-49: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-05-17 00:57:49,050 [Worker-49: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-05-17 00:57:49,054 [Worker-49: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2024-05-17 00:59:38,846 [Worker-50: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-05-17 00:59:38,850 [Worker-50: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-05-17 00:59:38,853 [Worker-50: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2024-05-17 01:00:17,769 [Worker-47: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-05-17 01:00:17,772 [Worker-47: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-05-17 01:00:17,776 [Worker-47: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2024-05-17 01:04:42,457 [Worker-52: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-05-17 01:04:42,463 [Worker-52: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-05-17 01:04:42,467 [Worker-52: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2024-05-17 01:05:04,854 [Worker-52: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-05-17 01:05:04,857 [Worker-52: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-05-17 01:05:04,860 [Worker-52: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2024-05-17 01:05:18,569 [Worker-53: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-05-17 01:05:18,572 [Worker-53: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-05-17 01:05:18,576 [Worker-53: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2024-05-17 01:05:26,594 [Worker-52: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-05-17 01:05:26,596 [Worker-52: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-05-17 01:05:26,598 [Worker-52: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2024-05-17 01:05:37,495 [Worker-52: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-05-17 01:05:37,498 [Worker-52: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-05-17 01:05:37,503 [Worker-52: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2024-05-17 01:07:22,914 [Worker-53: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-05-17 01:07:22,918 [Worker-53: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-05-17 01:07:22,921 [Worker-53: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2024-05-17 01:08:01,847 [Worker-43: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-05-17 01:08:01,850 [Worker-43: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-05-17 01:08:01,853 [Worker-43: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2024-05-17 01:11:51,023 [Worker-55: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-05-17 01:11:51,035 [Worker-55: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-05-17 01:11:51,037 [Worker-55: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2024-05-17 01:12:00,605 [Worker-43: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-05-17 01:12:00,610 [Worker-43: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-05-17 01:12:00,614 [Worker-43: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2024-05-17 01:12:18,569 [Worker-43: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-05-17 01:12:18,575 [Worker-43: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-05-17 01:12:18,579 [Worker-43: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2024-05-17 01:12:23,729 [Worker-43: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-05-17 01:12:23,732 [Worker-43: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-05-17 01:12:23,734 [Worker-43: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2024-05-17 01:12:54,712 [Worker-56: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-05-17 01:12:54,716 [Worker-56: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-05-17 01:12:54,719 [Worker-56: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2024-05-17 20:36:58,983 [Worker-105: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-05-17 20:36:58,993 [Worker-105: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-05-17 20:36:58,996 [Worker-105: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2024-05-17 20:38:55,146 [Worker-118: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-05-17 20:38:55,150 [Worker-118: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-05-17 20:38:55,154 [Worker-118: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2024-05-17 20:39:04,750 [Worker-116: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-05-17 20:39:04,754 [Worker-116: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-05-17 20:39:04,757 [Worker-116: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2024-05-17 20:40:14,601 [Worker-120: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-05-17 20:40:14,619 [Worker-120: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-05-17 20:40:14,622 [Worker-120: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2024-05-17 22:14:26,516 [Worker-128: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-05-17 22:14:26,528 [Worker-128: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-05-17 22:14:26,531 [Worker-128: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2024-05-17 22:22:15,394 [Worker-135: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-05-17 22:22:15,409 [Worker-135: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-05-17 22:22:15,412 [Worker-135: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2024-05-17 22:26:06,984 [Worker-138: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-05-17 22:26:06,987 [Worker-138: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-05-17 22:26:06,990 [Worker-138: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2024-05-17 22:27:02,620 [Worker-139: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-05-17 22:27:02,624 [Worker-139: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-05-17 22:27:02,627 [Worker-139: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2024-05-17 22:27:40,896 [Worker-137: Launching CourseApiDataApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-05-17 22:27:40,901 [Worker-137: Launching CourseApiDataApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-05-17 22:27:40,905 [Worker-137: Launching CourseApiDataApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2024-05-17 22:36:59,431 [Worker-135: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-05-17 22:36:59,436 [Worker-135: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-05-17 22:36:59,439 [Worker-135: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2024-05-17 22:37:32,234 [Worker-143: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-05-17 22:37:32,240 [Worker-143: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-05-17 22:37:32,244 [Worker-143: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2024-05-17 23:27:48,898 [Worker-155: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-05-17 23:27:48,899 [Worker-155: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-05-17 23:27:48,902 [Worker-155: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2024-05-17 23:29:04,078 [Worker-4: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2024-05-17 23:29:10,560 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-05-17 23:29:10,564 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2024-05-17 23:29:10,587 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2024-05-17 23:29:10,594 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-05-17 23:29:10,595 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2024-05-17 23:29:19,240 [Worker-10: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-05-17 23:29:19,283 [Worker-10: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-05-17 23:29:19,291 [Worker-10: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Practice\JavaSpringBootQuickStartSTS\tmp\src\test\resources
+2024-05-17 23:39:03,239 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-05-17 23:39:03,258 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-05-17 23:39:03,263 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2024-05-17 23:39:52,296 [Worker-8: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: io.javabrains:course-api-data:0.0.1-SNAPSHOT @ D:\Practice\JavaSpringBootQuickStartSTS\course-api-data\pom.xml.
+2024-05-17 23:39:52,712 [Worker-8: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-actuator/3.2.5/spring-boot-starter-actuator-3.2.5.pom
+2024-05-17 23:39:52,742 [Worker-8: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-actuator/3.2.5/spring-boot-starter-actuator-3.2.5.pom
+2024-05-17 23:39:52,771 [Worker-8: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-actuator-autoconfigure/3.2.5/spring-boot-actuator-autoconfigure-3.2.5.pom
+2024-05-17 23:39:52,797 [Worker-8: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-actuator-autoconfigure/3.2.5/spring-boot-actuator-autoconfigure-3.2.5.pom
+2024-05-17 23:39:52,825 [Worker-8: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-actuator/3.2.5/spring-boot-actuator-3.2.5.pom
+2024-05-17 23:39:52,851 [Worker-8: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-actuator/3.2.5/spring-boot-actuator-3.2.5.pom
+2024-05-17 23:39:52,881 [Worker-8: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/micrometer/micrometer-jakarta9/1.12.5/micrometer-jakarta9-1.12.5.pom
+2024-05-17 23:39:52,929 [Worker-8: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/micrometer/micrometer-jakarta9/1.12.5/micrometer-jakarta9-1.12.5.pom
+2024-05-17 23:39:52,967 [Worker-8: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/micrometer/micrometer-core/1.12.5/micrometer-core-1.12.5.pom
+2024-05-17 23:39:53,003 [Worker-8: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/micrometer/micrometer-core/1.12.5/micrometer-core-1.12.5.pom
+2024-05-17 23:39:53,042 [Worker-8: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/hdrhistogram/HdrHistogram/2.1.12/HdrHistogram-2.1.12.pom
+2024-05-17 23:39:53,065 [Worker-8: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/hdrhistogram/HdrHistogram/2.1.12/HdrHistogram-2.1.12.pom
+2024-05-17 23:39:53,100 [Worker-8: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/latencyutils/LatencyUtils/2.0.3/LatencyUtils-2.0.3.pom
+2024-05-17 23:39:53,122 [Worker-8: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/latencyutils/LatencyUtils/2.0.3/LatencyUtils-2.0.3.pom
+2024-05-17 23:39:53,293 [Worker-8: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-actuator/3.2.5/spring-boot-starter-actuator-3.2.5.jar
+2024-05-17 23:39:53,341 [Worker-8: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-actuator/3.2.5/spring-boot-starter-actuator-3.2.5.jar
+2024-05-17 23:39:53,366 [BasicRepositoryConnector-repo.maven.apache.org-0-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-actuator/3.2.5/spring-boot-actuator-3.2.5.jar
+2024-05-17 23:39:53,421 [BasicRepositoryConnector-repo.maven.apache.org-0-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-actuator-autoconfigure/3.2.5/spring-boot-actuator-autoconfigure-3.2.5.jar
+2024-05-17 23:39:53,421 [BasicRepositoryConnector-repo.maven.apache.org-0-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/hdrhistogram/HdrHistogram/2.1.12/HdrHistogram-2.1.12.jar
+2024-05-17 23:39:53,423 [BasicRepositoryConnector-repo.maven.apache.org-0-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/micrometer/micrometer-core/1.12.5/micrometer-core-1.12.5.jar
+2024-05-17 23:39:53,423 [BasicRepositoryConnector-repo.maven.apache.org-0-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/micrometer/micrometer-jakarta9/1.12.5/micrometer-jakarta9-1.12.5.jar
+2024-05-17 23:39:53,522 [BasicRepositoryConnector-repo.maven.apache.org-0-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/hdrhistogram/HdrHistogram/2.1.12/HdrHistogram-2.1.12.jar
+2024-05-17 23:39:53,528 [BasicRepositoryConnector-repo.maven.apache.org-0-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-actuator/3.2.5/spring-boot-actuator-3.2.5.jar
+2024-05-17 23:39:53,549 [BasicRepositoryConnector-repo.maven.apache.org-0-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/latencyutils/LatencyUtils/2.0.3/LatencyUtils-2.0.3.jar
+2024-05-17 23:39:53,587 [BasicRepositoryConnector-repo.maven.apache.org-0-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-actuator-autoconfigure/3.2.5/spring-boot-actuator-autoconfigure-3.2.5.jar
+2024-05-17 23:39:53,605 [BasicRepositoryConnector-repo.maven.apache.org-0-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/micrometer/micrometer-core/1.12.5/micrometer-core-1.12.5.jar
+2024-05-17 23:39:53,855 [BasicRepositoryConnector-repo.maven.apache.org-0-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/micrometer/micrometer-jakarta9/1.12.5/micrometer-jakarta9-1.12.5.jar
+2024-05-17 23:39:53,876 [BasicRepositoryConnector-repo.maven.apache.org-0-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/latencyutils/LatencyUtils/2.0.3/LatencyUtils-2.0.3.jar
+2024-05-17 23:39:54,686 [Worker-8: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-05-17 23:39:54,687 [Worker-8: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-05-17 23:39:54,692 [Worker-8: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2024-05-17 23:39:55,600 [Worker-19: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-actuator/3.2.5/spring-boot-starter-actuator-3.2.5-sources.jar
+2024-05-17 23:39:55,672 [Worker-19: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-actuator/3.2.5/spring-boot-starter-actuator-3.2.5-sources.jar
+2024-05-17 23:39:55,679 [Worker-19: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework.boot:spring-boot-starter-actuator:3.2.5
+2024-05-17 23:39:55,760 [Worker-19: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-actuator-autoconfigure/3.2.5/spring-boot-actuator-autoconfigure-3.2.5-sources.jar
+2024-05-17 23:39:55,865 [Worker-19: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-actuator-autoconfigure/3.2.5/spring-boot-actuator-autoconfigure-3.2.5-sources.jar
+2024-05-17 23:39:55,875 [Worker-19: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework.boot:spring-boot-actuator-autoconfigure:3.2.5
+2024-05-17 23:39:55,955 [Worker-19: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-actuator/3.2.5/spring-boot-actuator-3.2.5-sources.jar
+2024-05-17 23:39:56,234 [Worker-19: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-actuator/3.2.5/spring-boot-actuator-3.2.5-sources.jar
+2024-05-17 23:39:56,242 [Worker-19: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework.boot:spring-boot-actuator:3.2.5
+2024-05-17 23:39:56,322 [Worker-19: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/micrometer/micrometer-jakarta9/1.12.5/micrometer-jakarta9-1.12.5-sources.jar
+2024-05-17 23:39:56,650 [Worker-19: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/micrometer/micrometer-jakarta9/1.12.5/micrometer-jakarta9-1.12.5-sources.jar
+2024-05-17 23:39:56,655 [Worker-19: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for io.micrometer:micrometer-jakarta9:1.12.5
+2024-05-17 23:39:56,733 [Worker-19: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/micrometer/micrometer-core/1.12.5/micrometer-core-1.12.5-sources.jar
+2024-05-17 23:39:56,885 [Worker-19: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/micrometer/micrometer-core/1.12.5/micrometer-core-1.12.5-sources.jar
+2024-05-17 23:39:56,901 [Worker-19: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for io.micrometer:micrometer-core:1.12.5
+2024-05-17 23:39:56,986 [Worker-19: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/hdrhistogram/HdrHistogram/2.1.12/HdrHistogram-2.1.12-sources.jar
+2024-05-17 23:39:57,462 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-05-17 23:39:57,483 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-05-17 23:39:57,490 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2024-05-17 23:39:57,672 [Worker-19: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/hdrhistogram/HdrHistogram/2.1.12/HdrHistogram-2.1.12-sources.jar
+2024-05-17 23:39:57,679 [Worker-19: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.hdrhistogram:HdrHistogram:2.1.12
+2024-05-17 23:39:57,753 [Worker-19: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/latencyutils/LatencyUtils/2.0.3/LatencyUtils-2.0.3-sources.jar
+2024-05-17 23:39:58,175 [Worker-19: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/latencyutils/LatencyUtils/2.0.3/LatencyUtils-2.0.3-sources.jar
+2024-05-17 23:39:58,181 [Worker-19: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.latencyutils:LatencyUtils:2.0.3
+2024-05-17 23:40:04,812 [Worker-15: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2024-05-17 23:40:05,127 [Worker-15: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: io.javabrains:course-api-data:0.0.1-SNAPSHOT @ D:\Practice\JavaSpringBootQuickStartSTS\course-api-data\pom.xml.
+2024-05-17 23:40:05,905 [Worker-15: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /course-api-data/src/main/java
+2024-05-17 23:40:05,907 [Worker-15: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /course-api-data/src/main/resources
+2024-05-17 23:40:05,907 [Worker-15: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /course-api-data/src/main/resources
+2024-05-17 23:40:05,908 [Worker-15: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /course-api-data/src/test/java
+2024-05-17 23:40:05,908 [Worker-15: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /course-api-data/src/test/resources
+2024-05-17 23:40:06,432 [Worker-15: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed for 1 poms: local refresh takes 0.00 sec, refresh facades takes 0.00 sec, update config takes 0.00 sec 
+2024-05-17 23:40:06,984 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-05-17 23:40:06,997 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-05-17 23:40:07,002 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2024-05-17 23:48:25,727 [Worker-23: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2024-05-17 23:48:26,045 [Worker-23: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: io.javabrains:course-api-data:0.0.1-SNAPSHOT @ D:\Practice\JavaSpringBootQuickStartSTS\course-api-data\pom.xml.
+2024-05-17 23:48:26,811 [Worker-23: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /course-api-data/src/main/java
+2024-05-17 23:48:26,812 [Worker-23: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /course-api-data/src/main/resources
+2024-05-17 23:48:26,812 [Worker-23: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /course-api-data/src/main/resources
+2024-05-17 23:48:26,813 [Worker-23: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /course-api-data/src/test/java
+2024-05-17 23:48:26,814 [Worker-23: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /course-api-data/src/test/resources
+2024-05-17 23:48:27,308 [Worker-23: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed for 1 poms: local refresh takes 0.00 sec, refresh facades takes 1.00 sec, update config takes 0.00 sec 
+2024-05-17 23:48:27,802 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-05-17 23:48:27,818 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-05-17 23:48:27,824 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2024-05-17 23:49:35,304 [Worker-21: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2024-05-17 23:49:35,584 [Worker-21: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: io.javabrains:course-api-data:0.0.1-SNAPSHOT @ D:\Practice\JavaSpringBootQuickStartSTS\course-api-data\pom.xml.
+2024-05-17 23:49:36,204 [Worker-21: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /course-api-data/src/main/java
+2024-05-17 23:49:36,205 [Worker-21: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /course-api-data/src/main/resources
+2024-05-17 23:49:36,205 [Worker-21: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /course-api-data/src/main/resources
+2024-05-17 23:49:36,206 [Worker-21: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /course-api-data/src/test/java
+2024-05-17 23:49:36,206 [Worker-21: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /course-api-data/src/test/resources
+2024-05-17 23:49:36,626 [Worker-21: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed for 1 poms: local refresh takes 0.00 sec, refresh facades takes 0.00 sec, update config takes 0.00 sec 
+2024-05-17 23:49:37,057 [Worker-21: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-05-17 23:49:37,066 [Worker-21: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-05-17 23:49:37,069 [Worker-21: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2024-05-17 23:49:40,952 [Worker-16: Launching CourseApiDataApplication] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: io.javabrains:course-api-data:0.0.1-SNAPSHOT @ D:\Practice\JavaSpringBootQuickStartSTS\course-api-data\pom.xml.
+2024-05-17 23:49:41,602 [Worker-16: Launching CourseApiDataApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-05-17 23:49:41,603 [Worker-16: Launching CourseApiDataApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-05-17 23:49:41,607 [Worker-16: Launching CourseApiDataApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2024-05-17 23:49:42,035 [Worker-25: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-05-17 23:49:42,044 [Worker-25: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-05-17 23:49:42,047 [Worker-25: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2024-05-17 23:51:32,728 [Worker-21: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-05-17 23:51:32,739 [Worker-21: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-05-17 23:51:32,746 [Worker-21: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2024-05-17 23:53:29,490 [Worker-22: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-05-17 23:53:29,495 [Worker-22: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-05-17 23:53:29,498 [Worker-22: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2024-05-17 23:55:10,390 [Worker-28: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-05-17 23:55:10,394 [Worker-28: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-05-17 23:55:10,396 [Worker-28: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2024-05-19 00:04:02,999 [Worker-1: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2024-05-19 00:04:17,990 [Worker-7: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-05-19 00:04:18,021 [Worker-7: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-05-19 00:04:18,027 [Worker-7: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2024-05-19 00:04:54,823 [Worker-8: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-05-19 00:04:54,835 [Worker-8: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-05-19 00:04:54,839 [Worker-8: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2024-05-19 00:07:09,962 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-05-19 00:07:09,964 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-05-19 00:07:09,969 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2024-05-19 00:07:21,645 [Worker-1: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-05-19 00:07:21,646 [Worker-1: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-05-19 00:07:21,652 [Worker-1: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2024-05-19 00:12:19,232 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-05-19 00:12:19,238 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-05-19 00:12:19,242 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2024-05-22 20:36:50,603 [Worker-4: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2024-05-22 20:36:59,827 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-05-22 20:36:59,832 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2024-05-22 20:36:59,852 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2024-05-22 20:36:59,857 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-05-22 20:36:59,858 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2024-05-22 21:08:39,709 [Worker-3: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-05-22 21:08:39,727 [Worker-3: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-05-22 21:08:39,732 [Worker-3: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2024-05-22 21:12:01,008 [Worker-13: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-05-22 21:12:01,011 [Worker-13: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-05-22 21:12:01,015 [Worker-13: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes

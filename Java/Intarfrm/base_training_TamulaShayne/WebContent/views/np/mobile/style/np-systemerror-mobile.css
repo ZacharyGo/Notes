@@ -1,0 +1,7 @@
+﻿@charset "utf-8";
+
+.ifm-debug-info {
+	width: 95%;
+	margin: 5px auto;
+	z-index: 1;
+}

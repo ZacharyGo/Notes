@@ -1,0 +1,1801 @@
+﻿/* ---------------------------------------------------------------------- */
+-- テーブル作成DDL(ORACLE用)
+-- ファイル名：ED4445T_TBL.sql
+-- 物理名：ED4445T_TBL
+-- 論理名：詳細積算稼働表配置ポストカラーテーブル
+/* ---------------------------------------------------------------------- */
+
+--/
+--DROP TABLE ED4445T_TBL CASCADE CONSTRAINTS;
+--/
+ALTER SESSION SET NLS_LENGTH_SEMANTICS='CHAR';
+CREATE TABLE ED4445T_TBL (
+	 KAISHA_CD  CHAR(5) NOT NULL --「会社コード」
+	,SHOSAI_SEKISAN_NO  CHAR(17) NOT NULL --「詳細積算番号」
+	,SHSI_SKSN_KDHY_HICH_POST_SN  CHAR(14) NOT NULL --「詳細積算稼働表配置ポスト連番」
+	,SSI_SKSN_KDH_HIC_POST_YIN_SN  CHAR(14) NOT NULL --「詳細積算稼働表配置ポスト要員連番」
+	,HAICHI_POST_NM_0900  VARCHAR2(30) --「配置ポスト名称０９００」
+	,HAICHI_POST_NM_0905  VARCHAR2(30) --「配置ポスト名称０９０５」
+	,HAICHI_POST_NM_0910  VARCHAR2(30) --「配置ポスト名称０９１０」
+	,HAICHI_POST_NM_0915  VARCHAR2(30) --「配置ポスト名称０９１５」
+	,HAICHI_POST_NM_0920  VARCHAR2(30) --「配置ポスト名称０９２０」
+	,HAICHI_POST_NM_0925  VARCHAR2(30) --「配置ポスト名称０９２５」
+	,HAICHI_POST_NM_0930  VARCHAR2(30) --「配置ポスト名称０９３０」
+	,HAICHI_POST_NM_0935  VARCHAR2(30) --「配置ポスト名称０９３５」
+	,HAICHI_POST_NM_0940  VARCHAR2(30) --「配置ポスト名称０９４０」
+	,HAICHI_POST_NM_0945  VARCHAR2(30) --「配置ポスト名称０９４５」
+	,HAICHI_POST_NM_0950  VARCHAR2(30) --「配置ポスト名称０９５０」
+	,HAICHI_POST_NM_0955  VARCHAR2(30) --「配置ポスト名称０９５５」
+	,HAICHI_POST_NM_1000  VARCHAR2(30) --「配置ポスト名称１０００」
+	,HAICHI_POST_NM_1005  VARCHAR2(30) --「配置ポスト名称１００５」
+	,HAICHI_POST_NM_1010  VARCHAR2(30) --「配置ポスト名称１０１０」
+	,HAICHI_POST_NM_1015  VARCHAR2(30) --「配置ポスト名称１０１５」
+	,HAICHI_POST_NM_1020  VARCHAR2(30) --「配置ポスト名称１０２０」
+	,HAICHI_POST_NM_1025  VARCHAR2(30) --「配置ポスト名称１０２５」
+	,HAICHI_POST_NM_1030  VARCHAR2(30) --「配置ポスト名称１０３０」
+	,HAICHI_POST_NM_1035  VARCHAR2(30) --「配置ポスト名称１０３５」
+	,HAICHI_POST_NM_1040  VARCHAR2(30) --「配置ポスト名称１０４０」
+	,HAICHI_POST_NM_1045  VARCHAR2(30) --「配置ポスト名称１０４５」
+	,HAICHI_POST_NM_1050  VARCHAR2(30) --「配置ポスト名称１０５０」
+	,HAICHI_POST_NM_1055  VARCHAR2(30) --「配置ポスト名称１０５５」
+	,HAICHI_POST_NM_1100  VARCHAR2(30) --「配置ポスト名称１１００」
+	,HAICHI_POST_NM_1105  VARCHAR2(30) --「配置ポスト名称１１０５」
+	,HAICHI_POST_NM_1110  VARCHAR2(30) --「配置ポスト名称１１１０」
+	,HAICHI_POST_NM_1115  VARCHAR2(30) --「配置ポスト名称１１１５」
+	,HAICHI_POST_NM_1120  VARCHAR2(30) --「配置ポスト名称１１２０」
+	,HAICHI_POST_NM_1125  VARCHAR2(30) --「配置ポスト名称１１２５」
+	,HAICHI_POST_NM_1130  VARCHAR2(30) --「配置ポスト名称１１３０」
+	,HAICHI_POST_NM_1135  VARCHAR2(30) --「配置ポスト名称１１３５」
+	,HAICHI_POST_NM_1140  VARCHAR2(30) --「配置ポスト名称１１４０」
+	,HAICHI_POST_NM_1145  VARCHAR2(30) --「配置ポスト名称１１４５」
+	,HAICHI_POST_NM_1150  VARCHAR2(30) --「配置ポスト名称１１５０」
+	,HAICHI_POST_NM_1155  VARCHAR2(30) --「配置ポスト名称１１５５」
+	,HAICHI_POST_NM_1200  VARCHAR2(30) --「配置ポスト名称１２００」
+	,HAICHI_POST_NM_1205  VARCHAR2(30) --「配置ポスト名称１２０５」
+	,HAICHI_POST_NM_1210  VARCHAR2(30) --「配置ポスト名称１２１０」
+	,HAICHI_POST_NM_1215  VARCHAR2(30) --「配置ポスト名称１２１５」
+	,HAICHI_POST_NM_1220  VARCHAR2(30) --「配置ポスト名称１２２０」
+	,HAICHI_POST_NM_1225  VARCHAR2(30) --「配置ポスト名称１２２５」
+	,HAICHI_POST_NM_1230  VARCHAR2(30) --「配置ポスト名称１２３０」
+	,HAICHI_POST_NM_1235  VARCHAR2(30) --「配置ポスト名称１２３５」
+	,HAICHI_POST_NM_1240  VARCHAR2(30) --「配置ポスト名称１２４０」
+	,HAICHI_POST_NM_1245  VARCHAR2(30) --「配置ポスト名称１２４５」
+	,HAICHI_POST_NM_1250  VARCHAR2(30) --「配置ポスト名称１２５０」
+	,HAICHI_POST_NM_1255  VARCHAR2(30) --「配置ポスト名称１２５５」
+	,HAICHI_POST_NM_1300  VARCHAR2(30) --「配置ポスト名称１３００」
+	,HAICHI_POST_NM_1305  VARCHAR2(30) --「配置ポスト名称１３０５」
+	,HAICHI_POST_NM_1310  VARCHAR2(30) --「配置ポスト名称１３１０」
+	,HAICHI_POST_NM_1315  VARCHAR2(30) --「配置ポスト名称１３１５」
+	,HAICHI_POST_NM_1320  VARCHAR2(30) --「配置ポスト名称１３２０」
+	,HAICHI_POST_NM_1325  VARCHAR2(30) --「配置ポスト名称１３２５」
+	,HAICHI_POST_NM_1330  VARCHAR2(30) --「配置ポスト名称１３３０」
+	,HAICHI_POST_NM_1335  VARCHAR2(30) --「配置ポスト名称１３３５」
+	,HAICHI_POST_NM_1340  VARCHAR2(30) --「配置ポスト名称１３４０」
+	,HAICHI_POST_NM_1345  VARCHAR2(30) --「配置ポスト名称１３４５」
+	,HAICHI_POST_NM_1350  VARCHAR2(30) --「配置ポスト名称１３５０」
+	,HAICHI_POST_NM_1355  VARCHAR2(30) --「配置ポスト名称１３５５」
+	,HAICHI_POST_NM_1400  VARCHAR2(30) --「配置ポスト名称１４００」
+	,HAICHI_POST_NM_1405  VARCHAR2(30) --「配置ポスト名称１４０５」
+	,HAICHI_POST_NM_1410  VARCHAR2(30) --「配置ポスト名称１４１０」
+	,HAICHI_POST_NM_1415  VARCHAR2(30) --「配置ポスト名称１４１５」
+	,HAICHI_POST_NM_1420  VARCHAR2(30) --「配置ポスト名称１４２０」
+	,HAICHI_POST_NM_1425  VARCHAR2(30) --「配置ポスト名称１４２５」
+	,HAICHI_POST_NM_1430  VARCHAR2(30) --「配置ポスト名称１４３０」
+	,HAICHI_POST_NM_1435  VARCHAR2(30) --「配置ポスト名称１４３５」
+	,HAICHI_POST_NM_1440  VARCHAR2(30) --「配置ポスト名称１４４０」
+	,HAICHI_POST_NM_1445  VARCHAR2(30) --「配置ポスト名称１４４５」
+	,HAICHI_POST_NM_1450  VARCHAR2(30) --「配置ポスト名称１４５０」
+	,HAICHI_POST_NM_1455  VARCHAR2(30) --「配置ポスト名称１４５５」
+	,HAICHI_POST_NM_1500  VARCHAR2(30) --「配置ポスト名称１５００」
+	,HAICHI_POST_NM_1505  VARCHAR2(30) --「配置ポスト名称１５０５」
+	,HAICHI_POST_NM_1510  VARCHAR2(30) --「配置ポスト名称１５１０」
+	,HAICHI_POST_NM_1515  VARCHAR2(30) --「配置ポスト名称１５１５」
+	,HAICHI_POST_NM_1520  VARCHAR2(30) --「配置ポスト名称１５２０」
+	,HAICHI_POST_NM_1525  VARCHAR2(30) --「配置ポスト名称１５２５」
+	,HAICHI_POST_NM_1530  VARCHAR2(30) --「配置ポスト名称１５３０」
+	,HAICHI_POST_NM_1535  VARCHAR2(30) --「配置ポスト名称１５３５」
+	,HAICHI_POST_NM_1540  VARCHAR2(30) --「配置ポスト名称１５４０」
+	,HAICHI_POST_NM_1545  VARCHAR2(30) --「配置ポスト名称１５４５」
+	,HAICHI_POST_NM_1550  VARCHAR2(30) --「配置ポスト名称１５５０」
+	,HAICHI_POST_NM_1555  VARCHAR2(30) --「配置ポスト名称１５５５」
+	,HAICHI_POST_NM_1600  VARCHAR2(30) --「配置ポスト名称１６００」
+	,HAICHI_POST_NM_1605  VARCHAR2(30) --「配置ポスト名称１６０５」
+	,HAICHI_POST_NM_1610  VARCHAR2(30) --「配置ポスト名称１６１０」
+	,HAICHI_POST_NM_1615  VARCHAR2(30) --「配置ポスト名称１６１５」
+	,HAICHI_POST_NM_1620  VARCHAR2(30) --「配置ポスト名称１６２０」
+	,HAICHI_POST_NM_1625  VARCHAR2(30) --「配置ポスト名称１６２５」
+	,HAICHI_POST_NM_1630  VARCHAR2(30) --「配置ポスト名称１６３０」
+	,HAICHI_POST_NM_1635  VARCHAR2(30) --「配置ポスト名称１６３５」
+	,HAICHI_POST_NM_1640  VARCHAR2(30) --「配置ポスト名称１６４０」
+	,HAICHI_POST_NM_1645  VARCHAR2(30) --「配置ポスト名称１６４５」
+	,HAICHI_POST_NM_1650  VARCHAR2(30) --「配置ポスト名称１６５０」
+	,HAICHI_POST_NM_1655  VARCHAR2(30) --「配置ポスト名称１６５５」
+	,HAICHI_POST_NM_1700  VARCHAR2(30) --「配置ポスト名称１７００」
+	,HAICHI_POST_NM_1705  VARCHAR2(30) --「配置ポスト名称１７０５」
+	,HAICHI_POST_NM_1710  VARCHAR2(30) --「配置ポスト名称１７１０」
+	,HAICHI_POST_NM_1715  VARCHAR2(30) --「配置ポスト名称１７１５」
+	,HAICHI_POST_NM_1720  VARCHAR2(30) --「配置ポスト名称１７２０」
+	,HAICHI_POST_NM_1725  VARCHAR2(30) --「配置ポスト名称１７２５」
+	,HAICHI_POST_NM_1730  VARCHAR2(30) --「配置ポスト名称１７３０」
+	,HAICHI_POST_NM_1735  VARCHAR2(30) --「配置ポスト名称１７３５」
+	,HAICHI_POST_NM_1740  VARCHAR2(30) --「配置ポスト名称１７４０」
+	,HAICHI_POST_NM_1745  VARCHAR2(30) --「配置ポスト名称１７４５」
+	,HAICHI_POST_NM_1750  VARCHAR2(30) --「配置ポスト名称１７５０」
+	,HAICHI_POST_NM_1755  VARCHAR2(30) --「配置ポスト名称１７５５」
+	,HAICHI_POST_NM_1800  VARCHAR2(30) --「配置ポスト名称１８００」
+	,HAICHI_POST_NM_1805  VARCHAR2(30) --「配置ポスト名称１８０５」
+	,HAICHI_POST_NM_1810  VARCHAR2(30) --「配置ポスト名称１８１０」
+	,HAICHI_POST_NM_1815  VARCHAR2(30) --「配置ポスト名称１８１５」
+	,HAICHI_POST_NM_1820  VARCHAR2(30) --「配置ポスト名称１８２０」
+	,HAICHI_POST_NM_1825  VARCHAR2(30) --「配置ポスト名称１８２５」
+	,HAICHI_POST_NM_1830  VARCHAR2(30) --「配置ポスト名称１８３０」
+	,HAICHI_POST_NM_1835  VARCHAR2(30) --「配置ポスト名称１８３５」
+	,HAICHI_POST_NM_1840  VARCHAR2(30) --「配置ポスト名称１８４０」
+	,HAICHI_POST_NM_1845  VARCHAR2(30) --「配置ポスト名称１８４５」
+	,HAICHI_POST_NM_1850  VARCHAR2(30) --「配置ポスト名称１８５０」
+	,HAICHI_POST_NM_1855  VARCHAR2(30) --「配置ポスト名称１８５５」
+	,HAICHI_POST_NM_1900  VARCHAR2(30) --「配置ポスト名称１９００」
+	,HAICHI_POST_NM_1905  VARCHAR2(30) --「配置ポスト名称１９０５」
+	,HAICHI_POST_NM_1910  VARCHAR2(30) --「配置ポスト名称１９１０」
+	,HAICHI_POST_NM_1915  VARCHAR2(30) --「配置ポスト名称１９１５」
+	,HAICHI_POST_NM_1920  VARCHAR2(30) --「配置ポスト名称１９２０」
+	,HAICHI_POST_NM_1925  VARCHAR2(30) --「配置ポスト名称１９２５」
+	,HAICHI_POST_NM_1930  VARCHAR2(30) --「配置ポスト名称１９３０」
+	,HAICHI_POST_NM_1935  VARCHAR2(30) --「配置ポスト名称１９３５」
+	,HAICHI_POST_NM_1940  VARCHAR2(30) --「配置ポスト名称１９４０」
+	,HAICHI_POST_NM_1945  VARCHAR2(30) --「配置ポスト名称１９４５」
+	,HAICHI_POST_NM_1950  VARCHAR2(30) --「配置ポスト名称１９５０」
+	,HAICHI_POST_NM_1955  VARCHAR2(30) --「配置ポスト名称１９５５」
+	,HAICHI_POST_NM_2000  VARCHAR2(30) --「配置ポスト名称２０００」
+	,HAICHI_POST_NM_2005  VARCHAR2(30) --「配置ポスト名称２００５」
+	,HAICHI_POST_NM_2010  VARCHAR2(30) --「配置ポスト名称２０１０」
+	,HAICHI_POST_NM_2015  VARCHAR2(30) --「配置ポスト名称２０１５」
+	,HAICHI_POST_NM_2020  VARCHAR2(30) --「配置ポスト名称２０２０」
+	,HAICHI_POST_NM_2025  VARCHAR2(30) --「配置ポスト名称２０２５」
+	,HAICHI_POST_NM_2030  VARCHAR2(30) --「配置ポスト名称２０３０」
+	,HAICHI_POST_NM_2035  VARCHAR2(30) --「配置ポスト名称２０３５」
+	,HAICHI_POST_NM_2040  VARCHAR2(30) --「配置ポスト名称２０４０」
+	,HAICHI_POST_NM_2045  VARCHAR2(30) --「配置ポスト名称２０４５」
+	,HAICHI_POST_NM_2050  VARCHAR2(30) --「配置ポスト名称２０５０」
+	,HAICHI_POST_NM_2055  VARCHAR2(30) --「配置ポスト名称２０５５」
+	,HAICHI_POST_NM_2100  VARCHAR2(30) --「配置ポスト名称２１００」
+	,HAICHI_POST_NM_2105  VARCHAR2(30) --「配置ポスト名称２１０５」
+	,HAICHI_POST_NM_2110  VARCHAR2(30) --「配置ポスト名称２１１０」
+	,HAICHI_POST_NM_2115  VARCHAR2(30) --「配置ポスト名称２１１５」
+	,HAICHI_POST_NM_2120  VARCHAR2(30) --「配置ポスト名称２１２０」
+	,HAICHI_POST_NM_2125  VARCHAR2(30) --「配置ポスト名称２１２５」
+	,HAICHI_POST_NM_2130  VARCHAR2(30) --「配置ポスト名称２１３０」
+	,HAICHI_POST_NM_2135  VARCHAR2(30) --「配置ポスト名称２１３５」
+	,HAICHI_POST_NM_2140  VARCHAR2(30) --「配置ポスト名称２１４０」
+	,HAICHI_POST_NM_2145  VARCHAR2(30) --「配置ポスト名称２１４５」
+	,HAICHI_POST_NM_2150  VARCHAR2(30) --「配置ポスト名称２１５０」
+	,HAICHI_POST_NM_2155  VARCHAR2(30) --「配置ポスト名称２１５５」
+	,HAICHI_POST_NM_2200  VARCHAR2(30) --「配置ポスト名称２２００」
+	,HAICHI_POST_NM_2205  VARCHAR2(30) --「配置ポスト名称２２０５」
+	,HAICHI_POST_NM_2210  VARCHAR2(30) --「配置ポスト名称２２１０」
+	,HAICHI_POST_NM_2215  VARCHAR2(30) --「配置ポスト名称２２１５」
+	,HAICHI_POST_NM_2220  VARCHAR2(30) --「配置ポスト名称２２２０」
+	,HAICHI_POST_NM_2225  VARCHAR2(30) --「配置ポスト名称２２２５」
+	,HAICHI_POST_NM_2230  VARCHAR2(30) --「配置ポスト名称２２３０」
+	,HAICHI_POST_NM_2235  VARCHAR2(30) --「配置ポスト名称２２３５」
+	,HAICHI_POST_NM_2240  VARCHAR2(30) --「配置ポスト名称２２４０」
+	,HAICHI_POST_NM_2245  VARCHAR2(30) --「配置ポスト名称２２４５」
+	,HAICHI_POST_NM_2250  VARCHAR2(30) --「配置ポスト名称２２５０」
+	,HAICHI_POST_NM_2255  VARCHAR2(30) --「配置ポスト名称２２５５」
+	,HAICHI_POST_NM_2300  VARCHAR2(30) --「配置ポスト名称２３００」
+	,HAICHI_POST_NM_2305  VARCHAR2(30) --「配置ポスト名称２３０５」
+	,HAICHI_POST_NM_2310  VARCHAR2(30) --「配置ポスト名称２３１０」
+	,HAICHI_POST_NM_2315  VARCHAR2(30) --「配置ポスト名称２３１５」
+	,HAICHI_POST_NM_2320  VARCHAR2(30) --「配置ポスト名称２３２０」
+	,HAICHI_POST_NM_2325  VARCHAR2(30) --「配置ポスト名称２３２５」
+	,HAICHI_POST_NM_2330  VARCHAR2(30) --「配置ポスト名称２３３０」
+	,HAICHI_POST_NM_2335  VARCHAR2(30) --「配置ポスト名称２３３５」
+	,HAICHI_POST_NM_2340  VARCHAR2(30) --「配置ポスト名称２３４０」
+	,HAICHI_POST_NM_2345  VARCHAR2(30) --「配置ポスト名称２３４５」
+	,HAICHI_POST_NM_2350  VARCHAR2(30) --「配置ポスト名称２３５０」
+	,HAICHI_POST_NM_2355  VARCHAR2(30) --「配置ポスト名称２３５５」
+	,HAICHI_POST_NM_0000  VARCHAR2(30) --「配置ポスト名称００００」
+	,HAICHI_POST_NM_0005  VARCHAR2(30) --「配置ポスト名称０００５」
+	,HAICHI_POST_NM_0010  VARCHAR2(30) --「配置ポスト名称００１０」
+	,HAICHI_POST_NM_0015  VARCHAR2(30) --「配置ポスト名称００１５」
+	,HAICHI_POST_NM_0020  VARCHAR2(30) --「配置ポスト名称００２０」
+	,HAICHI_POST_NM_0025  VARCHAR2(30) --「配置ポスト名称００２５」
+	,HAICHI_POST_NM_0030  VARCHAR2(30) --「配置ポスト名称００３０」
+	,HAICHI_POST_NM_0035  VARCHAR2(30) --「配置ポスト名称００３５」
+	,HAICHI_POST_NM_0040  VARCHAR2(30) --「配置ポスト名称００４０」
+	,HAICHI_POST_NM_0045  VARCHAR2(30) --「配置ポスト名称００４５」
+	,HAICHI_POST_NM_0050  VARCHAR2(30) --「配置ポスト名称００５０」
+	,HAICHI_POST_NM_0055  VARCHAR2(30) --「配置ポスト名称００５５」
+	,HAICHI_POST_NM_0100  VARCHAR2(30) --「配置ポスト名称０１００」
+	,HAICHI_POST_NM_0105  VARCHAR2(30) --「配置ポスト名称０１０５」
+	,HAICHI_POST_NM_0110  VARCHAR2(30) --「配置ポスト名称０１１０」
+	,HAICHI_POST_NM_0115  VARCHAR2(30) --「配置ポスト名称０１１５」
+	,HAICHI_POST_NM_0120  VARCHAR2(30) --「配置ポスト名称０１２０」
+	,HAICHI_POST_NM_0125  VARCHAR2(30) --「配置ポスト名称０１２５」
+	,HAICHI_POST_NM_0130  VARCHAR2(30) --「配置ポスト名称０１３０」
+	,HAICHI_POST_NM_0135  VARCHAR2(30) --「配置ポスト名称０１３５」
+	,HAICHI_POST_NM_0140  VARCHAR2(30) --「配置ポスト名称０１４０」
+	,HAICHI_POST_NM_0145  VARCHAR2(30) --「配置ポスト名称０１４５」
+	,HAICHI_POST_NM_0150  VARCHAR2(30) --「配置ポスト名称０１５０」
+	,HAICHI_POST_NM_0155  VARCHAR2(30) --「配置ポスト名称０１５５」
+	,HAICHI_POST_NM_0200  VARCHAR2(30) --「配置ポスト名称０２００」
+	,HAICHI_POST_NM_0205  VARCHAR2(30) --「配置ポスト名称０２０５」
+	,HAICHI_POST_NM_0210  VARCHAR2(30) --「配置ポスト名称０２１０」
+	,HAICHI_POST_NM_0215  VARCHAR2(30) --「配置ポスト名称０２１５」
+	,HAICHI_POST_NM_0220  VARCHAR2(30) --「配置ポスト名称０２２０」
+	,HAICHI_POST_NM_0225  VARCHAR2(30) --「配置ポスト名称０２２５」
+	,HAICHI_POST_NM_0230  VARCHAR2(30) --「配置ポスト名称０２３０」
+	,HAICHI_POST_NM_0235  VARCHAR2(30) --「配置ポスト名称０２３５」
+	,HAICHI_POST_NM_0240  VARCHAR2(30) --「配置ポスト名称０２４０」
+	,HAICHI_POST_NM_0245  VARCHAR2(30) --「配置ポスト名称０２４５」
+	,HAICHI_POST_NM_0250  VARCHAR2(30) --「配置ポスト名称０２５０」
+	,HAICHI_POST_NM_0255  VARCHAR2(30) --「配置ポスト名称０２５５」
+	,HAICHI_POST_NM_0300  VARCHAR2(30) --「配置ポスト名称０３００」
+	,HAICHI_POST_NM_0305  VARCHAR2(30) --「配置ポスト名称０３０５」
+	,HAICHI_POST_NM_0310  VARCHAR2(30) --「配置ポスト名称０３１０」
+	,HAICHI_POST_NM_0315  VARCHAR2(30) --「配置ポスト名称０３１５」
+	,HAICHI_POST_NM_0320  VARCHAR2(30) --「配置ポスト名称０３２０」
+	,HAICHI_POST_NM_0325  VARCHAR2(30) --「配置ポスト名称０３２５」
+	,HAICHI_POST_NM_0330  VARCHAR2(30) --「配置ポスト名称０３３０」
+	,HAICHI_POST_NM_0335  VARCHAR2(30) --「配置ポスト名称０３３５」
+	,HAICHI_POST_NM_0340  VARCHAR2(30) --「配置ポスト名称０３４０」
+	,HAICHI_POST_NM_0345  VARCHAR2(30) --「配置ポスト名称０３４５」
+	,HAICHI_POST_NM_0350  VARCHAR2(30) --「配置ポスト名称０３５０」
+	,HAICHI_POST_NM_0355  VARCHAR2(30) --「配置ポスト名称０３５５」
+	,HAICHI_POST_NM_0400  VARCHAR2(30) --「配置ポスト名称０４００」
+	,HAICHI_POST_NM_0405  VARCHAR2(30) --「配置ポスト名称０４０５」
+	,HAICHI_POST_NM_0410  VARCHAR2(30) --「配置ポスト名称０４１０」
+	,HAICHI_POST_NM_0415  VARCHAR2(30) --「配置ポスト名称０４１５」
+	,HAICHI_POST_NM_0420  VARCHAR2(30) --「配置ポスト名称０４２０」
+	,HAICHI_POST_NM_0425  VARCHAR2(30) --「配置ポスト名称０４２５」
+	,HAICHI_POST_NM_0430  VARCHAR2(30) --「配置ポスト名称０４３０」
+	,HAICHI_POST_NM_0435  VARCHAR2(30) --「配置ポスト名称０４３５」
+	,HAICHI_POST_NM_0440  VARCHAR2(30) --「配置ポスト名称０４４０」
+	,HAICHI_POST_NM_0445  VARCHAR2(30) --「配置ポスト名称０４４５」
+	,HAICHI_POST_NM_0450  VARCHAR2(30) --「配置ポスト名称０４５０」
+	,HAICHI_POST_NM_0455  VARCHAR2(30) --「配置ポスト名称０４５５」
+	,HAICHI_POST_NM_0500  VARCHAR2(30) --「配置ポスト名称０５００」
+	,HAICHI_POST_NM_0505  VARCHAR2(30) --「配置ポスト名称０５０５」
+	,HAICHI_POST_NM_0510  VARCHAR2(30) --「配置ポスト名称０５１０」
+	,HAICHI_POST_NM_0515  VARCHAR2(30) --「配置ポスト名称０５１５」
+	,HAICHI_POST_NM_0520  VARCHAR2(30) --「配置ポスト名称０５２０」
+	,HAICHI_POST_NM_0525  VARCHAR2(30) --「配置ポスト名称０５２５」
+	,HAICHI_POST_NM_0530  VARCHAR2(30) --「配置ポスト名称０５３０」
+	,HAICHI_POST_NM_0535  VARCHAR2(30) --「配置ポスト名称０５３５」
+	,HAICHI_POST_NM_0540  VARCHAR2(30) --「配置ポスト名称０５４０」
+	,HAICHI_POST_NM_0545  VARCHAR2(30) --「配置ポスト名称０５４５」
+	,HAICHI_POST_NM_0550  VARCHAR2(30) --「配置ポスト名称０５５０」
+	,HAICHI_POST_NM_0555  VARCHAR2(30) --「配置ポスト名称０５５５」
+	,HAICHI_POST_NM_0600  VARCHAR2(30) --「配置ポスト名称０６００」
+	,HAICHI_POST_NM_0605  VARCHAR2(30) --「配置ポスト名称０６０５」
+	,HAICHI_POST_NM_0610  VARCHAR2(30) --「配置ポスト名称０６１０」
+	,HAICHI_POST_NM_0615  VARCHAR2(30) --「配置ポスト名称０６１５」
+	,HAICHI_POST_NM_0620  VARCHAR2(30) --「配置ポスト名称０６２０」
+	,HAICHI_POST_NM_0625  VARCHAR2(30) --「配置ポスト名称０６２５」
+	,HAICHI_POST_NM_0630  VARCHAR2(30) --「配置ポスト名称０６３０」
+	,HAICHI_POST_NM_0635  VARCHAR2(30) --「配置ポスト名称０６３５」
+	,HAICHI_POST_NM_0640  VARCHAR2(30) --「配置ポスト名称０６４０」
+	,HAICHI_POST_NM_0645  VARCHAR2(30) --「配置ポスト名称０６４５」
+	,HAICHI_POST_NM_0650  VARCHAR2(30) --「配置ポスト名称０６５０」
+	,HAICHI_POST_NM_0655  VARCHAR2(30) --「配置ポスト名称０６５５」
+	,HAICHI_POST_NM_0700  VARCHAR2(30) --「配置ポスト名称０７００」
+	,HAICHI_POST_NM_0705  VARCHAR2(30) --「配置ポスト名称０７０５」
+	,HAICHI_POST_NM_0710  VARCHAR2(30) --「配置ポスト名称０７１０」
+	,HAICHI_POST_NM_0715  VARCHAR2(30) --「配置ポスト名称０７１５」
+	,HAICHI_POST_NM_0720  VARCHAR2(30) --「配置ポスト名称０７２０」
+	,HAICHI_POST_NM_0725  VARCHAR2(30) --「配置ポスト名称０７２５」
+	,HAICHI_POST_NM_0730  VARCHAR2(30) --「配置ポスト名称０７３０」
+	,HAICHI_POST_NM_0735  VARCHAR2(30) --「配置ポスト名称０７３５」
+	,HAICHI_POST_NM_0740  VARCHAR2(30) --「配置ポスト名称０７４０」
+	,HAICHI_POST_NM_0745  VARCHAR2(30) --「配置ポスト名称０７４５」
+	,HAICHI_POST_NM_0750  VARCHAR2(30) --「配置ポスト名称０７５０」
+	,HAICHI_POST_NM_0755  VARCHAR2(30) --「配置ポスト名称０７５５」
+	,HAICHI_POST_NM_0800  VARCHAR2(30) --「配置ポスト名称０８００」
+	,HAICHI_POST_NM_0805  VARCHAR2(30) --「配置ポスト名称０８０５」
+	,HAICHI_POST_NM_0810  VARCHAR2(30) --「配置ポスト名称０８１０」
+	,HAICHI_POST_NM_0815  VARCHAR2(30) --「配置ポスト名称０８１５」
+	,HAICHI_POST_NM_0820  VARCHAR2(30) --「配置ポスト名称０８２０」
+	,HAICHI_POST_NM_0825  VARCHAR2(30) --「配置ポスト名称０８２５」
+	,HAICHI_POST_NM_0830  VARCHAR2(30) --「配置ポスト名称０８３０」
+	,HAICHI_POST_NM_0835  VARCHAR2(30) --「配置ポスト名称０８３５」
+	,HAICHI_POST_NM_0840  VARCHAR2(30) --「配置ポスト名称０８４０」
+	,HAICHI_POST_NM_0845  VARCHAR2(30) --「配置ポスト名称０８４５」
+	,HAICHI_POST_NM_0850  VARCHAR2(30) --「配置ポスト名称０８５０」
+	,HAICHI_POST_NM_0855  VARCHAR2(30) --「配置ポスト名称０８５５」
+	,HAICHI_POST_COLOR_CD_0900  CHAR(7) --「配置ポストカラーコード０９００」
+	,HAICHI_POST_COLOR_CD_0905  CHAR(7) --「配置ポストカラーコード０９０５」
+	,HAICHI_POST_COLOR_CD_0910  CHAR(7) --「配置ポストカラーコード０９１０」
+	,HAICHI_POST_COLOR_CD_0915  CHAR(7) --「配置ポストカラーコード０９１５」
+	,HAICHI_POST_COLOR_CD_0920  CHAR(7) --「配置ポストカラーコード０９２０」
+	,HAICHI_POST_COLOR_CD_0925  CHAR(7) --「配置ポストカラーコード０９２５」
+	,HAICHI_POST_COLOR_CD_0930  CHAR(7) --「配置ポストカラーコード０９３０」
+	,HAICHI_POST_COLOR_CD_0935  CHAR(7) --「配置ポストカラーコード０９３５」
+	,HAICHI_POST_COLOR_CD_0940  CHAR(7) --「配置ポストカラーコード０９４０」
+	,HAICHI_POST_COLOR_CD_0945  CHAR(7) --「配置ポストカラーコード０９４５」
+	,HAICHI_POST_COLOR_CD_0950  CHAR(7) --「配置ポストカラーコード０９５０」
+	,HAICHI_POST_COLOR_CD_0955  CHAR(7) --「配置ポストカラーコード０９５５」
+	,HAICHI_POST_COLOR_CD_1000  CHAR(7) --「配置ポストカラーコード１０００」
+	,HAICHI_POST_COLOR_CD_1005  CHAR(7) --「配置ポストカラーコード１００５」
+	,HAICHI_POST_COLOR_CD_1010  CHAR(7) --「配置ポストカラーコード１０１０」
+	,HAICHI_POST_COLOR_CD_1015  CHAR(7) --「配置ポストカラーコード１０１５」
+	,HAICHI_POST_COLOR_CD_1020  CHAR(7) --「配置ポストカラーコード１０２０」
+	,HAICHI_POST_COLOR_CD_1025  CHAR(7) --「配置ポストカラーコード１０２５」
+	,HAICHI_POST_COLOR_CD_1030  CHAR(7) --「配置ポストカラーコード１０３０」
+	,HAICHI_POST_COLOR_CD_1035  CHAR(7) --「配置ポストカラーコード１０３５」
+	,HAICHI_POST_COLOR_CD_1040  CHAR(7) --「配置ポストカラーコード１０４０」
+	,HAICHI_POST_COLOR_CD_1045  CHAR(7) --「配置ポストカラーコード１０４５」
+	,HAICHI_POST_COLOR_CD_1050  CHAR(7) --「配置ポストカラーコード１０５０」
+	,HAICHI_POST_COLOR_CD_1055  CHAR(7) --「配置ポストカラーコード１０５５」
+	,HAICHI_POST_COLOR_CD_1100  CHAR(7) --「配置ポストカラーコード１１００」
+	,HAICHI_POST_COLOR_CD_1105  CHAR(7) --「配置ポストカラーコード１１０５」
+	,HAICHI_POST_COLOR_CD_1110  CHAR(7) --「配置ポストカラーコード１１１０」
+	,HAICHI_POST_COLOR_CD_1115  CHAR(7) --「配置ポストカラーコード１１１５」
+	,HAICHI_POST_COLOR_CD_1120  CHAR(7) --「配置ポストカラーコード１１２０」
+	,HAICHI_POST_COLOR_CD_1125  CHAR(7) --「配置ポストカラーコード１１２５」
+	,HAICHI_POST_COLOR_CD_1130  CHAR(7) --「配置ポストカラーコード１１３０」
+	,HAICHI_POST_COLOR_CD_1135  CHAR(7) --「配置ポストカラーコード１１３５」
+	,HAICHI_POST_COLOR_CD_1140  CHAR(7) --「配置ポストカラーコード１１４０」
+	,HAICHI_POST_COLOR_CD_1145  CHAR(7) --「配置ポストカラーコード１１４５」
+	,HAICHI_POST_COLOR_CD_1150  CHAR(7) --「配置ポストカラーコード１１５０」
+	,HAICHI_POST_COLOR_CD_1155  CHAR(7) --「配置ポストカラーコード１１５５」
+	,HAICHI_POST_COLOR_CD_1200  CHAR(7) --「配置ポストカラーコード１２００」
+	,HAICHI_POST_COLOR_CD_1205  CHAR(7) --「配置ポストカラーコード１２０５」
+	,HAICHI_POST_COLOR_CD_1210  CHAR(7) --「配置ポストカラーコード１２１０」
+	,HAICHI_POST_COLOR_CD_1215  CHAR(7) --「配置ポストカラーコード１２１５」
+	,HAICHI_POST_COLOR_CD_1220  CHAR(7) --「配置ポストカラーコード１２２０」
+	,HAICHI_POST_COLOR_CD_1225  CHAR(7) --「配置ポストカラーコード１２２５」
+	,HAICHI_POST_COLOR_CD_1230  CHAR(7) --「配置ポストカラーコード１２３０」
+	,HAICHI_POST_COLOR_CD_1235  CHAR(7) --「配置ポストカラーコード１２３５」
+	,HAICHI_POST_COLOR_CD_1240  CHAR(7) --「配置ポストカラーコード１２４０」
+	,HAICHI_POST_COLOR_CD_1245  CHAR(7) --「配置ポストカラーコード１２４５」
+	,HAICHI_POST_COLOR_CD_1250  CHAR(7) --「配置ポストカラーコード１２５０」
+	,HAICHI_POST_COLOR_CD_1255  CHAR(7) --「配置ポストカラーコード１２５５」
+	,HAICHI_POST_COLOR_CD_1300  CHAR(7) --「配置ポストカラーコード１３００」
+	,HAICHI_POST_COLOR_CD_1305  CHAR(7) --「配置ポストカラーコード１３０５」
+	,HAICHI_POST_COLOR_CD_1310  CHAR(7) --「配置ポストカラーコード１３１０」
+	,HAICHI_POST_COLOR_CD_1315  CHAR(7) --「配置ポストカラーコード１３１５」
+	,HAICHI_POST_COLOR_CD_1320  CHAR(7) --「配置ポストカラーコード１３２０」
+	,HAICHI_POST_COLOR_CD_1325  CHAR(7) --「配置ポストカラーコード１３２５」
+	,HAICHI_POST_COLOR_CD_1330  CHAR(7) --「配置ポストカラーコード１３３０」
+	,HAICHI_POST_COLOR_CD_1335  CHAR(7) --「配置ポストカラーコード１３３５」
+	,HAICHI_POST_COLOR_CD_1340  CHAR(7) --「配置ポストカラーコード１３４０」
+	,HAICHI_POST_COLOR_CD_1345  CHAR(7) --「配置ポストカラーコード１３４５」
+	,HAICHI_POST_COLOR_CD_1350  CHAR(7) --「配置ポストカラーコード１３５０」
+	,HAICHI_POST_COLOR_CD_1355  CHAR(7) --「配置ポストカラーコード１３５５」
+	,HAICHI_POST_COLOR_CD_1400  CHAR(7) --「配置ポストカラーコード１４００」
+	,HAICHI_POST_COLOR_CD_1405  CHAR(7) --「配置ポストカラーコード１４０５」
+	,HAICHI_POST_COLOR_CD_1410  CHAR(7) --「配置ポストカラーコード１４１０」
+	,HAICHI_POST_COLOR_CD_1415  CHAR(7) --「配置ポストカラーコード１４１５」
+	,HAICHI_POST_COLOR_CD_1420  CHAR(7) --「配置ポストカラーコード１４２０」
+	,HAICHI_POST_COLOR_CD_1425  CHAR(7) --「配置ポストカラーコード１４２５」
+	,HAICHI_POST_COLOR_CD_1430  CHAR(7) --「配置ポストカラーコード１４３０」
+	,HAICHI_POST_COLOR_CD_1435  CHAR(7) --「配置ポストカラーコード１４３５」
+	,HAICHI_POST_COLOR_CD_1440  CHAR(7) --「配置ポストカラーコード１４４０」
+	,HAICHI_POST_COLOR_CD_1445  CHAR(7) --「配置ポストカラーコード１４４５」
+	,HAICHI_POST_COLOR_CD_1450  CHAR(7) --「配置ポストカラーコード１４５０」
+	,HAICHI_POST_COLOR_CD_1455  CHAR(7) --「配置ポストカラーコード１４５５」
+	,HAICHI_POST_COLOR_CD_1500  CHAR(7) --「配置ポストカラーコード１５００」
+	,HAICHI_POST_COLOR_CD_1505  CHAR(7) --「配置ポストカラーコード１５０５」
+	,HAICHI_POST_COLOR_CD_1510  CHAR(7) --「配置ポストカラーコード１５１０」
+	,HAICHI_POST_COLOR_CD_1515  CHAR(7) --「配置ポストカラーコード１５１５」
+	,HAICHI_POST_COLOR_CD_1520  CHAR(7) --「配置ポストカラーコード１５２０」
+	,HAICHI_POST_COLOR_CD_1525  CHAR(7) --「配置ポストカラーコード１５２５」
+	,HAICHI_POST_COLOR_CD_1530  CHAR(7) --「配置ポストカラーコード１５３０」
+	,HAICHI_POST_COLOR_CD_1535  CHAR(7) --「配置ポストカラーコード１５３５」
+	,HAICHI_POST_COLOR_CD_1540  CHAR(7) --「配置ポストカラーコード１５４０」
+	,HAICHI_POST_COLOR_CD_1545  CHAR(7) --「配置ポストカラーコード１５４５」
+	,HAICHI_POST_COLOR_CD_1550  CHAR(7) --「配置ポストカラーコード１５５０」
+	,HAICHI_POST_COLOR_CD_1555  CHAR(7) --「配置ポストカラーコード１５５５」
+	,HAICHI_POST_COLOR_CD_1600  CHAR(7) --「配置ポストカラーコード１６００」
+	,HAICHI_POST_COLOR_CD_1605  CHAR(7) --「配置ポストカラーコード１６０５」
+	,HAICHI_POST_COLOR_CD_1610  CHAR(7) --「配置ポストカラーコード１６１０」
+	,HAICHI_POST_COLOR_CD_1615  CHAR(7) --「配置ポストカラーコード１６１５」
+	,HAICHI_POST_COLOR_CD_1620  CHAR(7) --「配置ポストカラーコード１６２０」
+	,HAICHI_POST_COLOR_CD_1625  CHAR(7) --「配置ポストカラーコード１６２５」
+	,HAICHI_POST_COLOR_CD_1630  CHAR(7) --「配置ポストカラーコード１６３０」
+	,HAICHI_POST_COLOR_CD_1635  CHAR(7) --「配置ポストカラーコード１６３５」
+	,HAICHI_POST_COLOR_CD_1640  CHAR(7) --「配置ポストカラーコード１６４０」
+	,HAICHI_POST_COLOR_CD_1645  CHAR(7) --「配置ポストカラーコード１６４５」
+	,HAICHI_POST_COLOR_CD_1650  CHAR(7) --「配置ポストカラーコード１６５０」
+	,HAICHI_POST_COLOR_CD_1655  CHAR(7) --「配置ポストカラーコード１６５５」
+	,HAICHI_POST_COLOR_CD_1700  CHAR(7) --「配置ポストカラーコード１７００」
+	,HAICHI_POST_COLOR_CD_1705  CHAR(7) --「配置ポストカラーコード１７０５」
+	,HAICHI_POST_COLOR_CD_1710  CHAR(7) --「配置ポストカラーコード１７１０」
+	,HAICHI_POST_COLOR_CD_1715  CHAR(7) --「配置ポストカラーコード１７１５」
+	,HAICHI_POST_COLOR_CD_1720  CHAR(7) --「配置ポストカラーコード１７２０」
+	,HAICHI_POST_COLOR_CD_1725  CHAR(7) --「配置ポストカラーコード１７２５」
+	,HAICHI_POST_COLOR_CD_1730  CHAR(7) --「配置ポストカラーコード１７３０」
+	,HAICHI_POST_COLOR_CD_1735  CHAR(7) --「配置ポストカラーコード１７３５」
+	,HAICHI_POST_COLOR_CD_1740  CHAR(7) --「配置ポストカラーコード１７４０」
+	,HAICHI_POST_COLOR_CD_1745  CHAR(7) --「配置ポストカラーコード１７４５」
+	,HAICHI_POST_COLOR_CD_1750  CHAR(7) --「配置ポストカラーコード１７５０」
+	,HAICHI_POST_COLOR_CD_1755  CHAR(7) --「配置ポストカラーコード１７５５」
+	,HAICHI_POST_COLOR_CD_1800  CHAR(7) --「配置ポストカラーコード１８００」
+	,HAICHI_POST_COLOR_CD_1805  CHAR(7) --「配置ポストカラーコード１８０５」
+	,HAICHI_POST_COLOR_CD_1810  CHAR(7) --「配置ポストカラーコード１８１０」
+	,HAICHI_POST_COLOR_CD_1815  CHAR(7) --「配置ポストカラーコード１８１５」
+	,HAICHI_POST_COLOR_CD_1820  CHAR(7) --「配置ポストカラーコード１８２０」
+	,HAICHI_POST_COLOR_CD_1825  CHAR(7) --「配置ポストカラーコード１８２５」
+	,HAICHI_POST_COLOR_CD_1830  CHAR(7) --「配置ポストカラーコード１８３０」
+	,HAICHI_POST_COLOR_CD_1835  CHAR(7) --「配置ポストカラーコード１８３５」
+	,HAICHI_POST_COLOR_CD_1840  CHAR(7) --「配置ポストカラーコード１８４０」
+	,HAICHI_POST_COLOR_CD_1845  CHAR(7) --「配置ポストカラーコード１８４５」
+	,HAICHI_POST_COLOR_CD_1850  CHAR(7) --「配置ポストカラーコード１８５０」
+	,HAICHI_POST_COLOR_CD_1855  CHAR(7) --「配置ポストカラーコード１８５５」
+	,HAICHI_POST_COLOR_CD_1900  CHAR(7) --「配置ポストカラーコード１９００」
+	,HAICHI_POST_COLOR_CD_1905  CHAR(7) --「配置ポストカラーコード１９０５」
+	,HAICHI_POST_COLOR_CD_1910  CHAR(7) --「配置ポストカラーコード１９１０」
+	,HAICHI_POST_COLOR_CD_1915  CHAR(7) --「配置ポストカラーコード１９１５」
+	,HAICHI_POST_COLOR_CD_1920  CHAR(7) --「配置ポストカラーコード１９２０」
+	,HAICHI_POST_COLOR_CD_1925  CHAR(7) --「配置ポストカラーコード１９２５」
+	,HAICHI_POST_COLOR_CD_1930  CHAR(7) --「配置ポストカラーコード１９３０」
+	,HAICHI_POST_COLOR_CD_1935  CHAR(7) --「配置ポストカラーコード１９３５」
+	,HAICHI_POST_COLOR_CD_1940  CHAR(7) --「配置ポストカラーコード１９４０」
+	,HAICHI_POST_COLOR_CD_1945  CHAR(7) --「配置ポストカラーコード１９４５」
+	,HAICHI_POST_COLOR_CD_1950  CHAR(7) --「配置ポストカラーコード１９５０」
+	,HAICHI_POST_COLOR_CD_1955  CHAR(7) --「配置ポストカラーコード１９５５」
+	,HAICHI_POST_COLOR_CD_2000  CHAR(7) --「配置ポストカラーコード２０００」
+	,HAICHI_POST_COLOR_CD_2005  CHAR(7) --「配置ポストカラーコード２００５」
+	,HAICHI_POST_COLOR_CD_2010  CHAR(7) --「配置ポストカラーコード２０１０」
+	,HAICHI_POST_COLOR_CD_2015  CHAR(7) --「配置ポストカラーコード２０１５」
+	,HAICHI_POST_COLOR_CD_2020  CHAR(7) --「配置ポストカラーコード２０２０」
+	,HAICHI_POST_COLOR_CD_2025  CHAR(7) --「配置ポストカラーコード２０２５」
+	,HAICHI_POST_COLOR_CD_2030  CHAR(7) --「配置ポストカラーコード２０３０」
+	,HAICHI_POST_COLOR_CD_2035  CHAR(7) --「配置ポストカラーコード２０３５」
+	,HAICHI_POST_COLOR_CD_2040  CHAR(7) --「配置ポストカラーコード２０４０」
+	,HAICHI_POST_COLOR_CD_2045  CHAR(7) --「配置ポストカラーコード２０４５」
+	,HAICHI_POST_COLOR_CD_2050  CHAR(7) --「配置ポストカラーコード２０５０」
+	,HAICHI_POST_COLOR_CD_2055  CHAR(7) --「配置ポストカラーコード２０５５」
+	,HAICHI_POST_COLOR_CD_2100  CHAR(7) --「配置ポストカラーコード２１００」
+	,HAICHI_POST_COLOR_CD_2105  CHAR(7) --「配置ポストカラーコード２１０５」
+	,HAICHI_POST_COLOR_CD_2110  CHAR(7) --「配置ポストカラーコード２１１０」
+	,HAICHI_POST_COLOR_CD_2115  CHAR(7) --「配置ポストカラーコード２１１５」
+	,HAICHI_POST_COLOR_CD_2120  CHAR(7) --「配置ポストカラーコード２１２０」
+	,HAICHI_POST_COLOR_CD_2125  CHAR(7) --「配置ポストカラーコード２１２５」
+	,HAICHI_POST_COLOR_CD_2130  CHAR(7) --「配置ポストカラーコード２１３０」
+	,HAICHI_POST_COLOR_CD_2135  CHAR(7) --「配置ポストカラーコード２１３５」
+	,HAICHI_POST_COLOR_CD_2140  CHAR(7) --「配置ポストカラーコード２１４０」
+	,HAICHI_POST_COLOR_CD_2145  CHAR(7) --「配置ポストカラーコード２１４５」
+	,HAICHI_POST_COLOR_CD_2150  CHAR(7) --「配置ポストカラーコード２１５０」
+	,HAICHI_POST_COLOR_CD_2155  CHAR(7) --「配置ポストカラーコード２１５５」
+	,HAICHI_POST_COLOR_CD_2200  CHAR(7) --「配置ポストカラーコード２２００」
+	,HAICHI_POST_COLOR_CD_2205  CHAR(7) --「配置ポストカラーコード２２０５」
+	,HAICHI_POST_COLOR_CD_2210  CHAR(7) --「配置ポストカラーコード２２１０」
+	,HAICHI_POST_COLOR_CD_2215  CHAR(7) --「配置ポストカラーコード２２１５」
+	,HAICHI_POST_COLOR_CD_2220  CHAR(7) --「配置ポストカラーコード２２２０」
+	,HAICHI_POST_COLOR_CD_2225  CHAR(7) --「配置ポストカラーコード２２２５」
+	,HAICHI_POST_COLOR_CD_2230  CHAR(7) --「配置ポストカラーコード２２３０」
+	,HAICHI_POST_COLOR_CD_2235  CHAR(7) --「配置ポストカラーコード２２３５」
+	,HAICHI_POST_COLOR_CD_2240  CHAR(7) --「配置ポストカラーコード２２４０」
+	,HAICHI_POST_COLOR_CD_2245  CHAR(7) --「配置ポストカラーコード２２４５」
+	,HAICHI_POST_COLOR_CD_2250  CHAR(7) --「配置ポストカラーコード２２５０」
+	,HAICHI_POST_COLOR_CD_2255  CHAR(7) --「配置ポストカラーコード２２５５」
+	,HAICHI_POST_COLOR_CD_2300  CHAR(7) --「配置ポストカラーコード２３００」
+	,HAICHI_POST_COLOR_CD_2305  CHAR(7) --「配置ポストカラーコード２３０５」
+	,HAICHI_POST_COLOR_CD_2310  CHAR(7) --「配置ポストカラーコード２３１０」
+	,HAICHI_POST_COLOR_CD_2315  CHAR(7) --「配置ポストカラーコード２３１５」
+	,HAICHI_POST_COLOR_CD_2320  CHAR(7) --「配置ポストカラーコード２３２０」
+	,HAICHI_POST_COLOR_CD_2325  CHAR(7) --「配置ポストカラーコード２３２５」
+	,HAICHI_POST_COLOR_CD_2330  CHAR(7) --「配置ポストカラーコード２３３０」
+	,HAICHI_POST_COLOR_CD_2335  CHAR(7) --「配置ポストカラーコード２３３５」
+	,HAICHI_POST_COLOR_CD_2340  CHAR(7) --「配置ポストカラーコード２３４０」
+	,HAICHI_POST_COLOR_CD_2345  CHAR(7) --「配置ポストカラーコード２３４５」
+	,HAICHI_POST_COLOR_CD_2350  CHAR(7) --「配置ポストカラーコード２３５０」
+	,HAICHI_POST_COLOR_CD_2355  CHAR(7) --「配置ポストカラーコード２３５５」
+	,HAICHI_POST_COLOR_CD_0000  CHAR(7) --「配置ポストカラーコード００００」
+	,HAICHI_POST_COLOR_CD_0005  CHAR(7) --「配置ポストカラーコード０００５」
+	,HAICHI_POST_COLOR_CD_0010  CHAR(7) --「配置ポストカラーコード００１０」
+	,HAICHI_POST_COLOR_CD_0015  CHAR(7) --「配置ポストカラーコード００１５」
+	,HAICHI_POST_COLOR_CD_0020  CHAR(7) --「配置ポストカラーコード００２０」
+	,HAICHI_POST_COLOR_CD_0025  CHAR(7) --「配置ポストカラーコード００２５」
+	,HAICHI_POST_COLOR_CD_0030  CHAR(7) --「配置ポストカラーコード００３０」
+	,HAICHI_POST_COLOR_CD_0035  CHAR(7) --「配置ポストカラーコード００３５」
+	,HAICHI_POST_COLOR_CD_0040  CHAR(7) --「配置ポストカラーコード００４０」
+	,HAICHI_POST_COLOR_CD_0045  CHAR(7) --「配置ポストカラーコード００４５」
+	,HAICHI_POST_COLOR_CD_0050  CHAR(7) --「配置ポストカラーコード００５０」
+	,HAICHI_POST_COLOR_CD_0055  CHAR(7) --「配置ポストカラーコード００５５」
+	,HAICHI_POST_COLOR_CD_0100  CHAR(7) --「配置ポストカラーコード０１００」
+	,HAICHI_POST_COLOR_CD_0105  CHAR(7) --「配置ポストカラーコード０１０５」
+	,HAICHI_POST_COLOR_CD_0110  CHAR(7) --「配置ポストカラーコード０１１０」
+	,HAICHI_POST_COLOR_CD_0115  CHAR(7) --「配置ポストカラーコード０１１５」
+	,HAICHI_POST_COLOR_CD_0120  CHAR(7) --「配置ポストカラーコード０１２０」
+	,HAICHI_POST_COLOR_CD_0125  CHAR(7) --「配置ポストカラーコード０１２５」
+	,HAICHI_POST_COLOR_CD_0130  CHAR(7) --「配置ポストカラーコード０１３０」
+	,HAICHI_POST_COLOR_CD_0135  CHAR(7) --「配置ポストカラーコード０１３５」
+	,HAICHI_POST_COLOR_CD_0140  CHAR(7) --「配置ポストカラーコード０１４０」
+	,HAICHI_POST_COLOR_CD_0145  CHAR(7) --「配置ポストカラーコード０１４５」
+	,HAICHI_POST_COLOR_CD_0150  CHAR(7) --「配置ポストカラーコード０１５０」
+	,HAICHI_POST_COLOR_CD_0155  CHAR(7) --「配置ポストカラーコード０１５５」
+	,HAICHI_POST_COLOR_CD_0200  CHAR(7) --「配置ポストカラーコード０２００」
+	,HAICHI_POST_COLOR_CD_0205  CHAR(7) --「配置ポストカラーコード０２０５」
+	,HAICHI_POST_COLOR_CD_0210  CHAR(7) --「配置ポストカラーコード０２１０」
+	,HAICHI_POST_COLOR_CD_0215  CHAR(7) --「配置ポストカラーコード０２１５」
+	,HAICHI_POST_COLOR_CD_0220  CHAR(7) --「配置ポストカラーコード０２２０」
+	,HAICHI_POST_COLOR_CD_0225  CHAR(7) --「配置ポストカラーコード０２２５」
+	,HAICHI_POST_COLOR_CD_0230  CHAR(7) --「配置ポストカラーコード０２３０」
+	,HAICHI_POST_COLOR_CD_0235  CHAR(7) --「配置ポストカラーコード０２３５」
+	,HAICHI_POST_COLOR_CD_0240  CHAR(7) --「配置ポストカラーコード０２４０」
+	,HAICHI_POST_COLOR_CD_0245  CHAR(7) --「配置ポストカラーコード０２４５」
+	,HAICHI_POST_COLOR_CD_0250  CHAR(7) --「配置ポストカラーコード０２５０」
+	,HAICHI_POST_COLOR_CD_0255  CHAR(7) --「配置ポストカラーコード０２５５」
+	,HAICHI_POST_COLOR_CD_0300  CHAR(7) --「配置ポストカラーコード０３００」
+	,HAICHI_POST_COLOR_CD_0305  CHAR(7) --「配置ポストカラーコード０３０５」
+	,HAICHI_POST_COLOR_CD_0310  CHAR(7) --「配置ポストカラーコード０３１０」
+	,HAICHI_POST_COLOR_CD_0315  CHAR(7) --「配置ポストカラーコード０３１５」
+	,HAICHI_POST_COLOR_CD_0320  CHAR(7) --「配置ポストカラーコード０３２０」
+	,HAICHI_POST_COLOR_CD_0325  CHAR(7) --「配置ポストカラーコード０３２５」
+	,HAICHI_POST_COLOR_CD_0330  CHAR(7) --「配置ポストカラーコード０３３０」
+	,HAICHI_POST_COLOR_CD_0335  CHAR(7) --「配置ポストカラーコード０３３５」
+	,HAICHI_POST_COLOR_CD_0340  CHAR(7) --「配置ポストカラーコード０３４０」
+	,HAICHI_POST_COLOR_CD_0345  CHAR(7) --「配置ポストカラーコード０３４５」
+	,HAICHI_POST_COLOR_CD_0350  CHAR(7) --「配置ポストカラーコード０３５０」
+	,HAICHI_POST_COLOR_CD_0355  CHAR(7) --「配置ポストカラーコード０３５５」
+	,HAICHI_POST_COLOR_CD_0400  CHAR(7) --「配置ポストカラーコード０４００」
+	,HAICHI_POST_COLOR_CD_0405  CHAR(7) --「配置ポストカラーコード０４０５」
+	,HAICHI_POST_COLOR_CD_0410  CHAR(7) --「配置ポストカラーコード０４１０」
+	,HAICHI_POST_COLOR_CD_0415  CHAR(7) --「配置ポストカラーコード０４１５」
+	,HAICHI_POST_COLOR_CD_0420  CHAR(7) --「配置ポストカラーコード０４２０」
+	,HAICHI_POST_COLOR_CD_0425  CHAR(7) --「配置ポストカラーコード０４２５」
+	,HAICHI_POST_COLOR_CD_0430  CHAR(7) --「配置ポストカラーコード０４３０」
+	,HAICHI_POST_COLOR_CD_0435  CHAR(7) --「配置ポストカラーコード０４３５」
+	,HAICHI_POST_COLOR_CD_0440  CHAR(7) --「配置ポストカラーコード０４４０」
+	,HAICHI_POST_COLOR_CD_0445  CHAR(7) --「配置ポストカラーコード０４４５」
+	,HAICHI_POST_COLOR_CD_0450  CHAR(7) --「配置ポストカラーコード０４５０」
+	,HAICHI_POST_COLOR_CD_0455  CHAR(7) --「配置ポストカラーコード０４５５」
+	,HAICHI_POST_COLOR_CD_0500  CHAR(7) --「配置ポストカラーコード０５００」
+	,HAICHI_POST_COLOR_CD_0505  CHAR(7) --「配置ポストカラーコード０５０５」
+	,HAICHI_POST_COLOR_CD_0510  CHAR(7) --「配置ポストカラーコード０５１０」
+	,HAICHI_POST_COLOR_CD_0515  CHAR(7) --「配置ポストカラーコード０５１５」
+	,HAICHI_POST_COLOR_CD_0520  CHAR(7) --「配置ポストカラーコード０５２０」
+	,HAICHI_POST_COLOR_CD_0525  CHAR(7) --「配置ポストカラーコード０５２５」
+	,HAICHI_POST_COLOR_CD_0530  CHAR(7) --「配置ポストカラーコード０５３０」
+	,HAICHI_POST_COLOR_CD_0535  CHAR(7) --「配置ポストカラーコード０５３５」
+	,HAICHI_POST_COLOR_CD_0540  CHAR(7) --「配置ポストカラーコード０５４０」
+	,HAICHI_POST_COLOR_CD_0545  CHAR(7) --「配置ポストカラーコード０５４５」
+	,HAICHI_POST_COLOR_CD_0550  CHAR(7) --「配置ポストカラーコード０５５０」
+	,HAICHI_POST_COLOR_CD_0555  CHAR(7) --「配置ポストカラーコード０５５５」
+	,HAICHI_POST_COLOR_CD_0600  CHAR(7) --「配置ポストカラーコード０６００」
+	,HAICHI_POST_COLOR_CD_0605  CHAR(7) --「配置ポストカラーコード０６０５」
+	,HAICHI_POST_COLOR_CD_0610  CHAR(7) --「配置ポストカラーコード０６１０」
+	,HAICHI_POST_COLOR_CD_0615  CHAR(7) --「配置ポストカラーコード０６１５」
+	,HAICHI_POST_COLOR_CD_0620  CHAR(7) --「配置ポストカラーコード０６２０」
+	,HAICHI_POST_COLOR_CD_0625  CHAR(7) --「配置ポストカラーコード０６２５」
+	,HAICHI_POST_COLOR_CD_0630  CHAR(7) --「配置ポストカラーコード０６３０」
+	,HAICHI_POST_COLOR_CD_0635  CHAR(7) --「配置ポストカラーコード０６３５」
+	,HAICHI_POST_COLOR_CD_0640  CHAR(7) --「配置ポストカラーコード０６４０」
+	,HAICHI_POST_COLOR_CD_0645  CHAR(7) --「配置ポストカラーコード０６４５」
+	,HAICHI_POST_COLOR_CD_0650  CHAR(7) --「配置ポストカラーコード０６５０」
+	,HAICHI_POST_COLOR_CD_0655  CHAR(7) --「配置ポストカラーコード０６５５」
+	,HAICHI_POST_COLOR_CD_0700  CHAR(7) --「配置ポストカラーコード０７００」
+	,HAICHI_POST_COLOR_CD_0705  CHAR(7) --「配置ポストカラーコード０７０５」
+	,HAICHI_POST_COLOR_CD_0710  CHAR(7) --「配置ポストカラーコード０７１０」
+	,HAICHI_POST_COLOR_CD_0715  CHAR(7) --「配置ポストカラーコード０７１５」
+	,HAICHI_POST_COLOR_CD_0720  CHAR(7) --「配置ポストカラーコード０７２０」
+	,HAICHI_POST_COLOR_CD_0725  CHAR(7) --「配置ポストカラーコード０７２５」
+	,HAICHI_POST_COLOR_CD_0730  CHAR(7) --「配置ポストカラーコード０７３０」
+	,HAICHI_POST_COLOR_CD_0735  CHAR(7) --「配置ポストカラーコード０７３５」
+	,HAICHI_POST_COLOR_CD_0740  CHAR(7) --「配置ポストカラーコード０７４０」
+	,HAICHI_POST_COLOR_CD_0745  CHAR(7) --「配置ポストカラーコード０７４５」
+	,HAICHI_POST_COLOR_CD_0750  CHAR(7) --「配置ポストカラーコード０７５０」
+	,HAICHI_POST_COLOR_CD_0755  CHAR(7) --「配置ポストカラーコード０７５５」
+	,HAICHI_POST_COLOR_CD_0800  CHAR(7) --「配置ポストカラーコード０８００」
+	,HAICHI_POST_COLOR_CD_0805  CHAR(7) --「配置ポストカラーコード０８０５」
+	,HAICHI_POST_COLOR_CD_0810  CHAR(7) --「配置ポストカラーコード０８１０」
+	,HAICHI_POST_COLOR_CD_0815  CHAR(7) --「配置ポストカラーコード０８１５」
+	,HAICHI_POST_COLOR_CD_0820  CHAR(7) --「配置ポストカラーコード０８２０」
+	,HAICHI_POST_COLOR_CD_0825  CHAR(7) --「配置ポストカラーコード０８２５」
+	,HAICHI_POST_COLOR_CD_0830  CHAR(7) --「配置ポストカラーコード０８３０」
+	,HAICHI_POST_COLOR_CD_0835  CHAR(7) --「配置ポストカラーコード０８３５」
+	,HAICHI_POST_COLOR_CD_0840  CHAR(7) --「配置ポストカラーコード０８４０」
+	,HAICHI_POST_COLOR_CD_0845  CHAR(7) --「配置ポストカラーコード０８４５」
+	,HAICHI_POST_COLOR_CD_0850  CHAR(7) --「配置ポストカラーコード０８５０」
+	,HAICHI_POST_COLOR_CD_0855  CHAR(7) --「配置ポストカラーコード０８５５」
+	,REGST_TMSTMP  TIMESTAMP --「登録タイムスタンプ」
+	,REGSTR_CO_CD  CHAR(5) --「登録者会社コード」
+	,REGSTR_SOSHIKI_CD  VARCHAR2(6) --「登録者組織コード」
+	,REGSTR_EMP_NO  VARCHAR2(8) --「登録者社員番号」
+	,REGST_GAMEN_ID  CHAR(15) --「登録画面ＩＤ」
+	,REGST_PGM_ID  VARCHAR2(255) --「登録プログラムＩＤ」
+	,UPD_TMSTMP  TIMESTAMP --「更新タイムスタンプ」
+	,UPDTR_CO_CD  CHAR(5) --「更新者会社コード」
+	,UPDTR_SOSHIKI_CD  VARCHAR2(6) --「更新者組織コード」
+	,UPDTR_EMP_NO  VARCHAR2(8) --「更新者社員番号」
+	,UPD_GAMEN_ID  CHAR(15) --「更新画面ＩＤ」
+	,UPD_PGM_ID  VARCHAR2(255) --「更新プログラムＩＤ」
+	,CONSTRAINT ED4445T_PK PRIMARY KEY(
+	 SHOSAI_SEKISAN_NO
+	,  SHSI_SKSN_KDHY_HICH_POST_SN
+	,  SSI_SKSN_KDH_HIC_POST_YIN_SN
+	,  KAISHA_CD
+	)
+)
+/
+
+-- テーブルのコメント作成
+COMMENT ON TABLE ED4445T_TBL IS '詳細積算稼働表配置ポストカラーテーブル'
+/
+
+COMMENT ON COLUMN ED4445T_TBL.KAISHA_CD IS '会社コード'
+/
+COMMENT ON COLUMN ED4445T_TBL.SHOSAI_SEKISAN_NO IS '詳細積算番号'
+/
+COMMENT ON COLUMN ED4445T_TBL.SHSI_SKSN_KDHY_HICH_POST_SN IS '詳細積算稼働表配置ポスト連番'
+/
+COMMENT ON COLUMN ED4445T_TBL.SSI_SKSN_KDH_HIC_POST_YIN_SN IS '詳細積算稼働表配置ポスト要員連番'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_NM_0900 IS '配置ポスト名称０９００'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_NM_0905 IS '配置ポスト名称０９０５'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_NM_0910 IS '配置ポスト名称０９１０'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_NM_0915 IS '配置ポスト名称０９１５'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_NM_0920 IS '配置ポスト名称０９２０'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_NM_0925 IS '配置ポスト名称０９２５'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_NM_0930 IS '配置ポスト名称０９３０'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_NM_0935 IS '配置ポスト名称０９３５'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_NM_0940 IS '配置ポスト名称０９４０'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_NM_0945 IS '配置ポスト名称０９４５'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_NM_0950 IS '配置ポスト名称０９５０'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_NM_0955 IS '配置ポスト名称０９５５'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_NM_1000 IS '配置ポスト名称１０００'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_NM_1005 IS '配置ポスト名称１００５'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_NM_1010 IS '配置ポスト名称１０１０'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_NM_1015 IS '配置ポスト名称１０１５'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_NM_1020 IS '配置ポスト名称１０２０'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_NM_1025 IS '配置ポスト名称１０２５'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_NM_1030 IS '配置ポスト名称１０３０'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_NM_1035 IS '配置ポスト名称１０３５'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_NM_1040 IS '配置ポスト名称１０４０'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_NM_1045 IS '配置ポスト名称１０４５'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_NM_1050 IS '配置ポスト名称１０５０'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_NM_1055 IS '配置ポスト名称１０５５'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_NM_1100 IS '配置ポスト名称１１００'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_NM_1105 IS '配置ポスト名称１１０５'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_NM_1110 IS '配置ポスト名称１１１０'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_NM_1115 IS '配置ポスト名称１１１５'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_NM_1120 IS '配置ポスト名称１１２０'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_NM_1125 IS '配置ポスト名称１１２５'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_NM_1130 IS '配置ポスト名称１１３０'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_NM_1135 IS '配置ポスト名称１１３５'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_NM_1140 IS '配置ポスト名称１１４０'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_NM_1145 IS '配置ポスト名称１１４５'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_NM_1150 IS '配置ポスト名称１１５０'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_NM_1155 IS '配置ポスト名称１１５５'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_NM_1200 IS '配置ポスト名称１２００'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_NM_1205 IS '配置ポスト名称１２０５'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_NM_1210 IS '配置ポスト名称１２１０'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_NM_1215 IS '配置ポスト名称１２１５'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_NM_1220 IS '配置ポスト名称１２２０'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_NM_1225 IS '配置ポスト名称１２２５'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_NM_1230 IS '配置ポスト名称１２３０'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_NM_1235 IS '配置ポスト名称１２３５'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_NM_1240 IS '配置ポスト名称１２４０'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_NM_1245 IS '配置ポスト名称１２４５'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_NM_1250 IS '配置ポスト名称１２５０'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_NM_1255 IS '配置ポスト名称１２５５'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_NM_1300 IS '配置ポスト名称１３００'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_NM_1305 IS '配置ポスト名称１３０５'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_NM_1310 IS '配置ポスト名称１３１０'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_NM_1315 IS '配置ポスト名称１３１５'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_NM_1320 IS '配置ポスト名称１３２０'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_NM_1325 IS '配置ポスト名称１３２５'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_NM_1330 IS '配置ポスト名称１３３０'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_NM_1335 IS '配置ポスト名称１３３５'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_NM_1340 IS '配置ポスト名称１３４０'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_NM_1345 IS '配置ポスト名称１３４５'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_NM_1350 IS '配置ポスト名称１３５０'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_NM_1355 IS '配置ポスト名称１３５５'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_NM_1400 IS '配置ポスト名称１４００'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_NM_1405 IS '配置ポスト名称１４０５'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_NM_1410 IS '配置ポスト名称１４１０'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_NM_1415 IS '配置ポスト名称１４１５'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_NM_1420 IS '配置ポスト名称１４２０'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_NM_1425 IS '配置ポスト名称１４２５'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_NM_1430 IS '配置ポスト名称１４３０'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_NM_1435 IS '配置ポスト名称１４３５'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_NM_1440 IS '配置ポスト名称１４４０'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_NM_1445 IS '配置ポスト名称１４４５'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_NM_1450 IS '配置ポスト名称１４５０'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_NM_1455 IS '配置ポスト名称１４５５'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_NM_1500 IS '配置ポスト名称１５００'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_NM_1505 IS '配置ポスト名称１５０５'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_NM_1510 IS '配置ポスト名称１５１０'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_NM_1515 IS '配置ポスト名称１５１５'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_NM_1520 IS '配置ポスト名称１５２０'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_NM_1525 IS '配置ポスト名称１５２５'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_NM_1530 IS '配置ポスト名称１５３０'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_NM_1535 IS '配置ポスト名称１５３５'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_NM_1540 IS '配置ポスト名称１５４０'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_NM_1545 IS '配置ポスト名称１５４５'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_NM_1550 IS '配置ポスト名称１５５０'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_NM_1555 IS '配置ポスト名称１５５５'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_NM_1600 IS '配置ポスト名称１６００'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_NM_1605 IS '配置ポスト名称１６０５'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_NM_1610 IS '配置ポスト名称１６１０'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_NM_1615 IS '配置ポスト名称１６１５'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_NM_1620 IS '配置ポスト名称１６２０'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_NM_1625 IS '配置ポスト名称１６２５'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_NM_1630 IS '配置ポスト名称１６３０'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_NM_1635 IS '配置ポスト名称１６３５'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_NM_1640 IS '配置ポスト名称１６４０'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_NM_1645 IS '配置ポスト名称１６４５'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_NM_1650 IS '配置ポスト名称１６５０'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_NM_1655 IS '配置ポスト名称１６５５'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_NM_1700 IS '配置ポスト名称１７００'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_NM_1705 IS '配置ポスト名称１７０５'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_NM_1710 IS '配置ポスト名称１７１０'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_NM_1715 IS '配置ポスト名称１７１５'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_NM_1720 IS '配置ポスト名称１７２０'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_NM_1725 IS '配置ポスト名称１７２５'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_NM_1730 IS '配置ポスト名称１７３０'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_NM_1735 IS '配置ポスト名称１７３５'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_NM_1740 IS '配置ポスト名称１７４０'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_NM_1745 IS '配置ポスト名称１７４５'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_NM_1750 IS '配置ポスト名称１７５０'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_NM_1755 IS '配置ポスト名称１７５５'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_NM_1800 IS '配置ポスト名称１８００'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_NM_1805 IS '配置ポスト名称１８０５'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_NM_1810 IS '配置ポスト名称１８１０'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_NM_1815 IS '配置ポスト名称１８１５'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_NM_1820 IS '配置ポスト名称１８２０'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_NM_1825 IS '配置ポスト名称１８２５'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_NM_1830 IS '配置ポスト名称１８３０'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_NM_1835 IS '配置ポスト名称１８３５'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_NM_1840 IS '配置ポスト名称１８４０'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_NM_1845 IS '配置ポスト名称１８４５'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_NM_1850 IS '配置ポスト名称１８５０'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_NM_1855 IS '配置ポスト名称１８５５'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_NM_1900 IS '配置ポスト名称１９００'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_NM_1905 IS '配置ポスト名称１９０５'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_NM_1910 IS '配置ポスト名称１９１０'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_NM_1915 IS '配置ポスト名称１９１５'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_NM_1920 IS '配置ポスト名称１９２０'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_NM_1925 IS '配置ポスト名称１９２５'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_NM_1930 IS '配置ポスト名称１９３０'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_NM_1935 IS '配置ポスト名称１９３５'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_NM_1940 IS '配置ポスト名称１９４０'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_NM_1945 IS '配置ポスト名称１９４５'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_NM_1950 IS '配置ポスト名称１９５０'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_NM_1955 IS '配置ポスト名称１９５５'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_NM_2000 IS '配置ポスト名称２０００'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_NM_2005 IS '配置ポスト名称２００５'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_NM_2010 IS '配置ポスト名称２０１０'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_NM_2015 IS '配置ポスト名称２０１５'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_NM_2020 IS '配置ポスト名称２０２０'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_NM_2025 IS '配置ポスト名称２０２５'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_NM_2030 IS '配置ポスト名称２０３０'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_NM_2035 IS '配置ポスト名称２０３５'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_NM_2040 IS '配置ポスト名称２０４０'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_NM_2045 IS '配置ポスト名称２０４５'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_NM_2050 IS '配置ポスト名称２０５０'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_NM_2055 IS '配置ポスト名称２０５５'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_NM_2100 IS '配置ポスト名称２１００'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_NM_2105 IS '配置ポスト名称２１０５'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_NM_2110 IS '配置ポスト名称２１１０'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_NM_2115 IS '配置ポスト名称２１１５'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_NM_2120 IS '配置ポスト名称２１２０'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_NM_2125 IS '配置ポスト名称２１２５'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_NM_2130 IS '配置ポスト名称２１３０'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_NM_2135 IS '配置ポスト名称２１３５'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_NM_2140 IS '配置ポスト名称２１４０'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_NM_2145 IS '配置ポスト名称２１４５'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_NM_2150 IS '配置ポスト名称２１５０'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_NM_2155 IS '配置ポスト名称２１５５'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_NM_2200 IS '配置ポスト名称２２００'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_NM_2205 IS '配置ポスト名称２２０５'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_NM_2210 IS '配置ポスト名称２２１０'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_NM_2215 IS '配置ポスト名称２２１５'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_NM_2220 IS '配置ポスト名称２２２０'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_NM_2225 IS '配置ポスト名称２２２５'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_NM_2230 IS '配置ポスト名称２２３０'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_NM_2235 IS '配置ポスト名称２２３５'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_NM_2240 IS '配置ポスト名称２２４０'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_NM_2245 IS '配置ポスト名称２２４５'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_NM_2250 IS '配置ポスト名称２２５０'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_NM_2255 IS '配置ポスト名称２２５５'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_NM_2300 IS '配置ポスト名称２３００'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_NM_2305 IS '配置ポスト名称２３０５'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_NM_2310 IS '配置ポスト名称２３１０'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_NM_2315 IS '配置ポスト名称２３１５'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_NM_2320 IS '配置ポスト名称２３２０'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_NM_2325 IS '配置ポスト名称２３２５'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_NM_2330 IS '配置ポスト名称２３３０'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_NM_2335 IS '配置ポスト名称２３３５'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_NM_2340 IS '配置ポスト名称２３４０'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_NM_2345 IS '配置ポスト名称２３４５'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_NM_2350 IS '配置ポスト名称２３５０'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_NM_2355 IS '配置ポスト名称２３５５'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_NM_0000 IS '配置ポスト名称００００'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_NM_0005 IS '配置ポスト名称０００５'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_NM_0010 IS '配置ポスト名称００１０'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_NM_0015 IS '配置ポスト名称００１５'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_NM_0020 IS '配置ポスト名称００２０'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_NM_0025 IS '配置ポスト名称００２５'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_NM_0030 IS '配置ポスト名称００３０'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_NM_0035 IS '配置ポスト名称００３５'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_NM_0040 IS '配置ポスト名称００４０'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_NM_0045 IS '配置ポスト名称００４５'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_NM_0050 IS '配置ポスト名称００５０'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_NM_0055 IS '配置ポスト名称００５５'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_NM_0100 IS '配置ポスト名称０１００'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_NM_0105 IS '配置ポスト名称０１０５'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_NM_0110 IS '配置ポスト名称０１１０'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_NM_0115 IS '配置ポスト名称０１１５'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_NM_0120 IS '配置ポスト名称０１２０'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_NM_0125 IS '配置ポスト名称０１２５'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_NM_0130 IS '配置ポスト名称０１３０'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_NM_0135 IS '配置ポスト名称０１３５'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_NM_0140 IS '配置ポスト名称０１４０'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_NM_0145 IS '配置ポスト名称０１４５'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_NM_0150 IS '配置ポスト名称０１５０'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_NM_0155 IS '配置ポスト名称０１５５'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_NM_0200 IS '配置ポスト名称０２００'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_NM_0205 IS '配置ポスト名称０２０５'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_NM_0210 IS '配置ポスト名称０２１０'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_NM_0215 IS '配置ポスト名称０２１５'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_NM_0220 IS '配置ポスト名称０２２０'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_NM_0225 IS '配置ポスト名称０２２５'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_NM_0230 IS '配置ポスト名称０２３０'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_NM_0235 IS '配置ポスト名称０２３５'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_NM_0240 IS '配置ポスト名称０２４０'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_NM_0245 IS '配置ポスト名称０２４５'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_NM_0250 IS '配置ポスト名称０２５０'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_NM_0255 IS '配置ポスト名称０２５５'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_NM_0300 IS '配置ポスト名称０３００'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_NM_0305 IS '配置ポスト名称０３０５'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_NM_0310 IS '配置ポスト名称０３１０'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_NM_0315 IS '配置ポスト名称０３１５'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_NM_0320 IS '配置ポスト名称０３２０'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_NM_0325 IS '配置ポスト名称０３２５'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_NM_0330 IS '配置ポスト名称０３３０'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_NM_0335 IS '配置ポスト名称０３３５'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_NM_0340 IS '配置ポスト名称０３４０'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_NM_0345 IS '配置ポスト名称０３４５'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_NM_0350 IS '配置ポスト名称０３５０'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_NM_0355 IS '配置ポスト名称０３５５'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_NM_0400 IS '配置ポスト名称０４００'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_NM_0405 IS '配置ポスト名称０４０５'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_NM_0410 IS '配置ポスト名称０４１０'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_NM_0415 IS '配置ポスト名称０４１５'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_NM_0420 IS '配置ポスト名称０４２０'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_NM_0425 IS '配置ポスト名称０４２５'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_NM_0430 IS '配置ポスト名称０４３０'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_NM_0435 IS '配置ポスト名称０４３５'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_NM_0440 IS '配置ポスト名称０４４０'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_NM_0445 IS '配置ポスト名称０４４５'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_NM_0450 IS '配置ポスト名称０４５０'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_NM_0455 IS '配置ポスト名称０４５５'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_NM_0500 IS '配置ポスト名称０５００'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_NM_0505 IS '配置ポスト名称０５０５'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_NM_0510 IS '配置ポスト名称０５１０'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_NM_0515 IS '配置ポスト名称０５１５'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_NM_0520 IS '配置ポスト名称０５２０'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_NM_0525 IS '配置ポスト名称０５２５'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_NM_0530 IS '配置ポスト名称０５３０'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_NM_0535 IS '配置ポスト名称０５３５'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_NM_0540 IS '配置ポスト名称０５４０'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_NM_0545 IS '配置ポスト名称０５４５'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_NM_0550 IS '配置ポスト名称０５５０'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_NM_0555 IS '配置ポスト名称０５５５'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_NM_0600 IS '配置ポスト名称０６００'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_NM_0605 IS '配置ポスト名称０６０５'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_NM_0610 IS '配置ポスト名称０６１０'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_NM_0615 IS '配置ポスト名称０６１５'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_NM_0620 IS '配置ポスト名称０６２０'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_NM_0625 IS '配置ポスト名称０６２５'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_NM_0630 IS '配置ポスト名称０６３０'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_NM_0635 IS '配置ポスト名称０６３５'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_NM_0640 IS '配置ポスト名称０６４０'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_NM_0645 IS '配置ポスト名称０６４５'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_NM_0650 IS '配置ポスト名称０６５０'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_NM_0655 IS '配置ポスト名称０６５５'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_NM_0700 IS '配置ポスト名称０７００'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_NM_0705 IS '配置ポスト名称０７０５'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_NM_0710 IS '配置ポスト名称０７１０'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_NM_0715 IS '配置ポスト名称０７１５'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_NM_0720 IS '配置ポスト名称０７２０'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_NM_0725 IS '配置ポスト名称０７２５'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_NM_0730 IS '配置ポスト名称０７３０'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_NM_0735 IS '配置ポスト名称０７３５'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_NM_0740 IS '配置ポスト名称０７４０'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_NM_0745 IS '配置ポスト名称０７４５'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_NM_0750 IS '配置ポスト名称０７５０'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_NM_0755 IS '配置ポスト名称０７５５'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_NM_0800 IS '配置ポスト名称０８００'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_NM_0805 IS '配置ポスト名称０８０５'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_NM_0810 IS '配置ポスト名称０８１０'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_NM_0815 IS '配置ポスト名称０８１５'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_NM_0820 IS '配置ポスト名称０８２０'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_NM_0825 IS '配置ポスト名称０８２５'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_NM_0830 IS '配置ポスト名称０８３０'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_NM_0835 IS '配置ポスト名称０８３５'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_NM_0840 IS '配置ポスト名称０８４０'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_NM_0845 IS '配置ポスト名称０８４５'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_NM_0850 IS '配置ポスト名称０８５０'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_NM_0855 IS '配置ポスト名称０８５５'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_COLOR_CD_0900 IS '配置ポストカラーコード０９００'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_COLOR_CD_0905 IS '配置ポストカラーコード０９０５'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_COLOR_CD_0910 IS '配置ポストカラーコード０９１０'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_COLOR_CD_0915 IS '配置ポストカラーコード０９１５'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_COLOR_CD_0920 IS '配置ポストカラーコード０９２０'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_COLOR_CD_0925 IS '配置ポストカラーコード０９２５'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_COLOR_CD_0930 IS '配置ポストカラーコード０９３０'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_COLOR_CD_0935 IS '配置ポストカラーコード０９３５'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_COLOR_CD_0940 IS '配置ポストカラーコード０９４０'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_COLOR_CD_0945 IS '配置ポストカラーコード０９４５'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_COLOR_CD_0950 IS '配置ポストカラーコード０９５０'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_COLOR_CD_0955 IS '配置ポストカラーコード０９５５'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_COLOR_CD_1000 IS '配置ポストカラーコード１０００'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_COLOR_CD_1005 IS '配置ポストカラーコード１００５'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_COLOR_CD_1010 IS '配置ポストカラーコード１０１０'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_COLOR_CD_1015 IS '配置ポストカラーコード１０１５'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_COLOR_CD_1020 IS '配置ポストカラーコード１０２０'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_COLOR_CD_1025 IS '配置ポストカラーコード１０２５'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_COLOR_CD_1030 IS '配置ポストカラーコード１０３０'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_COLOR_CD_1035 IS '配置ポストカラーコード１０３５'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_COLOR_CD_1040 IS '配置ポストカラーコード１０４０'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_COLOR_CD_1045 IS '配置ポストカラーコード１０４５'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_COLOR_CD_1050 IS '配置ポストカラーコード１０５０'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_COLOR_CD_1055 IS '配置ポストカラーコード１０５５'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_COLOR_CD_1100 IS '配置ポストカラーコード１１００'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_COLOR_CD_1105 IS '配置ポストカラーコード１１０５'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_COLOR_CD_1110 IS '配置ポストカラーコード１１１０'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_COLOR_CD_1115 IS '配置ポストカラーコード１１１５'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_COLOR_CD_1120 IS '配置ポストカラーコード１１２０'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_COLOR_CD_1125 IS '配置ポストカラーコード１１２５'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_COLOR_CD_1130 IS '配置ポストカラーコード１１３０'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_COLOR_CD_1135 IS '配置ポストカラーコード１１３５'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_COLOR_CD_1140 IS '配置ポストカラーコード１１４０'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_COLOR_CD_1145 IS '配置ポストカラーコード１１４５'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_COLOR_CD_1150 IS '配置ポストカラーコード１１５０'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_COLOR_CD_1155 IS '配置ポストカラーコード１１５５'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_COLOR_CD_1200 IS '配置ポストカラーコード１２００'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_COLOR_CD_1205 IS '配置ポストカラーコード１２０５'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_COLOR_CD_1210 IS '配置ポストカラーコード１２１０'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_COLOR_CD_1215 IS '配置ポストカラーコード１２１５'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_COLOR_CD_1220 IS '配置ポストカラーコード１２２０'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_COLOR_CD_1225 IS '配置ポストカラーコード１２２５'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_COLOR_CD_1230 IS '配置ポストカラーコード１２３０'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_COLOR_CD_1235 IS '配置ポストカラーコード１２３５'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_COLOR_CD_1240 IS '配置ポストカラーコード１２４０'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_COLOR_CD_1245 IS '配置ポストカラーコード１２４５'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_COLOR_CD_1250 IS '配置ポストカラーコード１２５０'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_COLOR_CD_1255 IS '配置ポストカラーコード１２５５'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_COLOR_CD_1300 IS '配置ポストカラーコード１３００'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_COLOR_CD_1305 IS '配置ポストカラーコード１３０５'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_COLOR_CD_1310 IS '配置ポストカラーコード１３１０'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_COLOR_CD_1315 IS '配置ポストカラーコード１３１５'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_COLOR_CD_1320 IS '配置ポストカラーコード１３２０'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_COLOR_CD_1325 IS '配置ポストカラーコード１３２５'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_COLOR_CD_1330 IS '配置ポストカラーコード１３３０'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_COLOR_CD_1335 IS '配置ポストカラーコード１３３５'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_COLOR_CD_1340 IS '配置ポストカラーコード１３４０'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_COLOR_CD_1345 IS '配置ポストカラーコード１３４５'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_COLOR_CD_1350 IS '配置ポストカラーコード１３５０'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_COLOR_CD_1355 IS '配置ポストカラーコード１３５５'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_COLOR_CD_1400 IS '配置ポストカラーコード１４００'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_COLOR_CD_1405 IS '配置ポストカラーコード１４０５'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_COLOR_CD_1410 IS '配置ポストカラーコード１４１０'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_COLOR_CD_1415 IS '配置ポストカラーコード１４１５'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_COLOR_CD_1420 IS '配置ポストカラーコード１４２０'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_COLOR_CD_1425 IS '配置ポストカラーコード１４２５'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_COLOR_CD_1430 IS '配置ポストカラーコード１４３０'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_COLOR_CD_1435 IS '配置ポストカラーコード１４３５'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_COLOR_CD_1440 IS '配置ポストカラーコード１４４０'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_COLOR_CD_1445 IS '配置ポストカラーコード１４４５'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_COLOR_CD_1450 IS '配置ポストカラーコード１４５０'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_COLOR_CD_1455 IS '配置ポストカラーコード１４５５'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_COLOR_CD_1500 IS '配置ポストカラーコード１５００'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_COLOR_CD_1505 IS '配置ポストカラーコード１５０５'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_COLOR_CD_1510 IS '配置ポストカラーコード１５１０'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_COLOR_CD_1515 IS '配置ポストカラーコード１５１５'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_COLOR_CD_1520 IS '配置ポストカラーコード１５２０'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_COLOR_CD_1525 IS '配置ポストカラーコード１５２５'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_COLOR_CD_1530 IS '配置ポストカラーコード１５３０'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_COLOR_CD_1535 IS '配置ポストカラーコード１５３５'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_COLOR_CD_1540 IS '配置ポストカラーコード１５４０'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_COLOR_CD_1545 IS '配置ポストカラーコード１５４５'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_COLOR_CD_1550 IS '配置ポストカラーコード１５５０'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_COLOR_CD_1555 IS '配置ポストカラーコード１５５５'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_COLOR_CD_1600 IS '配置ポストカラーコード１６００'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_COLOR_CD_1605 IS '配置ポストカラーコード１６０５'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_COLOR_CD_1610 IS '配置ポストカラーコード１６１０'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_COLOR_CD_1615 IS '配置ポストカラーコード１６１５'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_COLOR_CD_1620 IS '配置ポストカラーコード１６２０'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_COLOR_CD_1625 IS '配置ポストカラーコード１６２５'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_COLOR_CD_1630 IS '配置ポストカラーコード１６３０'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_COLOR_CD_1635 IS '配置ポストカラーコード１６３５'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_COLOR_CD_1640 IS '配置ポストカラーコード１６４０'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_COLOR_CD_1645 IS '配置ポストカラーコード１６４５'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_COLOR_CD_1650 IS '配置ポストカラーコード１６５０'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_COLOR_CD_1655 IS '配置ポストカラーコード１６５５'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_COLOR_CD_1700 IS '配置ポストカラーコード１７００'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_COLOR_CD_1705 IS '配置ポストカラーコード１７０５'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_COLOR_CD_1710 IS '配置ポストカラーコード１７１０'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_COLOR_CD_1715 IS '配置ポストカラーコード１７１５'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_COLOR_CD_1720 IS '配置ポストカラーコード１７２０'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_COLOR_CD_1725 IS '配置ポストカラーコード１７２５'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_COLOR_CD_1730 IS '配置ポストカラーコード１７３０'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_COLOR_CD_1735 IS '配置ポストカラーコード１７３５'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_COLOR_CD_1740 IS '配置ポストカラーコード１７４０'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_COLOR_CD_1745 IS '配置ポストカラーコード１７４５'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_COLOR_CD_1750 IS '配置ポストカラーコード１７５０'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_COLOR_CD_1755 IS '配置ポストカラーコード１７５５'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_COLOR_CD_1800 IS '配置ポストカラーコード１８００'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_COLOR_CD_1805 IS '配置ポストカラーコード１８０５'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_COLOR_CD_1810 IS '配置ポストカラーコード１８１０'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_COLOR_CD_1815 IS '配置ポストカラーコード１８１５'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_COLOR_CD_1820 IS '配置ポストカラーコード１８２０'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_COLOR_CD_1825 IS '配置ポストカラーコード１８２５'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_COLOR_CD_1830 IS '配置ポストカラーコード１８３０'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_COLOR_CD_1835 IS '配置ポストカラーコード１８３５'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_COLOR_CD_1840 IS '配置ポストカラーコード１８４０'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_COLOR_CD_1845 IS '配置ポストカラーコード１８４５'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_COLOR_CD_1850 IS '配置ポストカラーコード１８５０'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_COLOR_CD_1855 IS '配置ポストカラーコード１８５５'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_COLOR_CD_1900 IS '配置ポストカラーコード１９００'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_COLOR_CD_1905 IS '配置ポストカラーコード１９０５'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_COLOR_CD_1910 IS '配置ポストカラーコード１９１０'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_COLOR_CD_1915 IS '配置ポストカラーコード１９１５'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_COLOR_CD_1920 IS '配置ポストカラーコード１９２０'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_COLOR_CD_1925 IS '配置ポストカラーコード１９２５'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_COLOR_CD_1930 IS '配置ポストカラーコード１９３０'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_COLOR_CD_1935 IS '配置ポストカラーコード１９３５'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_COLOR_CD_1940 IS '配置ポストカラーコード１９４０'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_COLOR_CD_1945 IS '配置ポストカラーコード１９４５'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_COLOR_CD_1950 IS '配置ポストカラーコード１９５０'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_COLOR_CD_1955 IS '配置ポストカラーコード１９５５'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_COLOR_CD_2000 IS '配置ポストカラーコード２０００'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_COLOR_CD_2005 IS '配置ポストカラーコード２００５'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_COLOR_CD_2010 IS '配置ポストカラーコード２０１０'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_COLOR_CD_2015 IS '配置ポストカラーコード２０１５'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_COLOR_CD_2020 IS '配置ポストカラーコード２０２０'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_COLOR_CD_2025 IS '配置ポストカラーコード２０２５'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_COLOR_CD_2030 IS '配置ポストカラーコード２０３０'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_COLOR_CD_2035 IS '配置ポストカラーコード２０３５'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_COLOR_CD_2040 IS '配置ポストカラーコード２０４０'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_COLOR_CD_2045 IS '配置ポストカラーコード２０４５'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_COLOR_CD_2050 IS '配置ポストカラーコード２０５０'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_COLOR_CD_2055 IS '配置ポストカラーコード２０５５'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_COLOR_CD_2100 IS '配置ポストカラーコード２１００'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_COLOR_CD_2105 IS '配置ポストカラーコード２１０５'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_COLOR_CD_2110 IS '配置ポストカラーコード２１１０'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_COLOR_CD_2115 IS '配置ポストカラーコード２１１５'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_COLOR_CD_2120 IS '配置ポストカラーコード２１２０'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_COLOR_CD_2125 IS '配置ポストカラーコード２１２５'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_COLOR_CD_2130 IS '配置ポストカラーコード２１３０'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_COLOR_CD_2135 IS '配置ポストカラーコード２１３５'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_COLOR_CD_2140 IS '配置ポストカラーコード２１４０'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_COLOR_CD_2145 IS '配置ポストカラーコード２１４５'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_COLOR_CD_2150 IS '配置ポストカラーコード２１５０'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_COLOR_CD_2155 IS '配置ポストカラーコード２１５５'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_COLOR_CD_2200 IS '配置ポストカラーコード２２００'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_COLOR_CD_2205 IS '配置ポストカラーコード２２０５'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_COLOR_CD_2210 IS '配置ポストカラーコード２２１０'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_COLOR_CD_2215 IS '配置ポストカラーコード２２１５'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_COLOR_CD_2220 IS '配置ポストカラーコード２２２０'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_COLOR_CD_2225 IS '配置ポストカラーコード２２２５'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_COLOR_CD_2230 IS '配置ポストカラーコード２２３０'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_COLOR_CD_2235 IS '配置ポストカラーコード２２３５'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_COLOR_CD_2240 IS '配置ポストカラーコード２２４０'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_COLOR_CD_2245 IS '配置ポストカラーコード２２４５'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_COLOR_CD_2250 IS '配置ポストカラーコード２２５０'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_COLOR_CD_2255 IS '配置ポストカラーコード２２５５'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_COLOR_CD_2300 IS '配置ポストカラーコード２３００'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_COLOR_CD_2305 IS '配置ポストカラーコード２３０５'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_COLOR_CD_2310 IS '配置ポストカラーコード２３１０'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_COLOR_CD_2315 IS '配置ポストカラーコード２３１５'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_COLOR_CD_2320 IS '配置ポストカラーコード２３２０'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_COLOR_CD_2325 IS '配置ポストカラーコード２３２５'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_COLOR_CD_2330 IS '配置ポストカラーコード２３３０'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_COLOR_CD_2335 IS '配置ポストカラーコード２３３５'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_COLOR_CD_2340 IS '配置ポストカラーコード２３４０'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_COLOR_CD_2345 IS '配置ポストカラーコード２３４５'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_COLOR_CD_2350 IS '配置ポストカラーコード２３５０'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_COLOR_CD_2355 IS '配置ポストカラーコード２３５５'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_COLOR_CD_0000 IS '配置ポストカラーコード００００'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_COLOR_CD_0005 IS '配置ポストカラーコード０００５'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_COLOR_CD_0010 IS '配置ポストカラーコード００１０'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_COLOR_CD_0015 IS '配置ポストカラーコード００１５'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_COLOR_CD_0020 IS '配置ポストカラーコード００２０'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_COLOR_CD_0025 IS '配置ポストカラーコード００２５'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_COLOR_CD_0030 IS '配置ポストカラーコード００３０'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_COLOR_CD_0035 IS '配置ポストカラーコード００３５'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_COLOR_CD_0040 IS '配置ポストカラーコード００４０'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_COLOR_CD_0045 IS '配置ポストカラーコード００４５'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_COLOR_CD_0050 IS '配置ポストカラーコード００５０'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_COLOR_CD_0055 IS '配置ポストカラーコード００５５'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_COLOR_CD_0100 IS '配置ポストカラーコード０１００'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_COLOR_CD_0105 IS '配置ポストカラーコード０１０５'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_COLOR_CD_0110 IS '配置ポストカラーコード０１１０'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_COLOR_CD_0115 IS '配置ポストカラーコード０１１５'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_COLOR_CD_0120 IS '配置ポストカラーコード０１２０'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_COLOR_CD_0125 IS '配置ポストカラーコード０１２５'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_COLOR_CD_0130 IS '配置ポストカラーコード０１３０'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_COLOR_CD_0135 IS '配置ポストカラーコード０１３５'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_COLOR_CD_0140 IS '配置ポストカラーコード０１４０'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_COLOR_CD_0145 IS '配置ポストカラーコード０１４５'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_COLOR_CD_0150 IS '配置ポストカラーコード０１５０'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_COLOR_CD_0155 IS '配置ポストカラーコード０１５５'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_COLOR_CD_0200 IS '配置ポストカラーコード０２００'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_COLOR_CD_0205 IS '配置ポストカラーコード０２０５'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_COLOR_CD_0210 IS '配置ポストカラーコード０２１０'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_COLOR_CD_0215 IS '配置ポストカラーコード０２１５'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_COLOR_CD_0220 IS '配置ポストカラーコード０２２０'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_COLOR_CD_0225 IS '配置ポストカラーコード０２２５'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_COLOR_CD_0230 IS '配置ポストカラーコード０２３０'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_COLOR_CD_0235 IS '配置ポストカラーコード０２３５'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_COLOR_CD_0240 IS '配置ポストカラーコード０２４０'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_COLOR_CD_0245 IS '配置ポストカラーコード０２４５'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_COLOR_CD_0250 IS '配置ポストカラーコード０２５０'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_COLOR_CD_0255 IS '配置ポストカラーコード０２５５'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_COLOR_CD_0300 IS '配置ポストカラーコード０３００'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_COLOR_CD_0305 IS '配置ポストカラーコード０３０５'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_COLOR_CD_0310 IS '配置ポストカラーコード０３１０'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_COLOR_CD_0315 IS '配置ポストカラーコード０３１５'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_COLOR_CD_0320 IS '配置ポストカラーコード０３２０'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_COLOR_CD_0325 IS '配置ポストカラーコード０３２５'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_COLOR_CD_0330 IS '配置ポストカラーコード０３３０'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_COLOR_CD_0335 IS '配置ポストカラーコード０３３５'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_COLOR_CD_0340 IS '配置ポストカラーコード０３４０'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_COLOR_CD_0345 IS '配置ポストカラーコード０３４５'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_COLOR_CD_0350 IS '配置ポストカラーコード０３５０'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_COLOR_CD_0355 IS '配置ポストカラーコード０３５５'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_COLOR_CD_0400 IS '配置ポストカラーコード０４００'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_COLOR_CD_0405 IS '配置ポストカラーコード０４０５'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_COLOR_CD_0410 IS '配置ポストカラーコード０４１０'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_COLOR_CD_0415 IS '配置ポストカラーコード０４１５'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_COLOR_CD_0420 IS '配置ポストカラーコード０４２０'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_COLOR_CD_0425 IS '配置ポストカラーコード０４２５'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_COLOR_CD_0430 IS '配置ポストカラーコード０４３０'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_COLOR_CD_0435 IS '配置ポストカラーコード０４３５'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_COLOR_CD_0440 IS '配置ポストカラーコード０４４０'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_COLOR_CD_0445 IS '配置ポストカラーコード０４４５'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_COLOR_CD_0450 IS '配置ポストカラーコード０４５０'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_COLOR_CD_0455 IS '配置ポストカラーコード０４５５'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_COLOR_CD_0500 IS '配置ポストカラーコード０５００'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_COLOR_CD_0505 IS '配置ポストカラーコード０５０５'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_COLOR_CD_0510 IS '配置ポストカラーコード０５１０'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_COLOR_CD_0515 IS '配置ポストカラーコード０５１５'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_COLOR_CD_0520 IS '配置ポストカラーコード０５２０'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_COLOR_CD_0525 IS '配置ポストカラーコード０５２５'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_COLOR_CD_0530 IS '配置ポストカラーコード０５３０'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_COLOR_CD_0535 IS '配置ポストカラーコード０５３５'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_COLOR_CD_0540 IS '配置ポストカラーコード０５４０'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_COLOR_CD_0545 IS '配置ポストカラーコード０５４５'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_COLOR_CD_0550 IS '配置ポストカラーコード０５５０'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_COLOR_CD_0555 IS '配置ポストカラーコード０５５５'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_COLOR_CD_0600 IS '配置ポストカラーコード０６００'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_COLOR_CD_0605 IS '配置ポストカラーコード０６０５'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_COLOR_CD_0610 IS '配置ポストカラーコード０６１０'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_COLOR_CD_0615 IS '配置ポストカラーコード０６１５'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_COLOR_CD_0620 IS '配置ポストカラーコード０６２０'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_COLOR_CD_0625 IS '配置ポストカラーコード０６２５'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_COLOR_CD_0630 IS '配置ポストカラーコード０６３０'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_COLOR_CD_0635 IS '配置ポストカラーコード０６３５'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_COLOR_CD_0640 IS '配置ポストカラーコード０６４０'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_COLOR_CD_0645 IS '配置ポストカラーコード０６４５'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_COLOR_CD_0650 IS '配置ポストカラーコード０６５０'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_COLOR_CD_0655 IS '配置ポストカラーコード０６５５'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_COLOR_CD_0700 IS '配置ポストカラーコード０７００'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_COLOR_CD_0705 IS '配置ポストカラーコード０７０５'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_COLOR_CD_0710 IS '配置ポストカラーコード０７１０'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_COLOR_CD_0715 IS '配置ポストカラーコード０７１５'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_COLOR_CD_0720 IS '配置ポストカラーコード０７２０'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_COLOR_CD_0725 IS '配置ポストカラーコード０７２５'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_COLOR_CD_0730 IS '配置ポストカラーコード０７３０'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_COLOR_CD_0735 IS '配置ポストカラーコード０７３５'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_COLOR_CD_0740 IS '配置ポストカラーコード０７４０'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_COLOR_CD_0745 IS '配置ポストカラーコード０７４５'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_COLOR_CD_0750 IS '配置ポストカラーコード０７５０'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_COLOR_CD_0755 IS '配置ポストカラーコード０７５５'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_COLOR_CD_0800 IS '配置ポストカラーコード０８００'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_COLOR_CD_0805 IS '配置ポストカラーコード０８０５'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_COLOR_CD_0810 IS '配置ポストカラーコード０８１０'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_COLOR_CD_0815 IS '配置ポストカラーコード０８１５'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_COLOR_CD_0820 IS '配置ポストカラーコード０８２０'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_COLOR_CD_0825 IS '配置ポストカラーコード０８２５'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_COLOR_CD_0830 IS '配置ポストカラーコード０８３０'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_COLOR_CD_0835 IS '配置ポストカラーコード０８３５'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_COLOR_CD_0840 IS '配置ポストカラーコード０８４０'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_COLOR_CD_0845 IS '配置ポストカラーコード０８４５'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_COLOR_CD_0850 IS '配置ポストカラーコード０８５０'
+/
+COMMENT ON COLUMN ED4445T_TBL.HAICHI_POST_COLOR_CD_0855 IS '配置ポストカラーコード０８５５'
+/
+COMMENT ON COLUMN ED4445T_TBL.REGST_TMSTMP IS '登録タイムスタンプ'
+/
+COMMENT ON COLUMN ED4445T_TBL.REGSTR_CO_CD IS '登録者会社コード'
+/
+COMMENT ON COLUMN ED4445T_TBL.REGSTR_SOSHIKI_CD IS '登録者組織コード'
+/
+COMMENT ON COLUMN ED4445T_TBL.REGSTR_EMP_NO IS '登録者社員番号'
+/
+COMMENT ON COLUMN ED4445T_TBL.REGST_GAMEN_ID IS '登録画面ＩＤ'
+/
+COMMENT ON COLUMN ED4445T_TBL.REGST_PGM_ID IS '登録プログラムＩＤ'
+/
+COMMENT ON COLUMN ED4445T_TBL.UPD_TMSTMP IS '更新タイムスタンプ'
+/
+COMMENT ON COLUMN ED4445T_TBL.UPDTR_CO_CD IS '更新者会社コード'
+/
+COMMENT ON COLUMN ED4445T_TBL.UPDTR_SOSHIKI_CD IS '更新者組織コード'
+/
+COMMENT ON COLUMN ED4445T_TBL.UPDTR_EMP_NO IS '更新者社員番号'
+/
+COMMENT ON COLUMN ED4445T_TBL.UPD_GAMEN_ID IS '更新画面ＩＤ'
+/
+COMMENT ON COLUMN ED4445T_TBL.UPD_PGM_ID IS '更新プログラムＩＤ'
+/

@@ -1,0 +1,15 @@
+D:\Practice\C#\Mastering C# (C Sharp Programming)\ConsoleCheckedUnchecked\ConsoleCheckedUnchecked\bin\Debug\net6.0\ConsoleCheckedUnchecked.exe
+D:\Practice\C#\Mastering C# (C Sharp Programming)\ConsoleCheckedUnchecked\ConsoleCheckedUnchecked\bin\Debug\net6.0\ConsoleCheckedUnchecked.deps.json
+D:\Practice\C#\Mastering C# (C Sharp Programming)\ConsoleCheckedUnchecked\ConsoleCheckedUnchecked\bin\Debug\net6.0\ConsoleCheckedUnchecked.runtimeconfig.json
+D:\Practice\C#\Mastering C# (C Sharp Programming)\ConsoleCheckedUnchecked\ConsoleCheckedUnchecked\bin\Debug\net6.0\ConsoleCheckedUnchecked.dll
+D:\Practice\C#\Mastering C# (C Sharp Programming)\ConsoleCheckedUnchecked\ConsoleCheckedUnchecked\bin\Debug\net6.0\ConsoleCheckedUnchecked.pdb
+D:\Practice\C#\Mastering C# (C Sharp Programming)\ConsoleCheckedUnchecked\ConsoleCheckedUnchecked\obj\Debug\net6.0\ConsoleCheckedUnchecked.csproj.AssemblyReference.cache
+D:\Practice\C#\Mastering C# (C Sharp Programming)\ConsoleCheckedUnchecked\ConsoleCheckedUnchecked\obj\Debug\net6.0\ConsoleCheckedUnchecked.GeneratedMSBuildEditorConfig.editorconfig
+D:\Practice\C#\Mastering C# (C Sharp Programming)\ConsoleCheckedUnchecked\ConsoleCheckedUnchecked\obj\Debug\net6.0\ConsoleCheckedUnchecked.AssemblyInfoInputs.cache
+D:\Practice\C#\Mastering C# (C Sharp Programming)\ConsoleCheckedUnchecked\ConsoleCheckedUnchecked\obj\Debug\net6.0\ConsoleCheckedUnchecked.AssemblyInfo.cs
+D:\Practice\C#\Mastering C# (C Sharp Programming)\ConsoleCheckedUnchecked\ConsoleCheckedUnchecked\obj\Debug\net6.0\ConsoleCheckedUnchecked.csproj.CoreCompileInputs.cache
+D:\Practice\C#\Mastering C# (C Sharp Programming)\ConsoleCheckedUnchecked\ConsoleCheckedUnchecked\obj\Debug\net6.0\ConsoleCheckedUnchecked.dll
+D:\Practice\C#\Mastering C# (C Sharp Programming)\ConsoleCheckedUnchecked\ConsoleCheckedUnchecked\obj\Debug\net6.0\refint\ConsoleCheckedUnchecked.dll
+D:\Practice\C#\Mastering C# (C Sharp Programming)\ConsoleCheckedUnchecked\ConsoleCheckedUnchecked\obj\Debug\net6.0\ConsoleCheckedUnchecked.pdb
+D:\Practice\C#\Mastering C# (C Sharp Programming)\ConsoleCheckedUnchecked\ConsoleCheckedUnchecked\obj\Debug\net6.0\ConsoleCheckedUnchecked.genruntimeconfig.cache
+D:\Practice\C#\Mastering C# (C Sharp Programming)\ConsoleCheckedUnchecked\ConsoleCheckedUnchecked\obj\Debug\net6.0\ref\ConsoleCheckedUnchecked.dll

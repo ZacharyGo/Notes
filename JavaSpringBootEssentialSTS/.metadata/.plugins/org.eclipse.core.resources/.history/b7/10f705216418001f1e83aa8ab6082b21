@@ -1,0 +1,12 @@
+package com.frankmoley.lil.sbet.landon.roomwebapp.controllers;
+
+import org.springframework.stereotype.Controller;
+
+@Controller
+public class AuthenticationController {
+
+	@Getmapping("/login")
+	public String getLogin() {
+		return "login";
+	}
+}

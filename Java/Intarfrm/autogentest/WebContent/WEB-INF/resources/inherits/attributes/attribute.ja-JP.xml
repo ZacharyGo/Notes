@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+
+<properties>
+  <entry key="B">画面構成項目（ボタン等）</entry>
+  <entry key="D">日付</entry>
+  <entry key="NA">数字のみ</entry>
+  <entry key="NB">Numbers and decimal points</entry>
+  <entry key="NC">数字とマイナス記号と小数点</entry>
+  <entry key="SA">英字のみ</entry>
+  <entry key="SA1">英字（大文字）のみ</entry>
+  <entry key="SA2">英字（小文字）のみ</entry>
+  <entry key="SB">英数字のみ</entry>
+  <entry key="SB1">英数字（大文字）のみ</entry>
+  <entry key="SB2">英数字（小文字）のみ</entry>
+  <entry key="SC">英数字記号のみ</entry>
+  <entry key="SD">英数字記号（&apos;&quot;*%|以外）のみ</entry>
+  <entry key="SG">0～9のみ</entry>
+  <entry key="SN1">ひらがなのみ</entry>
+  <entry key="SN2">カタカナのみ</entry>
+  <entry key="SN3">全角のみ</entry>
+  <entry key="SN4">&apos;&quot;*%|以外</entry>
+  <entry key="SN5">全て</entry>
+  <entry key="SP1">E-mailアドレス</entry>
+  <entry key="SP2">郵便番号</entry>
+</properties>

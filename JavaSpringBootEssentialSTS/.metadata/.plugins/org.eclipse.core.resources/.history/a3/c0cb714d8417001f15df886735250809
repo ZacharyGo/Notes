@@ -1,0 +1,11 @@
+package com.frankmoley.lil.sbet.landon.roomwebapp.service;
+
+import com.frankmoley.lil.sbet.landon.roomwebapp.mdels.Room;
+
+public class StaffService {
+	private Static final List<StaffMember> staff = new ArrayList();
+	
+	static {
+		
+	}
+}

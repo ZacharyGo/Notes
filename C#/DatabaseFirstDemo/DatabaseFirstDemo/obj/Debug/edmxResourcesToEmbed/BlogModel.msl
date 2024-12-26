@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="AbbyModelStoreContainer" CdmEntityContainer="AbbyEntities">
+    <EntitySetMapping Name="Categories">
+      <EntityTypeMapping TypeName="AbbyModel.Category">
+        <MappingFragment StoreEntitySet="Category">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="DisplayOrder" ColumnName="DisplayOrder" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Items">
+      <EntityTypeMapping TypeName="AbbyModel.Item">
+        <MappingFragment StoreEntitySet="Item">
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Details">
+      <EntityTypeMapping TypeName="AbbyModel.Detail">
+        <MappingFragment StoreEntitySet="Details">
+          <ScalarProperty Name="displayorder" ColumnName="displayorder" />
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="newTables">
+      <EntityTypeMapping TypeName="AbbyModel.newTable">
+        <MappingFragment StoreEntitySet="newTable">
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="myno" ColumnName="myno" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+
+
+<properties>
+  <entry key="F-title">Exercise６-１</entry>
+  <entry key="F-formcaption">Exercise６-１</entry>
+  <entry key="F-mode1">Mode1</entry>
+  <entry key="F-group1">Group1</entry>
+
+  <entry key="loginid">Login ID</entry>
+  <entry key="password">Password</entry>
+  <entry key="btnenter">Login</entry>
+
+
+
+</properties>

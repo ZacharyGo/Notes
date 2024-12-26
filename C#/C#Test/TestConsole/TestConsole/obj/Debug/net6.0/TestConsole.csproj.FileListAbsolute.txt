@@ -1,0 +1,15 @@
+D:\Practice\C#\C#Test\TestConsole\TestConsole\bin\Debug\net6.0\TestConsole.exe
+D:\Practice\C#\C#Test\TestConsole\TestConsole\bin\Debug\net6.0\TestConsole.deps.json
+D:\Practice\C#\C#Test\TestConsole\TestConsole\bin\Debug\net6.0\TestConsole.runtimeconfig.json
+D:\Practice\C#\C#Test\TestConsole\TestConsole\bin\Debug\net6.0\TestConsole.dll
+D:\Practice\C#\C#Test\TestConsole\TestConsole\bin\Debug\net6.0\TestConsole.pdb
+D:\Practice\C#\C#Test\TestConsole\TestConsole\obj\Debug\net6.0\TestConsole.csproj.AssemblyReference.cache
+D:\Practice\C#\C#Test\TestConsole\TestConsole\obj\Debug\net6.0\TestConsole.GeneratedMSBuildEditorConfig.editorconfig
+D:\Practice\C#\C#Test\TestConsole\TestConsole\obj\Debug\net6.0\TestConsole.AssemblyInfoInputs.cache
+D:\Practice\C#\C#Test\TestConsole\TestConsole\obj\Debug\net6.0\TestConsole.AssemblyInfo.cs
+D:\Practice\C#\C#Test\TestConsole\TestConsole\obj\Debug\net6.0\TestConsole.csproj.CoreCompileInputs.cache
+D:\Practice\C#\C#Test\TestConsole\TestConsole\obj\Debug\net6.0\TestConsole.dll
+D:\Practice\C#\C#Test\TestConsole\TestConsole\obj\Debug\net6.0\refint\TestConsole.dll
+D:\Practice\C#\C#Test\TestConsole\TestConsole\obj\Debug\net6.0\TestConsole.pdb
+D:\Practice\C#\C#Test\TestConsole\TestConsole\obj\Debug\net6.0\TestConsole.genruntimeconfig.cache
+D:\Practice\C#\C#Test\TestConsole\TestConsole\obj\Debug\net6.0\ref\TestConsole.dll

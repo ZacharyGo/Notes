@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<file-transfer>
+	<upload>
+		<working-directory>c:\java_temp\upload</working-directory>
+		<!--リクエストの最大サイズ設定。 　　設定した値以上のリクエストを受け取った場合、メッセージID[S009]のメッセージを画面に出力します。 
+			　　この処理を無効にする場合にはvalueに0以下の値を設定してください。 　　また、アプリケーションサーバのリクエスト最大サイズとこの設定は2GBを超えないように設定してください。 -->
+		<max-size value="1" unit="M" />
+	</upload>
+	<download>
+		<buffer-size>1024</buffer-size>
+		<file>
+			<content-type>application/octet-stream</content-type>
+			<content-disposition>attachment</content-disposition>
+		</file>
+		<file extension="txt">
+			<content-type>text/plain</content-type>
+			<content-disposition>attachment</content-disposition>
+		</file>
+		<file extension="pdf">
+			<content-type>application/pdf</content-type>
+			<content-disposition>inline</content-disposition>
+		</file>
+		<file extension="doc">
+			<content-type>application/msword</content-type>
+			<content-disposition>attachment</content-disposition>
+		</file>
+		<file extension="docx">
+			<content-type>application/vnd.openxmlformats-officedocument.wordprocessingml.document</content-type>
+			<content-disposition>attachment</content-disposition>
+		</file>
+		<file extension="xls">
+			<content-type>application/vnd.ms-excel</content-type>
+			<content-disposition>attachment</content-disposition>
+		</file>
+		<file extension="xlsx">
+			<content-type>application/vnd.openxmlformats-officedocument.spreadsheetml.sheet</content-type>
+			<content-disposition>attachment</content-disposition>
+		</file>
+	</download>
+</file-transfer>

@@ -1,0 +1,3 @@
+spring.application.name=course-api-data
+server.servlet.contextPath=/myendpoint
+management.server.port:9001

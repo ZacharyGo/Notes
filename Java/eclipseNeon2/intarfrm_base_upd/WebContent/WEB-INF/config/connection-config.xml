@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<quiq-poolings>             
+    <pooling id="datasource1" default="true" class="com.fujitsu.intarfrm.helpers.models.transactions.IfmConnectionPool"         
+            ifm-provider-class="com.fujitsu.intarfrm.skeletons.models.entities.providers.StandardDbProvider">   
+        <pool-param idleSize="15" extraSize="5"/>       
+        <connection factory="com.fujitsu.intarfrm.helpers.models.transactions.IfmDriverConnectionFactory">      
+            <driver class="org.postgresql.Driver"/> 
+            <url value="jdbc:postgresql://localhost:5432/base_training_exercise"/>    
+            <user value="postgres"/>    
+            <password value="1234"/>    
+        </connection>       
+    </pooling>          
+</quiq-poolings>   
+
+
+<!--
+	Oracleを使う場合の設定例
+	<pooling id="ソースID" default="true/false" class="com.fujitsu.intarfrm.helpers.models.transactions.IfmConnectionPool"
+					ifm-provider-class="com.fujitsu.intarfrm.skeletons.models.entities.providers.OracleDbProvider">
+		<pool-param idleSize="10" extraSize="5"/>
+		<connection factory="com.fujitsu.intarfrm.helpers.models.transactions.IfmDriverConnectionFactory">
+			<driver class="XXXX"/>
+			<url value="XXXX"/>
+			<user value="XXXX"/>
+			<password value="XXXX"/>
+		</connection>
+	</pooling>
+
+	<pooling id="ソースID" default="true/false" class="com.fujitsu.intarfrm.helpers.models.transactions.IfmContainerPoolWrapper"
+					ifm-provider-class="com.fujitsu.intarfrm.skeletons.models.entities.providers.XXXX">
+		<datasource value="java:comp/env/jdbc/XXXX"/>
+	</pooling>
+
+	<pooling id="xxxxx" default="true/false" class="xxx.xxx.xxxx"
+					ifm-provider-class="com.fujitsu.intarfrm.skeletons.models.entities.providers.XXXX">
+		独自でプーリングを実装し定義する場合はここを自由に定義可能です
+	</pooling>
+-->
+

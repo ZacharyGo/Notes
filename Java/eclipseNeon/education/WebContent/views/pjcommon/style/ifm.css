@@ -1,0 +1,654 @@
+﻿@charset "utf-8";
+/* V16 から np フォルダ配下の css で上書きされるため、使用されていません。 */
+html, body
+{
+    height: 100%;
+}
+
+body
+{
+    font-style: normal;
+    font-size: 14px;
+    line-height: 1.3;
+    min-width: 600px;
+    min-height: 500px;
+    position: relative;
+}
+/* フォント指定 */
+body, textarea, pre
+{
+    font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", "Meiryo", "ＭＳ Ｐゴシック", "MS PGothic", "Lucida Grande", "Lucida Sans Unicode", Arial, Verdana, sans-serif !important;
+}
+
+input, select, button, button *
+{
+    font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", "Meiryo", "ＭＳ Ｐゴシック", "MS PGothic", "Lucida Grande", "Lucida Sans Unicode", Arial, Verdana, sans-serif !important;
+}
+
+.ui-widget
+{
+    font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", "Meiryo", "ＭＳ Ｐゴシック", "MS PGothic", "Lucida Grande", "Lucida Sans Unicode", Arial, Verdana, sans-serif !important;
+}
+
+/* フォーム全体 */
+.ifm-main
+{
+    /* フォーム下の余白 */
+    padding-bottom: 26px;
+}
+
+/* 画面ヘッダー */
+.ifm-header
+{
+    /* 画面ヘッダー領域(div) */
+    padding-left: 27px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #111F33;
+    height: 43px;
+    line-height: 43px;
+    border-bottom: 1px solid #dddddd;
+    -webkit-box-shadow: 0 10px 0 #ffffff;
+    -moz-box-shadow: 0 10px 0 #ffffff;
+    box-shadow: 0 10px 0 #ffffff;
+}
+/* セクション */
+.ifm-section
+{
+    /* セクション全体(div) */
+    margin: 26px 22px 0;
+    border: 1px solid #868695;
+}
+
+.ifm-section-header
+{
+    /* セクションヘッダー全体 */
+    display: table;
+    width: 100%;
+    height: 34px;
+    background-color: #0053a5;
+    background: -webkit-gradient(linear, left top, left bottom, from(#00468c), to(#0053a5));
+    background: -webkit-linear-gradient(top, #00468c, #0053a5);
+    background: -moz-linear-gradient(top, #00468c, #0053a5);
+    background: -ms-linear-gradient(top, #00468c, #0053a5);
+}
+
+.ifm-section-header-left
+{
+    /* セクションヘッダー左側 */
+    display: table-cell;
+    text-align: left;
+    vertical-align: middle;
+    padding-left: 7px;
+}
+
+.ifm-section-header-right
+{
+    /* セクションヘッダー右側 */
+    display: table-cell;
+    text-align: right;
+    vertical-align: middle;
+    padding-right: 7px;
+}
+
+.ifm-section-title
+{
+    /* セクションヘッダーのタイトル文字列(span) */
+    font-size: 16px;
+    font-weight: bold;
+    color: #ffffff;
+    -webkit-text-shadow: -1px -2px 0 rgba(0, 0, 0, 0.24);
+    text-shadow: -1px -2px 0 rgba(0, 0, 0, 0.24);
+    margin-left: 4px;
+}
+
+.ifm-section-footer
+{
+    /* セクションフッター全体 */
+    display: table;
+    width: 100%;
+    height: 40px;
+    border-top: 1px solid #cccccc;
+    background-color: #eeeeee;
+    background: -webkit-gradient(linear, left top, left bottom, from(#ffffff), to(#eeeeee));
+    background: -webkit-linear-gradient(top, #ffffff, #eeeeee);
+    background: -moz-linear-gradient(top, #ffffff, #eeeeee);
+    background: -ms-linear-gradient(top, #ffffff, #eeeeee);
+}
+
+.ifm-section-footer-left
+{
+    /* セクションフッター左側 */
+    display: table-cell;
+    text-align: left;
+    vertical-align: middle;
+    padding-left: 7px;
+    width: 20%;
+}
+
+.ifm-section-footer-center
+{
+    /* セクションフッター中央 */
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+    width: 60%;
+}
+
+.ifm-section-footer-right
+{
+    /* セクションフッター右側 */
+    display: table-cell;
+    text-align: right;
+    vertical-align: middle;
+    padding-left: 7px;
+    width: 20%;
+}
+/* カード部 */
+.ifm-card
+{
+    /* カード項目テーブル本体(table) */
+    background: #ffffff;
+    width: 100%;
+    table-layout: fixed;
+    border-collapse: separate;
+}
+
+    .ifm-card tr
+    {
+        /* 行の高さ */
+        height: 40px;
+    }
+
+        .ifm-card tr > *:first-child
+        {
+            /* 行の左端 */
+            border-left: none;
+        }
+
+    .ifm-card > tbody > tr > th, .ifm-card > tbody > tr > td
+    {
+        /* カード項目テーブルのセルの共通スタイル */
+        border-left: 1px solid #cccccc;
+        border-top: 1px solid #cccccc;
+        vertical-align: middle;
+        text-align: left;
+        overflow: hidden;
+    }
+
+    .ifm-card > tbody > tr > th
+    {
+        /* 標題セル */
+        background-color: #F0F4FF;
+        padding: 3px 7px;
+        width: 200px;
+    }
+
+    .ifm-card > tbody > tr > td
+    {
+        /* 入出力コントロールセル */
+        padding: 4px;
+    }
+
+/* 明細 */
+.ifm-list-header .ifm-section-title
+{
+    /* 明細タイトル */
+    display: inline;
+}
+
+.ifm-list-header .ifm-list-info
+{
+    /* 明細の件数表示(span) */
+    font-size: 14px;
+    font-weight: bold;
+    color: #ffffff;
+    -webkit-text-shadow: -1px -2px 0 rgba(0, 0, 0, 0.24);
+    text-shadow: -1px -2px 0 rgba(0, 0, 0, 0.24);
+    margin-left: 15px;
+    display: inline;
+}
+
+.ifm-list
+{
+    /* 明細テーブル(table) */
+    background: #ffffff;
+    width: 100%;
+    table-layout: fixed;
+}
+
+    .ifm-list thead
+    {
+        /* 明細テーブルヘッダ全体 */
+        border-bottom: 1px solid #bbbbbb;
+    }
+
+        .ifm-list thead th, .ifm-list thead td
+        {
+            /* 明細テーブルヘッダセル */
+            vertical-align: middle;
+            border-left: 1px solid #bbbbbb;
+            font-size: 13px;
+            font-weight: bold;
+            color: #111F33;
+            -webkit-text-shadow: 2px 1px 0 #ffffff;
+            text-shadow: 2px 1px 0 #ffffff;
+            background-color: #d4dae4;
+            background: -webkit-gradient(linear, left top, left bottom, from(#eceef3), color-stop(99%, #d4dae4), to(#d4dae4));
+            background: -webkit-linear-gradient(top, #eceef3, #d4dae4 99%, #d4dae4);
+            background: -moz-linear-gradient(top, #eceef3, #d4dae4 99%, #d4dae4);
+            background: -ms-linear-gradient(top, #eceef3, #d4dae4 99%, #d4dae4);
+            overflow: hidden;
+            line-height: 30px;
+        }
+
+    .ifm-list tbody tr
+    {
+        /* 明細ボディの各行の高さ */
+        height: 40px;
+    }
+
+    .ifm-list tbody
+    {
+        /* 明細内の最後でないtbodyの下辺 */
+        border-bottom: 1px solid lightgray;
+    }
+
+        .ifm-list tbody:last-child
+        {
+            /* 明細内の最後のtbodyの下辺 */
+            border-bottom: 0;
+        }
+
+    .ifm-list > tbody > tr:nth-child(odd)
+    {
+        /* 明細ボディの奇数行 */
+        background-color: #ffffff;
+    }
+
+    .ifm-list > tbody > tr:nth-child(even)
+    {
+        /* 明細ボディの偶数行 */
+        background-color: #F5F5F5;
+    }
+
+    .ifm-list > tbody > tr > *:first-child
+    {
+        /* 明細ボディの左端のセル */
+        border-left: none;
+    }
+
+.ifm-section-content .ifm-list tbody th, .ifm-section-content .ifm-list tbody td
+{
+    /* 明細ボディの各セルの共通スタイル */
+    border-left: 1px solid #cccccc;
+    vertical-align: middle;
+    text-align: left;
+    overflow: hidden;
+    padding: 0 7px;
+}
+
+.ifm-norecord
+{
+    line-height: 40px;
+    padding-left: 10px;
+    background-color: rgb(255,254,215);
+    border: 2px solid rgb(255,194,10);
+}
+
+*[id$=-cap].ifm-mode-enable.ifm-required:after
+{
+    /* 項目標題の必須マーク */
+    content: " *";
+    color:red;
+}
+
+/* ソート関連 */
+.ifm-sorting-desc:after
+{
+    /* 降順ソート */
+    content: " ▼";
+}
+.ifm-sorting-asc:after
+{
+    /* 昇順ソート */
+    content: " ▲";
+}
+*[id$=-cap].ifm-mode-enable.ifm-required.ifm-sorting-desc:after
+{
+    /* 必須＋降順ソート */
+    content: " * ▼";
+}
+*[id$=-cap].ifm-mode-enable.ifm-required.ifm-sorting-asc:after
+{
+    /* 必須＋昇順ソート */
+    content: " * ▲";
+}
+
+/* 項目標題/LBLコントロール(span) */
+.ifm-section-content span
+{
+    display: block;
+    white-space: pre-wrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -ms-text-overflow: ellipsis;
+    margin: 0 4px;
+}
+
+/* 入出力コントロール */
+input, textarea, select, button, label, a.ifm-mode-enable, a.ifm-mode-disable
+{
+    /* 入力コントロールの共通スタイル
+    display: block;
+    float: left; */
+    margin: auto 4px;
+}
+
+select
+{
+    /* DRL,LST */
+    padding: 2px;
+    border: 1px solid #cccccc;
+    margin: 1px 4px;
+}
+
+    select:not([multiple])
+    {
+        /* DRL */
+    }
+
+input[type=text],input[type=password]
+{
+    /* TXT,TXR,PWD */
+    height: 20px;
+    padding: 2px;
+    border: 1px solid #cccccc;
+    margin: 1px 4px;
+}
+textarea
+{
+    /* TX2 */
+    padding: 2px;
+    border: 1px solid #cccccc;
+    margin: 1px 4px;
+}
+
+input[readonly], textarea[readonly]
+{
+    /* TXRと無効状態のTXT,PWD,TX2 */
+    background-color: #efefef;
+}
+
+input[type=radio], input[type=checkbox]
+{
+    /* RDO,CHK,CHL */
+    height: 14px;
+    padding: 0;
+    border: none;
+    margin: 7px 4px;
+}
+
+    input[type=checkbox] + label, input[type=radio] + label
+    {
+        /* RDO,CHK,CHLのラベル */
+        margin: 7px 4px 7px 0;
+    }
+
+.ifm-multicontrol td
+{
+    /* RDO, CHLの複数コントロールを並べるテーブル */
+    vertical-align: middle;
+}
+.ifm-list .ifm-multicontrol tbody tr td
+{
+    border-width: 0;
+}
+
+
+/* ページャ */
+.ifm-pagenation
+{
+    margin: 0 auto;
+    display: inline-block;
+    /* ページャボタンの折り返しを防ぐ */
+    min-width: 430px;
+}
+
+#codereference--dialog .ifm-pagenation
+{
+    /* コード参照画面のページャ */
+    min-width: 0;
+}
+
+    .ifm-pagenation ul
+    {
+        margin: 0 auto;
+        display: inline-block;
+    }
+    
+    .ifm-pagenation li
+    {
+        /* 各ボタンの外側 */
+        float: left;
+        margin: 0 4px;
+        height: 24px;
+        min-width: 28px;
+        border-width: 0px;
+        text-align: center;
+        vertical-align: middle;
+        list-style: none;
+    }
+
+        .ifm-pagenation li a
+        {
+            /* 各ボタンのリンク */
+            display: block;
+            height: 100%;
+            border: 1px solid gray;
+            text-decoration: none;
+            background-color: #fff;
+        }
+
+        .ifm-pagenation li span
+        {
+            /* 各ボタンの文字列 */
+            line-height: 24px;
+        }
+
+    .ifm-pagenation .ifm-pagenation-page-current a
+    {
+        background-color: gray;
+    }
+
+    .ifm-pagenation .ifm-pagenation-page-current
+    {
+        background-color: gray;
+    }
+
+        .ifm-pagenation .ifm-pagenation-page-current span
+        {
+            color: white;
+        }
+
+    .ifm-pagenation .ifm-pagenation-truncate
+    {
+        min-width: 0;
+        margin: auto -4px;
+    }
+
+        .ifm-pagenation .ifm-pagenation-truncate span
+        {
+            min-width: 0px;
+            line-height: 36px;
+        }
+
+.ifm-state-disabled
+{
+    opacity: 0.35;
+}
+
+    .ifm-state-disabled a
+    {
+        cursor: default;
+    }
+
+        .ifm-state-disabled a:active
+        {
+            color: black;
+        }
+
+/* ダイアログ */
+#form--dialog, #codereference--dialog
+{
+    padding: 15px;
+    display: none;
+}
+    /* コードダイアログ */
+    [role="dialog"][aria-describedby="codereference--dialog"]
+    {
+        /* コードダイアログの最小幅（ページャボタンの折り返しを防ぐ） */
+        min-width: 450px;
+    }
+    #codereference--dialog .ifm-section 
+    {
+        margin: 0;        
+    }
+
+    /* コードダイアログ */
+    #codereference--dialog .ifm-card th
+    {
+        /* コード検索項目の標題セル */
+        width: 35%;
+    }
+
+    #codereference--dialog .ifm-card td input[type=text]
+    {
+        /* コード検索項目のテキストボックス */
+        width: 80%;
+    }
+
+    #codereference--dialog .ifm-section-footer-right button
+    {
+        /* 検索ボタン */
+        float: right;
+    }
+
+    #codereference--dialog a
+    {
+        /* コード参照ダイアログのリンクボタン */
+        color: blue;
+    }
+    
+    /* フォームダイアログ */
+    #form--dialog li
+    {
+        /* メッセージ表示のliタグ */
+        list-style: none;
+    }
+
+
+/* 読み込み表示ダイアログのタイトルバー */
+.ifm-load--dialog > .ui-dialog-titlebar
+{
+    display: none;
+}
+/* 読み込み表示ダイアログ */
+#load--dialog
+{
+    display: none;
+    overflow: hidden;
+    text-align: center;
+}
+/* メッセージ対象項目 */
+.ifm-message-target-item,.ifm-message-target-item[readonly]
+{
+    background-color: #FFD5CB;
+}
+/* メッセージ領域 */
+.ifm-message-area
+{
+    display: none;
+    text-align: left;
+    margin: 26px 22px 0;
+}
+
+    .ifm-message-area li
+    {
+        list-style: none;
+    }
+        /* メッセージのリンク */
+        .ifm-message-area li a
+        {
+            text-decoration: none;
+        }
+
+        /* システムメッセージ */
+        .ifm-message-area li a[data-message-type="1"]
+        {
+            color: red;
+        }
+        /* インフォメーションメッセージ */
+        .ifm-message-area li a[data-message-type="2"]
+        {
+            color: black;
+        }
+        /* エラーメッセージ */
+        .ifm-message-area li a[data-message-type="3"]
+        {
+            color: red;
+        }
+
+#codereference--dialog .ifm-code-message-area
+{
+    display: none;
+    text-align: left;
+    margin: 10px 22px;
+}
+
+    #codereference--dialog .ifm-code-message-area li
+    {
+        list-style: none;
+    }
+        /* メッセージのリンク */
+        #codereference--dialog .ifm-code-message-area li a
+        {
+            text-decoration: none;
+        }
+
+        /* システムメッセージ */
+        #codereference--dialog .ifm-code-message-area li a[data-message-type="1"]
+        {
+            color: red;
+        }
+        /* インフォメーションメッセージ */
+        #codereference--dialog .ifm-code-message-area li a[data-message-type="2"]
+        {
+            color: black;
+        }
+        /* エラーメッセージ */
+        #codereference--dialog .ifm-code-message-area li a[data-message-type="3"]
+        {
+            color: red;
+        }        
+
+
+.ifm-protected
+{
+    /* setProtectedでプロテクト状態になっている項目 */
+    background-color: #FC0;
+}
+
+.ui-dialog.ifm-load--dialog
+{
+    /* 処理中に表示されるダイアログ */
+    border-width: 0;
+    background: transparent url(jquery.mobile-1.4.0/images/ajax-loader.gif) no-repeat center;
+    opacity: 0.18;
+}
+
+/* ローディングダイアログの背景を透明にする */
+.ui-widget-overlay.ifm-loading-overlay
+{
+    background: transparent url(data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==) repeat;  
+}

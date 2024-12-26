@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename local variable &apos;lines&apos; in &apos;FileIO.TestFileIO.bufferReaderInputStreamReader(...)&apos; to &apos;numLines&apos;&#x0D;&#x0A;- Original project: &apos;TestingSmal&apos;&#x0D;&#x0A;- Original element: &apos;FileIO.TestFileIO.bufferReaderInputStreamReader(String).lines&apos;&#x0D;&#x0A;- Renamed element: &apos;lines&apos;&#x0D;&#x0A;- Update references to refactored element" description="Rename local variable &apos;lines&apos;" id="org.eclipse.jdt.ui.rename.local.variable" input="/src&lt;FileIO{TestFileIO.java[TestFileIO~bufferReaderInputStreamReader~QString;@lines!1168!1181!1172!1176!I!0!false" name="numLines" references="true" stamp="1667870641415" version="1.0"/>
+</session>

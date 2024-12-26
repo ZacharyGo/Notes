@@ -1,0 +1,11 @@
+INDEX VERSION 1.131
+D:\Practice\Java\intarfrm3\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3924836258.index
+\base_training\src\skeleton
+D:\Practice\Java\intarfrm3\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2111102900.index
+\base_training\src\skeleton
+D:\Practice\Java\intarfrm3\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1775427924.index
+\base_training\src\skeleton
+D:\Practice\Java\intarfrm3\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3019383108.index
+\base_training\src\skeleton
+D:\Practice\Java\intarfrm3\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1801769588.index
+\base_training\src\skeleton

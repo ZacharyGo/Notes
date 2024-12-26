@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Exercise 4</title>
+</head>
+
+<body>
+    <form name="studentForm" onsubmit="alert('You have successfully enrolled!'); ">
+        <label>First Name: </label>
+        <input type="text" id="fname" onfocusout="validateFName()">
+        <p id="fNameMessage" hidden="false">First name is required</p><br>
+        <label>Last Name: </label>
+        <input type="text" id="lname" onfocusout="validateLName()">
+        <p id="lNameMessage" hidden="false">Last name is required</p><br>
+        <label>Address: </label>
+        <input type="text" id="address" onfocusout="validateAddress()">
+        <p id="addressMessage" hidden="false">Address is required</p><br>
+        <br>
+        <label>Course: </label>
+        <select id="course" onchange="courseChanged()" value="Select Course" onfocusout="validateCourse()">
+            <option value="" selected disabled>Select Course</option>
+            <option value="CompE">BS Computer Engineering</option>
+            <option value="CompSci">BS Computer Science</option>
+            <option value="Acct">BS Accounting</option>
+        </select>
+
+        <div id="compESubjects" hidden="true">
+            <ul>
+                <li>Algorithmic Design</li>
+                <li>Digital Logic Design</li>
+                <li>Computing Architecture</li>
+            </ul>
+        </div>
+        <div id="compSciSubjects" hidden="true">
+            <ul>
+                <li>Fundamentals of Programming</li>
+                <li>Introduction to Computing</li>
+                <li>Literacy/Civic Welfare/Military Science 1</li>
+            </ul>
+        </div>
+        <div id="acctSubjects" hidden="true">
+            <ul>
+                <li>Business law</li>
+                <li>Financial markets</li>
+                <li>Auditing</li>
+            </ul>
+        </div>
+        <p id="courseMessage" hidden="false">Course is required</p><br>
+
+        <br>
+        <input type="Submit" value="Submit" disabled="true" id="submitButton">
+    </form>
+    <script src="index.js"></script>
+</body>
+
+</html>

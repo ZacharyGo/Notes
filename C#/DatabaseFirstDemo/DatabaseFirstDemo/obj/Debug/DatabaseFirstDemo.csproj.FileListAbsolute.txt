@@ -1,0 +1,13 @@
+D:\Practice\C#\DatabaseFirstDemo\DatabaseFirstDemo\bin\Debug\DatabaseFirstDemo.exe.config
+D:\Practice\C#\DatabaseFirstDemo\DatabaseFirstDemo\bin\Debug\DatabaseFirstDemo.exe
+D:\Practice\C#\DatabaseFirstDemo\DatabaseFirstDemo\bin\Debug\DatabaseFirstDemo.pdb
+D:\Practice\C#\DatabaseFirstDemo\DatabaseFirstDemo\bin\Debug\EntityFramework.dll
+D:\Practice\C#\DatabaseFirstDemo\DatabaseFirstDemo\bin\Debug\EntityFramework.SqlServer.dll
+D:\Practice\C#\DatabaseFirstDemo\DatabaseFirstDemo\bin\Debug\EntityFramework.xml
+D:\Practice\C#\DatabaseFirstDemo\DatabaseFirstDemo\bin\Debug\EntityFramework.SqlServer.xml
+D:\Practice\C#\DatabaseFirstDemo\DatabaseFirstDemo\obj\Debug\DatabaseFirstDemo.csproj.AssemblyReference.cache
+D:\Practice\C#\DatabaseFirstDemo\DatabaseFirstDemo\obj\Debug\DatabaseFirstDemo.csproj.SuggestedBindingRedirects.cache
+D:\Practice\C#\DatabaseFirstDemo\DatabaseFirstDemo\obj\Debug\DatabaseFirstDemo.csproj.CoreCompileInputs.cache
+D:\Practice\C#\DatabaseFirstDemo\DatabaseFirstDemo\obj\Debug\DatabaseFirstDemo.csproj.CopyComplete
+D:\Practice\C#\DatabaseFirstDemo\DatabaseFirstDemo\obj\Debug\DatabaseFirstDemo.exe
+D:\Practice\C#\DatabaseFirstDemo\DatabaseFirstDemo\obj\Debug\DatabaseFirstDemo.pdb

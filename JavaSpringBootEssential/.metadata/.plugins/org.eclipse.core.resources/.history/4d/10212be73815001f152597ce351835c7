@@ -1,0 +1,16 @@
+spring:
+   profiles.active: dev
+---
+spring:
+ config:
+ activate: 
+ on-profile: predev
+server:
+ port:8000
+---
+spring:
+ config:
+ activate: 
+ on-profile: dev
+server:
+ port:9000

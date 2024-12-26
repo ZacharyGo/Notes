@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+
+
+<properties>
+  <entry key="F-caption"></entry>
+  <entry key="F-fixeditem-caption"></entry>
+
+  <entry key="productid">商品ID</entry>
+  <entry key="productname">商品名</entry>
+  <entry key="price">値段</entry>
+  <entry key="productid-search">商品ID</entry>
+  <entry key="productid-search-upper">商品ID</entry>
+  <entry key="productid-search-lower">商品ID</entry>
+  <entry key="productname-search">商品名</entry>
+  <entry key="productname-search-upper">商品名</entry>
+  <entry key="productname-search-lower">商品名</entry>
+  <entry key="price-search">値段</entry>
+  <entry key="price-search-upper">値段</entry>
+  <entry key="price-search-lower">値段</entry>
+  <entry key="btnsearch">dummy resource</entry>
+</properties>

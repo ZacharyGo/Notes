@@ -1,0 +1,11 @@
+1687145454345	Delete element
+1687265268538	Move 'bootstrap.css' to 'templates'
+1687265815980	Move 'bootstrap.bundle.min.js' to 'templates'
+1687265817753	Move 'main.js' to 'templates'
+1687266159144	Move 'bootstrap.css' to 'static'
+1687266231783	Move 'bootstrap.bundle.min.js' to 'static'
+1687266234849	Move file
+1687266237056	Move 'main.js' to 'static'
+1687266239036	Move 'bootstrap.css' to 'static'
+1687312097642	Rename local variable 'country'
+1687320466353	Rename local variable 'sortCol'

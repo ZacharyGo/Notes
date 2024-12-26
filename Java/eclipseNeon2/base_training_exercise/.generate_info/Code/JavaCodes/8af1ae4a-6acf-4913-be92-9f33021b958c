@@ -1,0 +1,4 @@
+WebContent/views/codes/storesch/intarfrm-code-storesch.js
+WebContent/views/codes/storesch/storesch.jsp
+WebContent/views/codes/storesch/storesch.mobile.jsp
+src/app/com/fujitsu/intarfrm/codes/storesch/StoreschCodeActions.java

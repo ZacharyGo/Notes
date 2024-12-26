@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+
+<properties>
+  <entry key="codeCloseBtn">閉じる</entry>
+  <entry key="codeMaxDisplay">検索結果が多すぎるため、一部を表示しています。</entry>
+  <entry key="codeNotFoundMessage">入力されたコードに一致するデータがありません。</entry>
+  <entry key="codeSearchBtn">検索</entry>
+  <entry key="codeSearchResultTitle">検索結果</entry>
+  <entry key="codeSearchTitle">検索条件</entry>
+  <entry key="defaultAjaxErrorMessage">サーバーとの通信時にエラーが発生しました</entry>
+  <entry key="autoCodeGetDoing">データ取得処理中です。時間を置いてもう一度お試しください。</entry>
+  <entry key="errorBrowserCheck">サポートされていないブラウザです</entry>
+  <entry key="errorBrowserCheckDesc"></entry>
+  <entry key="errorDirectAccess">このURLへの直接アクセスは許可されていません</entry>
+  <entry key="errorDirectAccessDesc"></entry>
+  <entry key="errorPageNotFound">指定されたページは見つかりませんでした</entry>
+  <entry key="errorPageNotFoundDesc">URLを確認して下さい。</entry>
+  <entry key="errorSessionTimeout">セッションがタイムアウトしました</entry>
+  <entry key="errorSessionTimeoutDesc">このエラーは、一定時間操作がなかった場合や、アクセスしているURLが正しくない場合に発生します。</entry>
+  <entry key="errorUnknown">予期しないエラーが発生しました</entry>
+  <entry key="errorUnknownDesc"></entry>
+  <entry key="javaScriptRequired">JavaScriptを有効にしてください</entry>
+  <entry key="listNoRecord">表示するデータがありません。</entry>
+  <entry key="fatalErrorTitle">システムエラー</entry>
+  <entry key="fatalErrorMessage">システムエラーが発生しました。管理者へ連絡してください。</entry>
+  <entry key="errorContentCaption">エラーの内容</entry>
+  <entry key="rangeSeparator">-</entry>
+  <entry key="zeroByteFileUploadError">0バイトのファイルをアップロードすることは許可されていません</entry>
+	<entry key="closeBtn">終了</entry>
+	<entry key="ErrTitle">Error</entry>
+	<entry key="InfoTitle">Information</entry>
+	<entry key="DirectAccessTitle">このURLへの直接アクセスは許可されていません</entry>
+	<entry key="codeRequireSearch">検索が行われていません。条件を入力して、検索ボタンを押してください。</entry>
+	<entry key="listInfo">%START_ROW% - %END_ROW% 件（全%RECORD_COUNT% 件）</entry>
+	<entry key="ListNoRecordCode">検索結果が0件です。条件を変更し、再度検索を行ってください。</entry>
+	<entry key="RequiredMark">は必須</entry>
+</properties>

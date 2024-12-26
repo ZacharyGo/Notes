@@ -1,0 +1,40 @@
+﻿/* ---------------------------------------------------------------------- */
+-- インデックス作成DDL(ORACLE用)
+-- ファイル名：ED0010T_IDX.sql
+-- 対象テーブル（物理名）：ED0010T_TBL
+-- 対象テーブル（論理名）：案件明細テーブル
+/* ---------------------------------------------------------------------- */
+
+CREATE INDEX ED0010T_IDX01 ON ED0010T_TBL(
+	SHOHIN_SERVICE_CD,
+	KAISHA_CD,
+	SALES_STAGE_A_CD 
+)
+/
+
+CREATE INDEX ED0010T_IDX02 ON ED0010T_TBL(
+	KADO_NOHIN_KAIYAKU_KAITEI_YM,
+	KAISHA_CD,
+	SALES_STAGE_A_CD 
+)
+/
+
+CREATE INDEX ED0010T_IDX03 ON ED0010T_TBL(
+	KAISHA_CD,
+	SALES_STAGE_A_CD 
+)
+/
+
+CREATE INDEX ED0010T_IDX04 ON ED0010T_TBL(
+	IRAIMOTO_ANKEN_NO,
+	IRAIMOTO_ANKEN_SHOHIN_SN,
+	IRAIMOTO_ANKEN_TAISHOSAKI_SN,
+	IRAIMOTO_KAISHA_CD 
+)
+/
+
+CREATE INDEX ED0010T_IDX05 ON ED0010T_TBL(
+	KYOCHO_IRAI_NO,
+	KAISHA_CD 
+)
+/

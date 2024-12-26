@@ -1,0 +1,5 @@
+SourceFile=C:\Temp\Import-ED3601T_TBL-csv-bad_2022.11.08-11.55.15.sql
+DestinationFile=C:\Temp\Import-ED3601T_TBL.sql
+NumberOfRows=1000000
+FileSize=1000000000
+HeaderPerPage=false

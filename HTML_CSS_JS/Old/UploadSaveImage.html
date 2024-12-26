@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="cc-profile-image"><a href="#">
+            <img src="images/photo.png" alt="Image" /></a></div><!--ORIGINAL PHOTO-->
+
+    <form action="images/photo.png" onchange="previewFile()">
+        Select image to upload:
+        <input type="file" name="file" id="file" value>
+        <label for="file"> Select a file to upload</label>
+        <input type="submit" value="Subirxxx">
+        <img id="uploadedImage" src="images/photo.png" alt="Image" /></a></div><!--ORIGINAL PHOTO-->
+
+        <input type="button" value="displayImage" onclick="displayImage()">
+    </form>
+    <script>
+        var uploadedImage;
+        function displayImage() {
+            document.getElementById("uploadedImage").src = uploadedImage;
+        }
+        function previewFile() {
+            var preview = document.querySelector('img'); //selects the query named img
+            //preview.height = "512";
+            //preview.width = "512";
+            var file = document.querySelector('input[type=file]').files[0]; //sames as here
+            //file.height = "512";
+            //file.width = "512";
+            var reader = new FileReader();
+
+            reader.onloadend = function () {
+                preview.src = reader.result;
+                uploadedImage = reader.result;
+                console.log(reader.result);
+            }
+
+            if (file) {
+                reader.readAsDataURL(file); //reads the data as a URL
+            } else {
+                preview.src = "";
+            }
+        }
+    </script>
+</body>
+
+</html>

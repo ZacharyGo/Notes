@@ -1,0 +1,33 @@
+﻿@charset "utf-8";
+
+/* Loader jQuey-Mobileのローダーを上書きする. */
+.ui-icon-loading {
+	background: url("np/images/loading_128.gif");
+	background-size: 2.875em 2.875em;
+}
+
+.ui-loading .ifm-loader-background {
+	/* loading時に透明な保護レイヤーを表示する */
+	display: block;
+}
+
+.ifm-loader-background {
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	top: 0;
+	left: 0;
+	margin: 0;
+	border: 0;
+	padding: 0;
+	z-index: 999999;
+	/* 透明なダイアログの背景 */
+	background: transparent
+		url(data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==)
+		repeat;
+	display: none;
+}
+
+.numeric-align-right {
+	text-align: right;
+}

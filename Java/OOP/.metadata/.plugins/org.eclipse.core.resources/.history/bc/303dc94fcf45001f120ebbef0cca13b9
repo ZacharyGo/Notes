@@ -1,0 +1,32 @@
+package Inheritance;
+
+public class Animal {
+	private int numberOFFeet;
+	private String sound;
+	
+	public Animal(int numberOFFeet, String sound) {
+		super();
+		this.numberOFFeet = numberOFFeet;
+		this.sound = sound;
+	}
+
+	public int getNumberOFFeet() {
+		return numberOFFeet;
+	}
+
+	public void setNumberOFFeet(int numberOFFeet) {
+		this.numberOFFeet = numberOFFeet;
+	}
+
+	public String getSound() {
+		return sound;
+	}
+
+	public void setSound(String sound) {
+		this.sound = sound;
+	}
+	
+	
+	
+	
+}

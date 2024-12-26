@@ -1,0 +1,9 @@
+@charset "utf-8";
+
+.ifm-debug-info {
+	position: absolute;
+	top: 50%;
+	margin-top: 220px;
+	z-index: 1;
+	background-color: white;
+}

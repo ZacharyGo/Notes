@@ -1,0 +1,30 @@
+D:\Practice\C#\Worry Free-Service\Exercise\Exercise\bin\Debug\net6.0\Exercise.exe
+D:\Practice\C#\Worry Free-Service\Exercise\Exercise\bin\Debug\net6.0\Exercise.deps.json
+D:\Practice\C#\Worry Free-Service\Exercise\Exercise\bin\Debug\net6.0\Exercise.runtimeconfig.json
+D:\Practice\C#\Worry Free-Service\Exercise\Exercise\bin\Debug\net6.0\Exercise.dll
+D:\Practice\C#\Worry Free-Service\Exercise\Exercise\bin\Debug\net6.0\Exercise.pdb
+D:\Practice\C#\Worry Free-Service\Exercise\Exercise\obj\Debug\net6.0\Exercise.csproj.AssemblyReference.cache
+D:\Practice\C#\Worry Free-Service\Exercise\Exercise\obj\Debug\net6.0\Exercise.GeneratedMSBuildEditorConfig.editorconfig
+D:\Practice\C#\Worry Free-Service\Exercise\Exercise\obj\Debug\net6.0\Exercise.AssemblyInfoInputs.cache
+D:\Practice\C#\Worry Free-Service\Exercise\Exercise\obj\Debug\net6.0\Exercise.AssemblyInfo.cs
+D:\Practice\C#\Worry Free-Service\Exercise\Exercise\obj\Debug\net6.0\Exercise.csproj.CoreCompileInputs.cache
+D:\Practice\C#\Worry Free-Service\Exercise\Exercise\obj\Debug\net6.0\Exercise.dll
+D:\Practice\C#\Worry Free-Service\Exercise\Exercise\obj\Debug\net6.0\refint\Exercise.dll
+D:\Practice\C#\Worry Free-Service\Exercise\Exercise\obj\Debug\net6.0\Exercise.pdb
+D:\Practice\C#\Worry Free-Service\Exercise\Exercise\obj\Debug\net6.0\Exercise.genruntimeconfig.cache
+D:\Practice\C#\Worry Free-Service\Exercise\Exercise\obj\Debug\net6.0\ref\Exercise.dll
+D:\Practice\C#\Exercises\Exercise\Exercise\bin\Debug\net6.0\Exercise.exe
+D:\Practice\C#\Exercises\Exercise\Exercise\bin\Debug\net6.0\Exercise.deps.json
+D:\Practice\C#\Exercises\Exercise\Exercise\bin\Debug\net6.0\Exercise.runtimeconfig.json
+D:\Practice\C#\Exercises\Exercise\Exercise\bin\Debug\net6.0\Exercise.dll
+D:\Practice\C#\Exercises\Exercise\Exercise\bin\Debug\net6.0\Exercise.pdb
+D:\Practice\C#\Exercises\Exercise\Exercise\obj\Debug\net6.0\Exercise.csproj.AssemblyReference.cache
+D:\Practice\C#\Exercises\Exercise\Exercise\obj\Debug\net6.0\Exercise.GeneratedMSBuildEditorConfig.editorconfig
+D:\Practice\C#\Exercises\Exercise\Exercise\obj\Debug\net6.0\Exercise.AssemblyInfoInputs.cache
+D:\Practice\C#\Exercises\Exercise\Exercise\obj\Debug\net6.0\Exercise.AssemblyInfo.cs
+D:\Practice\C#\Exercises\Exercise\Exercise\obj\Debug\net6.0\Exercise.csproj.CoreCompileInputs.cache
+D:\Practice\C#\Exercises\Exercise\Exercise\obj\Debug\net6.0\Exercise.dll
+D:\Practice\C#\Exercises\Exercise\Exercise\obj\Debug\net6.0\refint\Exercise.dll
+D:\Practice\C#\Exercises\Exercise\Exercise\obj\Debug\net6.0\Exercise.pdb
+D:\Practice\C#\Exercises\Exercise\Exercise\obj\Debug\net6.0\Exercise.genruntimeconfig.cache
+D:\Practice\C#\Exercises\Exercise\Exercise\obj\Debug\net6.0\ref\Exercise.dll

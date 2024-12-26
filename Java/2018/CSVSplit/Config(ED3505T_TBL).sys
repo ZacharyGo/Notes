@@ -1,0 +1,5 @@
+SQLPath=D:\GIT\NJD-PG(19744)\njd-profit-entity\njd-profit-entity\ddl
+CSVPath=D:\Project (Alsok)\DB Import and Export\19949 (Import Data Based on HistoryLog)
+CSVFile=ED3505T_TBL.csv
+TableName=ED3505T_TBL
+DestinationPath=D:\Project (Alsok)\DB Import and Export\19949 (Import Data Based on HistoryLog)

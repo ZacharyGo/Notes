@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+
+
+<properties>
+  <entry key="F-title">Customer Master Maintenance</entry>
+  <entry key="F-formcaption">Customer Master Maintenance</entry>
+  <entry key="F-mode1"></entry>
+  <entry key="F-mode2">Edit Mode</entry>
+  <entry key="F-group1"></entry>
+
+  <entry key="syomodename">Process Mode Name</entry>
+  <entry key="logondate">Logon Date</entry>
+  <entry key="logonuser">Logon User</entry>
+  <entry key="cusid">Customer ID</entry>
+  <entry key="cusname">Customer Name</entry>
+  <entry key="area">Area</entry>
+  <entry key="telno">Telephone No.</entry>
+  <entry key="email">Email Address</entry>
+  <entry key="deliveryemail">Email Delivery Request</entry>
+  <entry key="sex">Gender</entry>
+  <entry key="birthymd">Birthday</entry>
+  <entry key="job">Job</entry>
+  <entry key="storeid">Store ID</entry>
+  <entry key="storename">Store Name</entry>
+  <entry key="point">Point</entry>
+  <entry key="pointrate">Point Rate</entry>
+  <entry key="btnenter">Enter</entry>
+  <entry key="btnback">Back</entry>
+
+
+  <entry key="F-placeHolder-telno">More than 6 characters are required.</entry>
+  <entry key="L-layoutTitle-section_header_1">Customer Master Maintenance</entry>
+
+</properties>

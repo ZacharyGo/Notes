@@ -1,0 +1,11 @@
+
+public class Starter {
+
+	public static void main(String[] args) {
+		List<ESNZZ19KeiyakuSikyDTO> seikyuMeisaiKeiyakuList = null;
+		ESNZZ19KeiyakuSikyDTO seikyuMeisaiKeiyaku = seikyuMeisaiKeiyakuList.get(0);
+		String seikyuKbn = seikyuMeisaiKeiyaku.getChkKiykRyknKizkSikyKbn();
+		
+	}
+
+}

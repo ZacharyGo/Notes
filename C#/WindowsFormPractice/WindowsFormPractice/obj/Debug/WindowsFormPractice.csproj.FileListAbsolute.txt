@@ -1,0 +1,12 @@
+D:\Practice\C#\WindowsFormPractice\WindowsFormPractice\bin\Debug\WindowsFormPractice.exe.config
+D:\Practice\C#\WindowsFormPractice\WindowsFormPractice\bin\Debug\WindowsFormPractice.exe
+D:\Practice\C#\WindowsFormPractice\WindowsFormPractice\bin\Debug\WindowsFormPractice.pdb
+D:\Practice\C#\WindowsFormPractice\WindowsFormPractice\obj\Debug\WindowsFormPractice.csproj.AssemblyReference.cache
+D:\Practice\C#\WindowsFormPractice\WindowsFormPractice\obj\Debug\WindowsFormPractice.csproj.SuggestedBindingRedirects.cache
+D:\Practice\C#\WindowsFormPractice\WindowsFormPractice\obj\Debug\WindowsFormPractice.Form1.resources
+D:\Practice\C#\WindowsFormPractice\WindowsFormPractice\obj\Debug\WindowsFormPractice.Properties.Resources.resources
+D:\Practice\C#\WindowsFormPractice\WindowsFormPractice\obj\Debug\WindowsFormPractice.csproj.GenerateResource.cache
+D:\Practice\C#\WindowsFormPractice\WindowsFormPractice\obj\Debug\WindowsFormPractice.csproj.CoreCompileInputs.cache
+D:\Practice\C#\WindowsFormPractice\WindowsFormPractice\obj\Debug\WindowsFormPractice.exe
+D:\Practice\C#\WindowsFormPractice\WindowsFormPractice\obj\Debug\WindowsFormPractice.pdb
+D:\Practice\C#\WindowsFormPractice\WindowsFormPractice\obj\Debug\WindowsFormPractice.Exercise1.resources

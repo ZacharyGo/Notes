@@ -1,0 +1,8 @@
+1667193874287	Rename field 'map'
+1667195697131	Rename local variable 'configValue'
+1667195823104	Rename local variable 'configValues'
+1667196129572	Rename local variable 'line'
+1667196184854	Rename method 'GetConfigValues'
+1667196268019	Rename method 'ReadConfig'
+1667196302982	Rename method 'ReadArguments'
+1667205693162	Rename method 'SetConfigValues'

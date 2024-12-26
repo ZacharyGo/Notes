@@ -1,0 +1,5 @@
+SourceFile=C:\Temp\ED3601T_TBL.csv
+DestinationFile=C:\Temp\ED3601T_TBLout.csv
+NumberOfRows=5
+FileSize=300000000
+HeaderPerPage=yes

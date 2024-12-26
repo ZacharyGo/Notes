@@ -1,0 +1,37 @@
+﻿/* ---------------------------------------------------------------------- */
+-- インデックス作成DDL(ORACLE用)
+-- ファイル名：ED1543T_IDX.sql
+-- 対象テーブル（物理名）：ED1543T_TBL
+-- 対象テーブル（論理名）：調達売上テーブル
+/* ---------------------------------------------------------------------- */
+
+CREATE INDEX ED1543T_IDX01 ON ED1543T_TBL(
+	TOKUISAKI_TORIHIKISAKI_CD 
+)
+/
+
+CREATE INDEX ED1543T_IDX02 ON ED1543T_TBL(
+	URIAGE_KEIJO_YMD 
+)
+/
+
+CREATE INDEX ED1543T_IDX03 ON ED1543T_TBL(
+	JIGYOSHO_CD 
+)
+/
+
+CREATE INDEX ED1543T_IDX04 ON ED1543T_TBL(
+	PICKING_KANRI_NO 
+)
+/
+
+CREATE INDEX ED1543T_IDX05 ON ED1543T_TBL(
+	TOKUISAKI_TORIHIKISAKI_CD,
+	TKISK_TRHKSK_BSH_CD 
+)
+/
+
+CREATE INDEX ED1543T_IDX06 ON ED1543T_TBL(
+	URIAGE_KEIJOZUMI_FLG 
+)
+/

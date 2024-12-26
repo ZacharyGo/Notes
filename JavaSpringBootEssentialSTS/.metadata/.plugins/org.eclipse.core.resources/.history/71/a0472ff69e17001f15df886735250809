@@ -1,0 +1,16 @@
+package com.frankmoley.lil.sbet.clr;
+
+import org.slf4j.LoggerFactory;
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class RoomClrApplication {
+	
+	private static final Logger LOG=LoggerFactory.getLogger(RoomClrApplication.class);
+
+	public static void main(String[] args) {
+		SpringApplication.run(RoomClrApplication.class, args);
+	}
+
+}

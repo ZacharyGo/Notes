@@ -1,0 +1,4 @@
+WebContent/views/codes/sotresch/intarfrm-code-sotresch.js
+WebContent/views/codes/sotresch/sotresch.jsp
+WebContent/views/codes/sotresch/sotresch.mobile.jsp
+src/app/com/fujitsu/intarfrm/codes/sotresch/SotreschCodeActions.java

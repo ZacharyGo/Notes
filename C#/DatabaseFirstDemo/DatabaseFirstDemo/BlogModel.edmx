@@ -1,0 +1,147 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+    <Schema Namespace="AbbyModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityType Name="Category">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Name" Type="nvarchar(max)" Nullable="false" />
+          <Property Name="DisplayOrder" Type="int" Nullable="false" />
+        </EntityType>
+        <EntityType Name="Details">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="int" Nullable="false" />
+          <Property Name="name" Type="varchar" MaxLength="50" />
+          <Property Name="displayorder" Type="int" />
+        </EntityType>
+        <EntityType Name="Item">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="int" Nullable="false" />
+          <Property Name="name" Type="nvarchar" MaxLength="50" />
+        </EntityType>
+        <EntityType Name="newTable">
+          <Key>
+            <PropertyRef Name="myno" />
+          </Key>
+          <Property Name="myno" Type="int" Nullable="false" />
+          <Property Name="name" Type="nchar" MaxLength="10" />
+        </EntityType>
+        <EntityContainer Name="AbbyModelStoreContainer">
+          <EntitySet Name="Category" EntityType="Self.Category" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Details" EntityType="Self.Details" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Item" EntityType="Self.Item" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="newTable" EntityType="Self.newTable" Schema="dbo" store:Type="Tables" />
+        </EntityContainer>
+      </Schema></edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="AbbyModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityType Name="Category">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Name" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="DisplayOrder" Type="Int32" Nullable="false" />
+        </EntityType>
+        <EntityContainer Name="AbbyEntities" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="Categories" EntityType="Self.Category" />
+          <EntitySet Name="Items" EntityType="AbbyModel.Item" />
+          <EntitySet Name="Details" EntityType="AbbyModel.Detail" />
+          <EntitySet Name="newTables" EntityType="AbbyModel.newTable" />
+        </EntityContainer>
+        <EntityType Name="Item">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="Int32" Nullable="false" />
+          <Property Name="name" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+        </EntityType>
+        <EntityType Name="Detail">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="Int32" Nullable="false" />
+          <Property Name="name" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="displayorder" Type="Int32" />
+        </EntityType>
+        <EntityType Name="newTable">
+          <Key>
+            <PropertyRef Name="myno" />
+          </Key>
+          <Property Name="myno" Type="Int32" Nullable="false" />
+          <Property Name="name" Type="String" MaxLength="10" FixedLength="true" Unicode="true" />
+        </EntityType>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="AbbyModelStoreContainer" CdmEntityContainer="AbbyEntities">
+          <EntitySetMapping Name="Categories">
+            <EntityTypeMapping TypeName="AbbyModel.Category">
+              <MappingFragment StoreEntitySet="Category">
+                <ScalarProperty Name="Id" ColumnName="Id" />
+                <ScalarProperty Name="Name" ColumnName="Name" />
+                <ScalarProperty Name="DisplayOrder" ColumnName="DisplayOrder" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Items">
+            <EntityTypeMapping TypeName="AbbyModel.Item">
+              <MappingFragment StoreEntitySet="Item">
+                <ScalarProperty Name="name" ColumnName="name" />
+                <ScalarProperty Name="id" ColumnName="id" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Details">
+            <EntityTypeMapping TypeName="AbbyModel.Detail">
+              <MappingFragment StoreEntitySet="Details">
+                <ScalarProperty Name="displayorder" ColumnName="displayorder" />
+                <ScalarProperty Name="name" ColumnName="name" />
+                <ScalarProperty Name="id" ColumnName="id" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="newTables">
+            <EntityTypeMapping TypeName="AbbyModel.newTable">
+              <MappingFragment StoreEntitySet="newTable">
+                <ScalarProperty Name="name" ColumnName="name" />
+                <ScalarProperty Name="myno" ColumnName="myno" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="true" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="false" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="None" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>
