@@ -1,0 +1,33 @@
+Columns
+- TaskID
+- TaskDescription
+- Start Date
+- Expected Start Date
+- Due Date
+- Status = "Not Started", "Over Due", "Completed", "In Progress"
+
+Reports
+ - Not started(Delayed) - Expected Start Date <= Curr Date & Actual Start Date = ""
+ - Not started(Not delayed) - Expected Start Date > Curr Date & Actual Start Date = ""
+ - Over Due - Expected Complete Date < Curr Date & Actual Complete Date = ""
+ - Completed(On Time) - Actual Complete Date <= Expected Complete Date
+ - Completed(late) - Actual Complete Date > Expected Complete Date
+
+Functions 
+- GetTaskStatus() - UDF
+- CalculateProgress() - UDF
+- GenerateReport() - sort all task per status once sorted call each function to generate per sheet
+      - PopulateData(Array, SheetName)
+- InitializeSheet() - create sheet, add headers etc - if (sheet exist) then delete next initialize sheet
+
+
+						      
+
+
+
+
+Advance MS Excel Functions - vlookup by taskID, task count per status
+User Defined Functions - II
+Decision - II - check sheet exist , check task status
+Loops - II - loop all data, loop array
+Arrays Or Collection - II

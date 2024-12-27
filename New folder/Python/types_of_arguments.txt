@@ -1,0 +1,99 @@
+'''
+# Arbitrary Arguments, *args
+
+
+def my_function(*args):
+  print("The youngest child is " + args[2])
+  
+
+my_function("John", "Peter", "Sam")
+
+
+
+# Keyword Arguments
+
+def my_function(child3, child1, child2):
+  print('The youngest child is ' + child3)
+  
+  
+my_function(child1 = "John", child2 = "Peter", child3 = "Sam")
+
+
+
+# Arbitrary Keyword Arguments, **kwargs
+
+def my_function(**kwargs):
+  print("His last name is " + kwargs['lname'])
+  
+  
+  
+my_function(fname = 'John', lname = 'Smith')
+
+
+
+# Default Parameter Value
+def my_function(country = "Philippines"):
+  print("I am from " + country)
+  
+
+my_function("USA")
+my_function("Canada")
+my_function("Japan")
+my_function()
+
+
+
+# Passing a List as an Argument
+
+def my_function(food):
+  for item in food:
+    print item
+  
+  
+fruits = ['apple', 'orange', 'banana']
+
+my_function(fruits)
+
+'''
+
+
+def my_function(x):
+  pass
+
+  
+print(my_function(3))
+print(my_function(9))
+print(my_function(5))
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

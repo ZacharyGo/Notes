@@ -1,0 +1,151 @@
+Sub CountRowsWithData()
+    With ActiveSheet
+    lastRow = .Cells(.Rows.Count, "A").End(xlUp).Row
+    MsgBox lastRow
+    End With
+End Sub
+----------------------------------------------------------------------------------------------------
+Sub vba_count_rows_with_data()
+
+Dim counter As Long
+Dim iRange As Range
+
+With ActiveSheet.UsedRange
+
+    'loop through each row from the used range
+    For Each iRange In .Rows
+
+        'check if the row contains a cell with a value
+        If Application.CountA(iRange) > 0 Then
+
+            'counts the number of rows non-empty Cells
+            counter = counter + 1
+
+        End If
+
+    Next
+
+End With
+
+MsgBox "Number of used rows is " & counter
+End Sub
+----------------------------------------------------------------------------------------------------
+Public Sub CountMyRows()
+
+	MsgBox Selection.Rows.Count
+
+End Sub
+Public Sub CountMyColumns()
+
+	MsgBox Selection.Columns.Count
+
+End Sub
+----------------------------------------------------------------------------------------------------
+Select Case LRegion
+   Case "N"
+      LRegionName = "North"
+   Case "S"
+      LRegionName = "South"
+   Case "E"
+      LRegionName = "East"
+   Case "W"
+      LRegionName = "West"
+   End Select
+----------------------------------------------------------------------------------------------------
+For Counter = Start To End [Step Value]
+[Code Block to Execute]
+[Exit For]
+Next [counter]
+For i = 1 To ActiveWorkbook.Worksheets.Count
+Worksheets(i).Protect
+Next i
+Do [While condition]
+[Code block to Execute]
+Loop
+Do [Until condition]
+[Code block to Execute]
+Loop
+For Each element In collection
+[Code Block to Execute]
+Next [element]
+----------------------------------------------------------------------------------------------------
+Sub TestDynamicArray() 
+'declare the array 
+   Dim intA() As Integer 
+   ReDim intA(2) 
+'populate the array with numbers 
+   intA(0) = 2
+   intA(1) = 5
+   intA(2) = 9 
+'show the number in position 2
+   Debug.Print intA(2) 
+'redim the array 
+   ReDim Preserve intA(3) 
+   intA(0) = 6 
+   intA(1) = 8 
+'show the number in position 2 againSub MulitTypeArrayWithArray()
+    
+    
+    Dim errorArray(0) As ErrRecord
+'    ReDim Completed(4)
+'    Completed(0) = 1
+'    Completed(1) = 2
+'    Completed(2) = 3
+'    Completed(3) = 4
+'    Completed(4) = 5
+    
+With errorArray(0)
+	.SerialNo = 12345
+	.FileName = "Test.xls"
+	.ErrorType = "Bad error"
+	.ErrorCell = "1234"
+	.ErrorCellValue = "Test"
+	.MyArray = Completed
+End With
+Debug.Print errorArray(0).SerialNo
+Debug.Print errorArray(0).FileName
+Debug.Print errorArray(0).ErrorType
+Debug.Print errorArray(0).ErrorCell
+Debug.Print errorArray(0).ErrorCellValue
+
+With errorArray(0)
+	If (Not Not .MyArray) <> 0 Then
+		For Each I In .MyArray
+			Debug.Print I
+		Next
+	End If
+End With
+End Sub
+  Debug.Print intA(2) 
+End Sub
+----------------------------------------------------------------------------------------------------
+Sub CopyArray()
+    Dim source(0 To 2) As Long
+    Dim destination() As Long
+    
+    source(0) = 3
+    source(1) = 1
+    source(2) = 4
+    
+    destination = source
+    destination(0) = 2
+    
+    Debug.Print source(0); source(1); source(2)                ' outputs: 3 1 4
+    Debug.Print destination(0); destination(1); destination(2) ' outputs: 2 1 4
+End Sub
+----------------------------------------------------------------------------------------------------
+Private Type ErrRecord
+	SerialNo As Long
+	FileName As String
+	ErrorType As String
+	ErrorCell As String
+	ErrorCellValue As Variant
+	MyArray() As Integer
+End Type
+----------------------------------------------------------------------------------------------------
+Function WorksheetExists(sName As String) As Boolean
+    WorksheetExists = Evaluate("ISREF('" & sName & "'!A1)")
+End Function
+----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------

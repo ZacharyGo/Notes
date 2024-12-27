@@ -1,0 +1,180 @@
+from functools import reduce
+
+'''Anonymous Function'''
+# A function that can take any number of arguments but can only have one Expression.
+# It is a function that is not bound to an identifier
+
+'''Single Vaiable'''
+#Code Structure
+# Result Variable = <AnonFunct> <Variable>:<Operation>
+
+def double(num):
+    return num*2
+
+print(double(2))
+
+result = lambda num: num*2
+print(result(4))
+
+'''Multiple Arguments'''
+#Code Structure
+# Result Variable = <AnonFunc> <Variable1>,<Variable2>:<Operation>
+
+def add(num1,num2):
+    return num1+num2
+
+print(add(5,10))
+
+result = lambda num1,num2:num1+num2
+print(result(5,10))
+
+'''With Conditions'''
+#Code Structure
+# Result Variable = <AnonFunct> <Variable1>,<Variable2>:<Condition>
+
+def gt(num1,num2):
+    if num1 > num2:
+        return num1
+    else:
+        return num2
+
+print(gt(5,10))
+
+result = lambda num1, num2: num1 if num1>num2 else num2
+
+print(result(5,10))
+
+
+'''             Filter                  '''
+#Code Structure
+#List = [Value1, Value2, Value3]
+#Condition = Filter(if Parameter Condition == True)
+#new_List = [Value1,Value3]
+
+def over_two(list):
+    new_list = [num for num in list if num > 2]
+    return new_list
+
+print(over_two([4,3,2,1]))
+
+list1 = [4,3,2,1]
+print(list(filter(lambda num:num>2,list1)))
+
+'''              Map                    '''
+#Code Structure
+#List = [Value1, Value2, Value3]
+#Function = Map(Function(Value1),Function(Value2),Function(Value3))
+#new_List = [Value1_Result,Value2_Result,Value3_Result]
+
+def square(list):
+    list2=[]
+    for num in list:
+        list2.append(num**2)
+    return list2
+
+print(square([10,5,7,3,15]))
+
+list1 = [10,5,7,3,15]
+print(list(map(lambda num:num**2, list1)))
+
+
+'''              Reduce                 '''
+#Code Structure
+#List = [Value1, Value2, Value3]
+#Operation = Reduce(Operation(Param1,Param2), Param3)
+#Result = Result of the Operation conducted
+
+def multiply(list):
+    product = list[0]
+    for num in range(1,len(list)):
+        product *= list[num]
+    return product
+
+print(multiply([4,3,2,1]))
+
+list1 = [4,3,2,1]
+print(reduce(lambda num1, num2:num1*num2, list1))
+
+# 4 * 3 = 12
+# 12 * 2 = 24
+# 24 * 1 = 24
+
+'''Comprehension'''
+#To make codes easier and readable when creating a List,Dictionaries and Sets
+
+'''     List Comprehension              '''
+
+numbers = [1,2,3,4,5,6,7,8,9,10]
+
+my_list = []
+for num in numbers:
+    my_list.append(num)
+print(my_list)
+
+print([num for num in numbers])
+
+fruits = ['banana', 'apple','guava','grapes']
+print([fruit for fruit in fruits])
+
+my_list = []
+for num in numbers:
+    my_list.append(num*num)
+print(my_list)
+
+my_list=[num*num for num in numbers]
+
+print(my_list)
+
+print([num**2 for num in numbers])
+
+
+'''     Dictionary Comprehension        '''
+item_measurement = {'Set':'Keys', 'Grams':'Sugar','Sacks':'Rice'}
+unit = {"Unit of Measure: "+uom:item for uom, item in item_measurement.items()}
+
+print(unit)
+
+firstname = ['Ian Daryl','Kurt','Marlon']
+lastname = ['Cumpio', 'Abenasa', 'Bejer']
+
+name_dict = {"Mr. "+ fname:lname for fname,lname in zip(firstname,lastname)}
+
+print(name_dict)
+
+'''     Set Comprehension               '''
+
+numbers = [1,1,2,3,5,5,4]
+new_set = {number for number in numbers}
+print(new_set)
+
+'''Recursion'''
+#It is a Process in which a function calls itself directly or indirectly
+
+def even_num(num):
+    print(num)
+    if num % 2 != 0:
+        print("Please enter an Even Number")
+    elif num == 2:
+        return num
+    else:
+        return even_num(num-2)
+
+print(even_num(100))
+
+
+'''Decorators'''
+# A Function that takes a function as an Argument
+
+def process(func):
+    def check(num1,num2):
+        if num2 == 0:
+            print("Cant divide by 0")
+            return
+        return func(num1,num2)
+    return check
+
+@process
+def div(num1,num2):
+    return num1/num2
+
+print(div(10,0))

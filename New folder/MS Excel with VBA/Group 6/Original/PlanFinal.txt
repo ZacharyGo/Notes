@@ -1,0 +1,8 @@
+- create test data
+- create vLookUp by TaskID - Advance MS Excel Functions
+- create display count per status - Advance MS Excel Functions
+- create GetTaskStatus() - UDF
+- Create CalculateProgress() - UDF
+- create GenerateReport()  - sort all task per status into array
+- create InitializeSheet() - initialize
+- create PopulateData() - populate sheet based on array passed and status
