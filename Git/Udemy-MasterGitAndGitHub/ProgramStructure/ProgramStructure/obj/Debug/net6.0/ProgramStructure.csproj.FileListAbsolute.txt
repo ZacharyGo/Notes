@@ -1,0 +1,15 @@
+D:\Practice\C#\ProgramStructure\ProgramStructure\bin\Debug\net6.0\ProgramStructure.exe
+D:\Practice\C#\ProgramStructure\ProgramStructure\bin\Debug\net6.0\ProgramStructure.deps.json
+D:\Practice\C#\ProgramStructure\ProgramStructure\bin\Debug\net6.0\ProgramStructure.runtimeconfig.json
+D:\Practice\C#\ProgramStructure\ProgramStructure\bin\Debug\net6.0\ProgramStructure.dll
+D:\Practice\C#\ProgramStructure\ProgramStructure\bin\Debug\net6.0\ProgramStructure.pdb
+D:\Practice\C#\ProgramStructure\ProgramStructure\obj\Debug\net6.0\ProgramStructure.csproj.AssemblyReference.cache
+D:\Practice\C#\ProgramStructure\ProgramStructure\obj\Debug\net6.0\ProgramStructure.GeneratedMSBuildEditorConfig.editorconfig
+D:\Practice\C#\ProgramStructure\ProgramStructure\obj\Debug\net6.0\ProgramStructure.AssemblyInfoInputs.cache
+D:\Practice\C#\ProgramStructure\ProgramStructure\obj\Debug\net6.0\ProgramStructure.AssemblyInfo.cs
+D:\Practice\C#\ProgramStructure\ProgramStructure\obj\Debug\net6.0\ProgramStructure.csproj.CoreCompileInputs.cache
+D:\Practice\C#\ProgramStructure\ProgramStructure\obj\Debug\net6.0\ProgramStructure.dll
+D:\Practice\C#\ProgramStructure\ProgramStructure\obj\Debug\net6.0\refint\ProgramStructure.dll
+D:\Practice\C#\ProgramStructure\ProgramStructure\obj\Debug\net6.0\ProgramStructure.pdb
+D:\Practice\C#\ProgramStructure\ProgramStructure\obj\Debug\net6.0\ProgramStructure.genruntimeconfig.cache
+D:\Practice\C#\ProgramStructure\ProgramStructure\obj\Debug\net6.0\ref\ProgramStructure.dll
